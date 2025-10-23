@@ -1,3 +1,5 @@
+msgid ""
+msgstr ""
 "Project-Id-Version: frappe\n"
 "Report-Msgid-Bugs-To: jannat@frappe.io\n"
 "POT-Creation-Date: 2025-10-10 16:04+0000\n"
