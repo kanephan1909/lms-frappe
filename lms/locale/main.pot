@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Frappe LMS VERSION\n"
 "Report-Msgid-Bugs-To: jannat@frappe.io\n"
-"POT-Creation-Date: 2025-10-17 16:04+0000\n"
-"PO-Revision-Date: 2025-10-17 16:04+0000\n"
+"POT-Creation-Date: 2025-10-23 15:08+0707\n"
+"PO-Revision-Date: 2025-10-23 15:08+0707\n"
 "Last-Translator: jannat@frappe.io\n"
 "Language-Team: jannat@frappe.io\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.13.1\n"
 
 #: lms/templates/emails/assignment_submission.html:5
 msgid " Please evaluate and grade it."
@@ -96,25 +96,20 @@ msgstr ""
 msgid "About this batch"
 msgstr ""
 
-#. Label of the verify_terms (Check) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Acceptance for Terms and/or Policies"
-msgstr ""
-
 #. Option for the 'Status' (Select) field in DocType 'Cohort Join Request'
 #: lms/lms/doctype/cohort_join_request/cohort_join_request.json
 msgid "Accepted"
 msgstr ""
 
-#. Label of the account_id (Data) field in DocType 'LMS Zoom Settings'
-#. Label of the account_id (Data) field in DocType 'Zoom Settings'
+#. Label of a Data field in DocType 'LMS Zoom Settings'
+#. Label of a Data field in DocType 'Zoom Settings'
 #: frontend/src/components/Modals/ZoomAccountModal.vue:55
 #: lms/lms/doctype/lms_zoom_settings/lms_zoom_settings.json
 #: lms/lms/doctype/zoom_settings/zoom_settings.json
 msgid "Account ID"
 msgstr ""
 
-#. Label of the account_name (Data) field in DocType 'LMS Zoom Settings'
+#. Label of a Data field in DocType 'LMS Zoom Settings'
 #: frontend/src/components/Modals/ZoomAccountModal.vue:30
 #: frontend/src/components/Settings/ZoomSettings.vue:192
 #: lms/lms/doctype/lms_zoom_settings/lms_zoom_settings.json
@@ -275,7 +270,7 @@ msgstr ""
 msgid "Add your first lesson"
 msgstr ""
 
-#. Label of the address (Link) field in DocType 'LMS Payment'
+#. Label of a Link field in DocType 'LMS Payment'
 #: frontend/src/components/Settings/TransactionDetails.vue:56
 #: frontend/src/pages/Billing.vue:64
 #: lms/lms/doctype/lms_payment/lms_payment.json
@@ -320,22 +315,22 @@ msgstr ""
 msgid "All questions should have the same marks if the limit is set."
 msgstr ""
 
-#. Label of the allow_guest_access (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Allow Guest Access"
 msgstr ""
 
-#. Label of the allow_posting (Check) field in DocType 'Job Settings'
+#. Label of a Check field in DocType 'Job Settings'
 #: lms/job/doctype/job_settings/job_settings.json
 msgid "Allow Job Posting From Website"
 msgstr ""
 
-#. Label of the allow_self_enrollment (Check) field in DocType 'LMS Batch'
+#. Label of a Check field in DocType 'LMS Batch'
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Allow Self Enrollment"
 msgstr ""
 
-#. Label of the allow_future (Check) field in DocType 'LMS Batch'
+#. Label of a Check field in DocType 'LMS Batch'
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Allow accessing future dates"
 msgstr ""
@@ -353,9 +348,9 @@ msgstr ""
 msgid "Amber"
 msgstr ""
 
-#. Label of the amount (Currency) field in DocType 'LMS Batch'
-#. Label of the course_price (Currency) field in DocType 'LMS Course'
-#. Label of the amount (Currency) field in DocType 'LMS Payment'
+#. Label of a Currency field in DocType 'LMS Batch'
+#. Label of a Currency field in DocType 'LMS Course'
+#. Label of a Currency field in DocType 'LMS Payment'
 #: frontend/src/components/Settings/TransactionDetails.vue:68
 #: frontend/src/components/Settings/Transactions.vue:219
 #: frontend/src/pages/BatchForm.vue:278 frontend/src/pages/CourseForm.vue:262
@@ -365,8 +360,8 @@ msgstr ""
 msgid "Amount"
 msgstr ""
 
-#. Label of the amount_usd (Currency) field in DocType 'LMS Batch'
-#. Label of the amount_usd (Currency) field in DocType 'LMS Course'
+#. Label of a Currency field in DocType 'LMS Batch'
+#. Label of a Currency field in DocType 'LMS Course'
 #: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Amount (USD)"
@@ -384,7 +379,7 @@ msgstr ""
 msgid "Amount and currency are required for paid courses."
 msgstr ""
 
-#. Label of the amount_with_gst (Currency) field in DocType 'LMS Payment'
+#. Label of a Currency field in DocType 'LMS Payment'
 #: lms/lms/doctype/lms_payment/lms_payment.json
 msgid "Amount with GST"
 msgstr ""
@@ -401,10 +396,9 @@ msgstr ""
 msgid "Announcement is required"
 msgstr ""
 
-#. Label of the answer (Text Editor) field in DocType 'LMS Assignment'
-#. Label of the answer (Text Editor) field in DocType 'LMS Assignment
-#. Submission'
-#. Label of the answer (Code) field in DocType 'LMS Exercise'
+#. Label of a Text Editor field in DocType 'LMS Assignment'
+#. Label of a Text Editor field in DocType 'LMS Assignment Submission'
+#. Label of a Code field in DocType 'LMS Exercise'
 #: frontend/src/pages/QuizSubmission.vue:60
 #: lms/lms/doctype/lms_assignment/lms_assignment.json
 #: lms/lms/doctype/lms_assignment_submission/lms_assignment_submission.json
@@ -433,12 +427,12 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
-#. Label of the apply_gst (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Apply GST for India"
 msgstr ""
 
-#. Label of the apply_rounding (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Apply Rounding on Equivalent"
 msgstr ""
@@ -478,21 +472,20 @@ msgstr ""
 msgid "Ask a question to get help from the community."
 msgstr ""
 
-#. Label of the assessment_tab (Tab Break) field in DocType 'LMS Batch'
-#. Label of the assessment (Table) field in DocType 'LMS Batch'
+#. Label of a Tab Break field in DocType 'LMS Batch'
+#. Label of a Table field in DocType 'LMS Batch'
 #: frontend/src/components/Modals/AssessmentModal.vue:27
 #: frontend/src/components/Modals/BatchStudentProgress.vue:41
 #: lms/lms/doctype/lms_batch/lms_batch.json lms/templates/assessments.html:11
 msgid "Assessment"
 msgstr ""
 
-#. Label of the assessment_name (Dynamic Link) field in DocType 'LMS
-#. Assessment'
+#. Label of a Dynamic Link field in DocType 'LMS Assessment'
 #: lms/lms/doctype/lms_assessment/lms_assessment.json
 msgid "Assessment Name"
 msgstr ""
 
-#. Label of the assessment_type (Link) field in DocType 'LMS Assessment'
+#. Label of a Link field in DocType 'LMS Assessment'
 #: lms/lms/doctype/lms_assessment/lms_assessment.json
 msgid "Assessment Type"
 msgstr ""
@@ -505,7 +498,7 @@ msgstr ""
 msgid "Assessment {0} has already been added to this batch."
 msgstr ""
 
-#. Label of the show_assessments (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: frontend/src/components/AppSidebar.vue:618
 #: frontend/src/components/Assessments.vue:5
 #: frontend/src/components/BatchStudents.vue:32
@@ -534,9 +527,8 @@ msgstr ""
 msgid "Assigned For"
 msgstr ""
 
-#. Label of the section_break_16 (Section Break) field in DocType 'Course
-#. Lesson'
-#. Label of the assignment (Link) field in DocType 'LMS Assignment Submission'
+#. Label of a Section Break field in DocType 'Course Lesson'
+#. Label of a Link field in DocType 'LMS Assignment Submission'
 #: frontend/src/components/Assessments.vue:245
 #: frontend/src/pages/AssignmentSubmissionList.vue:12
 #: frontend/src/utils/assignment.js:24
@@ -546,8 +538,7 @@ msgstr ""
 msgid "Assignment"
 msgstr ""
 
-#. Label of the assignment_attachment (Attach) field in DocType 'LMS Assignment
-#. Submission'
+#. Label of a Attach field in DocType 'LMS Assignment Submission'
 #: lms/lms/doctype/lms_assignment_submission/lms_assignment_submission.json
 msgid "Assignment Attachment"
 msgstr ""
@@ -561,8 +552,7 @@ msgstr ""
 msgid "Assignment Submissions"
 msgstr ""
 
-#. Label of the assignment_title (Data) field in DocType 'LMS Assignment
-#. Submission'
+#. Label of a Data field in DocType 'LMS Assignment Submission'
 #: lms/lms/doctype/lms_assignment_submission/lms_assignment_submission.json
 msgid "Assignment Title"
 msgstr ""
@@ -610,14 +600,9 @@ msgstr ""
 msgid "Attended for"
 msgstr ""
 
-#. Label of the attendees (Int) field in DocType 'LMS Live Class'
+#. Label of a Int field in DocType 'LMS Live Class'
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Attendees"
-msgstr ""
-
-#. Label of the attire (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Attire Preference"
 msgstr ""
 
 #: frontend/src/pages/ProfileEvaluator.vue:137
@@ -629,7 +614,7 @@ msgstr ""
 msgid "Auto Assign"
 msgstr ""
 
-#. Label of the auto_recording (Select) field in DocType 'LMS Live Class'
+#. Label of a Select field in DocType 'LMS Live Class'
 #: frontend/src/components/Modals/LiveClassModal.vue:73
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Auto Recording"
@@ -662,20 +647,19 @@ msgstr ""
 msgid "Back to Course"
 msgstr ""
 
-#. Label of the badge (Link) field in DocType 'LMS Badge Assignment'
+#. Label of a Link field in DocType 'LMS Badge Assignment'
 #: frontend/src/components/Settings/BadgeAssignmentForm.vue:32
 #: frontend/src/components/Settings/Badges.vue:214
 #: lms/lms/doctype/lms_badge_assignment/lms_badge_assignment.json
 msgid "Badge"
 msgstr ""
 
-#. Label of the badge_description (Small Text) field in DocType 'LMS Badge
-#. Assignment'
+#. Label of a Small Text field in DocType 'LMS Badge Assignment'
 #: lms/lms/doctype/lms_badge_assignment/lms_badge_assignment.json
 msgid "Badge Description"
 msgstr ""
 
-#. Label of the badge_image (Attach) field in DocType 'LMS Badge Assignment'
+#. Label of a Attach field in DocType 'LMS Badge Assignment'
 #: lms/lms/doctype/lms_badge_assignment/lms_badge_assignment.json
 msgid "Badge Image"
 msgstr ""
@@ -704,11 +688,11 @@ msgstr ""
 msgid "Badge updated successfully"
 msgstr ""
 
-#. Label of the batch (Link) field in DocType 'LMS Batch Enrollment'
-#. Label of the batch (Link) field in DocType 'LMS Batch Feedback'
-#. Label of the batch_name (Link) field in DocType 'LMS Certificate'
-#. Label of the batch_name (Link) field in DocType 'LMS Certificate Request'
-#. Label of the batch_name (Link) field in DocType 'LMS Live Class'
+#. Label of a Link field in DocType 'LMS Batch Enrollment'
+#. Label of a Link field in DocType 'LMS Batch Feedback'
+#. Label of a Link field in DocType 'LMS Certificate'
+#. Label of a Link field in DocType 'LMS Certificate Request'
+#. Label of a Link field in DocType 'LMS Live Class'
 #: frontend/src/components/Modals/Event.vue:32
 #: frontend/src/components/Settings/BadgeForm.vue:195
 #: frontend/src/components/Settings/Badges.vue:200
@@ -721,8 +705,7 @@ msgstr ""
 msgid "Batch"
 msgstr ""
 
-#. Label of the batch_confirmation_template (Link) field in DocType 'LMS
-#. Settings'
+#. Label of a Link field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Batch Confirmation Template"
 msgstr ""
@@ -732,20 +715,19 @@ msgstr ""
 msgid "Batch Course"
 msgstr ""
 
-#. Label of the section_break_5 (Section Break) field in DocType 'LMS Batch
-#. Old'
+#. Label of a Section Break field in DocType 'LMS Batch Old'
 #: lms/lms/doctype/lms_batch_old/lms_batch_old.json
 msgid "Batch Description"
 msgstr ""
 
-#. Label of the batch_details (Text Editor) field in DocType 'LMS Batch'
+#. Label of a Text Editor field in DocType 'LMS Batch'
 #: frontend/src/pages/BatchForm.vue:133
 #: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/templates/emails/batch_confirmation.html:26
 msgid "Batch Details"
 msgstr ""
 
-#. Label of the batch_details_raw (HTML Editor) field in DocType 'LMS Batch'
+#. Label of a HTML Editor field in DocType 'LMS Batch'
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Batch Details Raw"
 msgstr ""
@@ -776,24 +758,22 @@ msgstr ""
 msgid "Batch Evaluator"
 msgstr ""
 
-#. Label of the batch_name (Link) field in DocType 'LMS Certificate Evaluation'
+#. Label of a Link field in DocType 'LMS Certificate Evaluation'
 #: lms/lms/doctype/lms_certificate_evaluation/lms_certificate_evaluation.json
 msgid "Batch Name"
 msgstr ""
 
-#. Label of the batch_old (Link) field in DocType 'Exercise Latest Submission'
-#. Label of the batch_old (Link) field in DocType 'Exercise Submission'
-#. Label of the batch_old (Link) field in DocType 'LMS Enrollment'
+#. Label of a Link field in DocType 'Exercise Latest Submission'
+#. Label of a Link field in DocType 'Exercise Submission'
+#. Label of a Link field in DocType 'LMS Enrollment'
 #: lms/lms/doctype/exercise_latest_submission/exercise_latest_submission.json
 #: lms/lms/doctype/exercise_submission/exercise_submission.json
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
 msgid "Batch Old"
 msgstr ""
 
-#. Label of the section_break_7 (Section Break) field in DocType 'LMS Batch
-#. Old'
-#. Label of the section_break_szgq (Section Break) field in DocType 'LMS
-#. Settings'
+#. Label of a Section Break field in DocType 'LMS Batch Old'
+#. Label of a Section Break field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_batch_old/lms_batch_old.json
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Batch Settings"
@@ -811,8 +791,8 @@ msgstr ""
 msgid "Batch Summary"
 msgstr ""
 
-#. Label of the batch_title (Data) field in DocType 'LMS Certificate'
-#. Label of the batch_title (Data) field in DocType 'LMS Certificate Request'
+#. Label of a Data field in DocType 'LMS Certificate'
+#. Label of a Data field in DocType 'LMS Certificate Request'
 #: lms/lms/doctype/lms_certificate/lms_certificate.json
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 msgid "Batch Title"
@@ -842,13 +822,13 @@ msgstr ""
 msgid "Batch:"
 msgstr ""
 
-#. Label of the batches (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: frontend/src/pages/Batches.vue:306 frontend/src/pages/Batches.vue:313
 #: lms/lms/doctype/lms_settings/lms_settings.json lms/www/lms.py:120
 msgid "Batches"
 msgstr ""
 
-#. Label of the begin_date (Date) field in DocType 'Cohort'
+#. Label of a Date field in DocType 'Cohort'
 #: lms/lms/doctype/cohort/cohort.json
 msgid "Begin Date"
 msgstr ""
@@ -860,14 +840,13 @@ msgstr ""
 msgid "Best Regards"
 msgstr ""
 
-#. Label of the billing_details_section (Section Break) field in DocType 'LMS
-#. Payment'
+#. Label of a Section Break field in DocType 'LMS Payment'
 #: frontend/src/pages/Billing.vue:8 frontend/src/pages/Billing.vue:357
 #: lms/lms/doctype/lms_payment/lms_payment.json
 msgid "Billing Details"
 msgstr ""
 
-#. Label of the billing_name (Data) field in DocType 'LMS Payment'
+#. Label of a Data field in DocType 'LMS Payment'
 #: frontend/src/components/Settings/TransactionDetails.vue:31
 #: frontend/src/components/Settings/Transactions.vue:213
 #: frontend/src/pages/Billing.vue:70
@@ -886,23 +865,12 @@ msgstr ""
 msgid "Blue"
 msgstr ""
 
-#. Label of the body (Markdown Editor) field in DocType 'Course Lesson'
+#. Label of a Markdown Editor field in DocType 'Course Lesson'
 #: lms/lms/doctype/course_lesson/course_lesson.json
 msgid "Body"
 msgstr ""
 
-#. Option for the 'Collaboration Preference' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Both Individual and Team Work"
-msgstr ""
-
-#. Label of the branch (Data) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Branch"
-msgstr ""
-
-#. Option for the 'User Category' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json lms/templates/signup-form.html:23
+#: lms/templates/signup-form.html:23
 msgid "Business Owner"
 msgstr ""
 
@@ -937,20 +905,9 @@ msgstr ""
 msgid "Cancelled"
 msgstr ""
 
-#. Label of the carrer_preference_details (Section Break) field in DocType
-#. 'User'
-#: lms/fixtures/custom_field.json
-msgid "Career Preference Details"
-msgstr ""
-
-#. Option for the 'Attire Preference' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Casual Wear"
-msgstr ""
-
-#. Label of the category (Link) field in DocType 'LMS Batch'
-#. Label of the category (Data) field in DocType 'LMS Category'
-#. Label of the category (Link) field in DocType 'LMS Course'
+#. Label of a Link field in DocType 'LMS Batch'
+#. Label of a Data field in DocType 'LMS Category'
+#. Label of a Link field in DocType 'LMS Course'
 #: frontend/src/pages/BatchForm.vue:199 frontend/src/pages/Batches.vue:50
 #: frontend/src/pages/CertifiedParticipants.vue:35
 #: frontend/src/pages/CourseForm.vue:36 frontend/src/pages/Courses.vue:46
@@ -976,14 +933,14 @@ msgstr ""
 msgid "Category updated successfully"
 msgstr ""
 
-#. Label of the certificate (Link) field in DocType 'LMS Enrollment'
+#. Label of a Link field in DocType 'LMS Enrollment'
 #. Label of a shortcut in the LMS Workspace
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
 #: lms/lms/workspace/lms/lms.json
 msgid "Certificate"
 msgstr ""
 
-#. Label of the certification_template (Link) field in DocType 'LMS Settings'
+#. Label of a Link field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Certificate Email Template"
 msgstr ""
@@ -1008,11 +965,9 @@ msgstr ""
 msgid "Certificates generated successfully"
 msgstr ""
 
-#. Label of the certification (Table) field in DocType 'User'
 #. Name of a DocType
-#. Label of the certification (Check) field in DocType 'LMS Batch'
-#. Label of the certification_section (Section Break) field in DocType 'LMS
-#. Enrollment'
+#. Label of a Check field in DocType 'LMS Batch'
+#. Label of a Section Break field in DocType 'LMS Enrollment'
 #. Label of a Card Break in the LMS Workspace
 #. Label of a Link in the LMS Workspace
 #: frontend/src/components/AppSidebar.vue:626
@@ -1020,7 +975,7 @@ msgstr ""
 #: frontend/src/pages/BatchForm.vue:69 frontend/src/pages/Batches.vue:58
 #: frontend/src/pages/CourseCertification.vue:10
 #: frontend/src/pages/CourseCertification.vue:135
-#: frontend/src/pages/Courses.vue:54 lms/fixtures/custom_field.json
+#: frontend/src/pages/Courses.vue:54
 #: lms/lms/doctype/certification/certification.json
 #: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
@@ -1028,17 +983,12 @@ msgstr ""
 msgid "Certification"
 msgstr ""
 
-#. Label of the certification_details (Section Break) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Certification Details"
-msgstr ""
-
-#. Label of the certification_name (Data) field in DocType 'Certification'
+#. Label of a Data field in DocType 'Certification'
 #: lms/lms/doctype/certification/certification.json
 msgid "Certification Name"
 msgstr ""
 
-#. Label of the certifications (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Certifications"
 msgstr ""
@@ -1047,7 +997,7 @@ msgstr ""
 msgid "Certified"
 msgstr ""
 
-#. Label of the certified_members (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: frontend/src/pages/CertifiedParticipants.vue:183
 #: frontend/src/pages/CertifiedParticipants.vue:190
 #: frontend/src/pages/Statistics.vue:40
@@ -1067,9 +1017,9 @@ msgstr ""
 msgid "Changes saved successfully"
 msgstr ""
 
-#. Label of the chapter (Link) field in DocType 'Chapter Reference'
-#. Label of the chapter (Link) field in DocType 'LMS Course Progress'
-#. Label of the chapter (Link) field in DocType 'LMS Video Watch Duration'
+#. Label of a Link field in DocType 'Chapter Reference'
+#. Label of a Link field in DocType 'LMS Course Progress'
+#. Label of a Link field in DocType 'LMS Video Watch Duration'
 #. Label of a Link in the LMS Workspace
 #: lms/lms/doctype/chapter_reference/chapter_reference.json
 #: lms/lms/doctype/lms_course_progress/lms_course_progress.json
@@ -1099,7 +1049,7 @@ msgstr ""
 msgid "Chapter updated successfully"
 msgstr ""
 
-#. Label of the chapters (Table) field in DocType 'LMS Course'
+#. Label of a Table field in DocType 'LMS Course'
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Chapters"
 msgstr ""
@@ -1160,10 +1110,8 @@ msgstr ""
 msgid "Choose one answer"
 msgstr ""
 
-#. Label of the city (Data) field in DocType 'User'
-#. Label of the location (Data) field in DocType 'Job Opportunity'
+#. Label of a Data field in DocType 'Job Opportunity'
 #: frontend/src/pages/Billing.vue:81 frontend/src/pages/JobForm.vue:41
-#: lms/fixtures/custom_field.json
 #: lms/job/doctype/job_opportunity/job_opportunity.json
 msgid "City"
 msgstr ""
@@ -1176,25 +1124,20 @@ msgstr ""
 msgid "Clear"
 msgstr ""
 
-#. Option for the 'Role Preference' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Clearly Defined Role"
-msgstr ""
-
 #: frontend/src/components/BatchFeedback.vue:10
 msgid "Click here"
 msgstr ""
 
-#. Label of the client_id (Data) field in DocType 'LMS Zoom Settings'
-#. Label of the client_id (Data) field in DocType 'Zoom Settings'
+#. Label of a Data field in DocType 'LMS Zoom Settings'
+#. Label of a Data field in DocType 'Zoom Settings'
 #: frontend/src/components/Modals/ZoomAccountModal.vue:36
 #: lms/lms/doctype/lms_zoom_settings/lms_zoom_settings.json
 #: lms/lms/doctype/zoom_settings/zoom_settings.json
 msgid "Client ID"
 msgstr ""
 
-#. Label of the client_secret (Password) field in DocType 'LMS Zoom Settings'
-#. Label of the client_secret (Password) field in DocType 'Zoom Settings'
+#. Label of a Password field in DocType 'LMS Zoom Settings'
+#. Label of a Password field in DocType 'Zoom Settings'
 #: frontend/src/components/Modals/ZoomAccountModal.vue:49
 #: lms/lms/doctype/lms_zoom_settings/lms_zoom_settings.json
 #: lms/lms/doctype/zoom_settings/zoom_settings.json
@@ -1219,21 +1162,20 @@ msgstr ""
 msgid "Cloud"
 msgstr ""
 
-#. Label of the code (Code) field in DocType 'LMS Exercise'
-#. Label of the code (Code) field in DocType 'LMS Programming Exercise
-#. Submission'
+#. Label of a Code field in DocType 'LMS Exercise'
+#. Label of a Code field in DocType 'LMS Programming Exercise Submission'
 #: lms/lms/doctype/lms_exercise/lms_exercise.json
 #: lms/lms/doctype/lms_programming_exercise_submission/lms_programming_exercise_submission.json
 msgid "Code"
 msgstr ""
 
 #. Name of a DocType
-#. Label of the cohort (Link) field in DocType 'Cohort Join Request'
-#. Label of the cohort (Link) field in DocType 'Cohort Mentor'
-#. Label of the cohort (Link) field in DocType 'Cohort Staff'
-#. Label of the cohort (Link) field in DocType 'Cohort Subgroup'
+#. Label of a Link field in DocType 'Cohort Join Request'
+#. Label of a Link field in DocType 'Cohort Mentor'
+#. Label of a Link field in DocType 'Cohort Staff'
+#. Label of a Link field in DocType 'Cohort Subgroup'
 #. Option for the 'Scope' (Select) field in DocType 'Cohort Web Page'
-#. Label of the cohort (Link) field in DocType 'LMS Enrollment'
+#. Label of a Link field in DocType 'LMS Enrollment'
 #: lms/lms/doctype/cohort/cohort.json
 #: lms/lms/doctype/cohort_join_request/cohort_join_request.json
 #: lms/lms/doctype/cohort_mentor/cohort_mentor.json
@@ -1245,7 +1187,9 @@ msgid "Cohort"
 msgstr ""
 
 #. Name of a DocType
+#. Linked DocType in Cohort Subgroup's connections
 #: lms/lms/doctype/cohort_join_request/cohort_join_request.json
+#: lms/lms/doctype/cohort_subgroup/cohort_subgroup.json
 msgid "Cohort Join Request"
 msgstr ""
 
@@ -1259,7 +1203,9 @@ msgstr ""
 msgid "Cohort Staff"
 msgstr ""
 
+#. Linked DocType in Cohort's connections
 #. Name of a DocType
+#: lms/lms/doctype/cohort/cohort.json
 #: lms/lms/doctype/cohort_subgroup/cohort_subgroup.json
 msgid "Cohort Subgroup"
 msgstr ""
@@ -1269,23 +1215,13 @@ msgstr ""
 msgid "Cohort Web Page"
 msgstr ""
 
-#. Label of the collaboration (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Collaboration Preference"
-msgstr ""
-
 #: frontend/src/components/AppSidebar.vue:145
 msgid "Collapse"
 msgstr ""
 
-#. Label of the college (Data) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "College Name"
-msgstr ""
-
-#. Label of the card_gradient (Select) field in DocType 'LMS Course'
-#. Label of the color (Select) field in DocType 'LMS Lesson Note'
-#. Label of the color (Color) field in DocType 'LMS Timetable Legend'
+#. Label of a Select field in DocType 'LMS Course'
+#. Label of a Select field in DocType 'LMS Lesson Note'
+#. Label of a Color field in DocType 'LMS Timetable Legend'
 #: frontend/src/pages/CourseForm.vue:133
 #: lms/lms/doctype/lms_course/lms_course.json
 #: lms/lms/doctype/lms_lesson_note/lms_lesson_note.json
@@ -1297,12 +1233,10 @@ msgstr ""
 msgid "Comma separated keywords for SEO"
 msgstr ""
 
-#. Label of the comments (Small Text) field in DocType 'Exercise Latest
-#. Submission'
-#. Label of the comments (Small Text) field in DocType 'Exercise Submission'
-#. Label of the comments (Text Editor) field in DocType 'LMS Assignment
-#. Submission'
-#. Label of the comments (Small Text) field in DocType 'LMS Mentor Request'
+#. Label of a Small Text field in DocType 'Exercise Latest Submission'
+#. Label of a Small Text field in DocType 'Exercise Submission'
+#. Label of a Text Editor field in DocType 'LMS Assignment Submission'
+#. Label of a Small Text field in DocType 'LMS Mentor Request'
 #: frontend/src/components/Assignment.vue:170
 #: lms/lms/doctype/exercise_latest_submission/exercise_latest_submission.json
 #: lms/lms/doctype/exercise_submission/exercise_submission.json
@@ -1325,27 +1259,26 @@ msgstr ""
 msgid "Community"
 msgstr ""
 
-#. Label of the company (Data) field in DocType 'LMS Job Application'
-#. Label of the company (Data) field in DocType 'Work Experience'
+#. Label of a Data field in DocType 'LMS Job Application'
+#. Label of a Data field in DocType 'Work Experience'
 #: lms/job/doctype/lms_job_application/lms_job_application.json
 #: lms/lms/doctype/work_experience/work_experience.json
 msgid "Company"
 msgstr ""
 
-#. Label of the section_break_6 (Section Break) field in DocType 'Job
-#. Opportunity'
+#. Label of a Section Break field in DocType 'Job Opportunity'
 #: frontend/src/pages/JobForm.vue:63
 #: lms/job/doctype/job_opportunity/job_opportunity.json
 msgid "Company Details"
 msgstr ""
 
-#. Label of the company_email_address (Data) field in DocType 'Job Opportunity'
+#. Label of a Data field in DocType 'Job Opportunity'
 #: frontend/src/pages/JobForm.vue:82
 #: lms/job/doctype/job_opportunity/job_opportunity.json
 msgid "Company Email Address"
 msgstr ""
 
-#. Label of the company_logo (Attach Image) field in DocType 'Job Opportunity'
+#. Label of a Attach Image field in DocType 'Job Opportunity'
 #. Label of a field in the job-opportunity Web Form
 #: frontend/src/pages/JobForm.vue:87
 #: lms/job/doctype/job_opportunity/job_opportunity.json
@@ -1353,7 +1286,7 @@ msgstr ""
 msgid "Company Logo"
 msgstr ""
 
-#. Label of the company_name (Data) field in DocType 'Job Opportunity'
+#. Label of a Data field in DocType 'Job Opportunity'
 #. Label of a field in the job-opportunity Web Form
 #: frontend/src/pages/JobForm.vue:69
 #: lms/job/doctype/job_opportunity/job_opportunity.json
@@ -1361,12 +1294,7 @@ msgstr ""
 msgid "Company Name"
 msgstr ""
 
-#. Label of the company_type (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Company Type"
-msgstr ""
-
-#. Label of the company_website (Data) field in DocType 'Job Opportunity'
+#. Label of a Data field in DocType 'Job Opportunity'
 #. Label of a field in the job-opportunity Web Form
 #: frontend/src/pages/JobForm.vue:75
 #: lms/job/doctype/job_opportunity/job_opportunity.json
@@ -1411,13 +1339,13 @@ msgstr ""
 msgid "Completed"
 msgstr ""
 
-#. Label of the enable_certification (Check) field in DocType 'LMS Course'
+#. Label of a Check field in DocType 'LMS Course'
 #: frontend/src/pages/CourseForm.vue:249
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Completion Certificate"
 msgstr ""
 
-#. Label of the condition (Code) field in DocType 'LMS Badge'
+#. Label of a Code field in DocType 'LMS Badge'
 #: frontend/src/components/Settings/BadgeForm.vue:65
 #: lms/lms/doctype/lms_badge/lms_badge.json
 msgid "Condition"
@@ -1451,13 +1379,12 @@ msgstr ""
 msgid "Confirm your action to delete"
 msgstr ""
 
-#. Label of the confirmation_email_sent (Check) field in DocType 'LMS Batch
-#. Enrollment'
+#. Label of a Check field in DocType 'LMS Batch Enrollment'
 #: lms/lms/doctype/lms_batch_enrollment/lms_batch_enrollment.json
 msgid "Confirmation Email Sent"
 msgstr ""
 
-#. Label of the confirmation_email_template (Link) field in DocType 'LMS Batch'
+#. Label of a Link field in DocType 'LMS Batch'
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Confirmation Email Template"
 msgstr ""
@@ -1466,18 +1393,18 @@ msgstr ""
 msgid "Congratulations on getting certified!"
 msgstr ""
 
-#. Label of the contact_us_tab (Tab Break) field in DocType 'LMS Settings'
+#. Label of a Tab Break field in DocType 'LMS Settings'
 #: frontend/src/components/ContactUsEmail.vue:5
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Contact Us"
 msgstr ""
 
-#. Label of the contact_us_email (Data) field in DocType 'LMS Settings'
+#. Label of a Data field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Contact Us Email"
 msgstr ""
 
-#. Label of the contact_us_url (Data) field in DocType 'LMS Settings'
+#. Label of a Data field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Contact Us URL"
 msgstr ""
@@ -1487,8 +1414,8 @@ msgstr ""
 msgid "Contact the Administrator to enroll for this course."
 msgstr ""
 
-#. Label of the content (Text) field in DocType 'Course Lesson'
-#. Label of the content (Rating) field in DocType 'LMS Batch Feedback'
+#. Label of a Text field in DocType 'Course Lesson'
+#. Label of a Rating field in DocType 'LMS Batch Feedback'
 #: frontend/src/components/Modals/EmailTemplateModal.vue:44
 #: frontend/src/components/Modals/EmailTemplateModal.vue:57
 #: frontend/src/pages/LessonForm.vue:62
@@ -1513,11 +1440,6 @@ msgstr ""
 msgid "Cookie Policy"
 msgstr ""
 
-#. Option for the 'Company Type' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Corporate Organization"
-msgstr ""
-
 #. Option for the 'Status' (Select) field in DocType 'Exercise Latest
 #. Submission'
 #. Option for the 'Status' (Select) field in DocType 'Exercise Submission'
@@ -1531,43 +1453,42 @@ msgstr ""
 msgid "Correct Answer"
 msgstr ""
 
-#. Label of the country (Link) field in DocType 'User'
-#. Label of the country (Link) field in DocType 'Job Opportunity'
-#. Label of the country (Link) field in DocType 'Payment Country'
+#. Label of a Link field in DocType 'Job Opportunity'
+#. Label of a Link field in DocType 'Payment Country'
 #: frontend/src/pages/Billing.vue:92 frontend/src/pages/JobForm.vue:47
-#: frontend/src/pages/Jobs.vue:57 lms/fixtures/custom_field.json
+#: frontend/src/pages/Jobs.vue:57
 #: lms/job/doctype/job_opportunity/job_opportunity.json
 #: lms/lms/doctype/payment_country/payment_country.json
 msgid "Country"
 msgstr ""
 
-#. Label of the course (Link) field in DocType 'Batch Course'
-#. Label of the course (Link) field in DocType 'Cohort'
-#. Label of the course (Link) field in DocType 'Cohort Mentor'
-#. Label of the course (Link) field in DocType 'Cohort Staff'
-#. Label of the course (Link) field in DocType 'Cohort Subgroup'
-#. Label of the course (Link) field in DocType 'Course Chapter'
-#. Label of the course (Link) field in DocType 'Course Lesson'
-#. Label of the course (Link) field in DocType 'Exercise Latest Submission'
-#. Label of the course (Link) field in DocType 'Exercise Submission'
-#. Label of the course (Link) field in DocType 'LMS Assignment Submission'
-#. Label of the course (Link) field in DocType 'LMS Batch Old'
-#. Label of the course (Link) field in DocType 'LMS Certificate'
-#. Label of the course (Link) field in DocType 'LMS Certificate Evaluation'
-#. Label of the course (Link) field in DocType 'LMS Certificate Request'
-#. Label of the course (Link) field in DocType 'LMS Course Interest'
-#. Label of the course (Link) field in DocType 'LMS Course Mentor Mapping'
-#. Label of the course (Link) field in DocType 'LMS Course Progress'
-#. Label of the course (Link) field in DocType 'LMS Course Review'
-#. Label of the course (Link) field in DocType 'LMS Enrollment'
-#. Label of the course (Link) field in DocType 'LMS Exercise'
-#. Label of the course (Link) field in DocType 'LMS Lesson Note'
-#. Label of the course (Link) field in DocType 'LMS Mentor Request'
-#. Label of the course (Link) field in DocType 'LMS Program Course'
-#. Label of the course (Link) field in DocType 'LMS Quiz'
-#. Label of the course (Link) field in DocType 'LMS Quiz Submission'
-#. Label of the course (Link) field in DocType 'LMS Video Watch Duration'
-#. Label of the course (Link) field in DocType 'Related Courses'
+#. Label of a Link field in DocType 'Batch Course'
+#. Label of a Link field in DocType 'Cohort'
+#. Label of a Link field in DocType 'Cohort Mentor'
+#. Label of a Link field in DocType 'Cohort Staff'
+#. Label of a Link field in DocType 'Cohort Subgroup'
+#. Label of a Link field in DocType 'Course Chapter'
+#. Label of a Link field in DocType 'Course Lesson'
+#. Label of a Link field in DocType 'Exercise Latest Submission'
+#. Label of a Link field in DocType 'Exercise Submission'
+#. Label of a Link field in DocType 'LMS Assignment Submission'
+#. Label of a Link field in DocType 'LMS Batch Old'
+#. Label of a Link field in DocType 'LMS Certificate'
+#. Label of a Link field in DocType 'LMS Certificate Evaluation'
+#. Label of a Link field in DocType 'LMS Certificate Request'
+#. Label of a Link field in DocType 'LMS Course Interest'
+#. Label of a Link field in DocType 'LMS Course Mentor Mapping'
+#. Label of a Link field in DocType 'LMS Course Progress'
+#. Label of a Link field in DocType 'LMS Course Review'
+#. Label of a Link field in DocType 'LMS Enrollment'
+#. Label of a Link field in DocType 'LMS Exercise'
+#. Label of a Link field in DocType 'LMS Lesson Note'
+#. Label of a Link field in DocType 'LMS Mentor Request'
+#. Label of a Link field in DocType 'LMS Program Course'
+#. Label of a Link field in DocType 'LMS Quiz'
+#. Label of a Link field in DocType 'LMS Quiz Submission'
+#. Label of a Link field in DocType 'LMS Video Watch Duration'
+#. Label of a Link field in DocType 'Related Courses'
 #. Label of a Link in the LMS Workspace
 #. Label of a shortcut in the LMS Workspace
 #: frontend/src/components/Modals/BatchCourseModal.vue:20
@@ -1613,9 +1534,11 @@ msgid "Course"
 msgstr ""
 
 #. Name of a DocType
-#. Label of the chapter (Link) field in DocType 'Course Lesson'
+#. Label of a Link field in DocType 'Course Lesson'
+#. Linked DocType in LMS Course's connections
 #: lms/lms/doctype/course_chapter/course_chapter.json
 #: lms/lms/doctype/course_lesson/course_lesson.json
+#: lms/lms/doctype/lms_course/lms_course.json
 msgid "Course Chapter"
 msgstr ""
 
@@ -1628,7 +1551,7 @@ msgstr ""
 msgid "Course Completions"
 msgstr ""
 
-#. Label of the course_count (Int) field in DocType 'LMS Program'
+#. Label of a Int field in DocType 'LMS Program'
 #: lms/lms/doctype/lms_program/lms_program.json
 msgid "Course Count"
 msgstr ""
@@ -1682,8 +1605,12 @@ msgstr ""
 msgid "Course Instructor"
 msgstr ""
 
+#. Linked DocType in Course Chapter's connections
 #. Name of a DocType
+#. Linked DocType in LMS Course's connections
+#: lms/lms/doctype/course_chapter/course_chapter.json
 #: lms/lms/doctype/course_lesson/course_lesson.json
+#: lms/lms/doctype/lms_course/lms_course.json
 msgid "Course Lesson"
 msgstr ""
 
@@ -1705,7 +1632,7 @@ msgstr ""
 msgid "Course Progress Summary"
 msgstr ""
 
-#. Label of the section_break_7 (Section Break) field in DocType 'LMS Course'
+#. Label of a Section Break field in DocType 'LMS Course'
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Course Settings"
 msgstr ""
@@ -1715,11 +1642,11 @@ msgstr ""
 msgid "Course Stats"
 msgstr ""
 
-#. Label of the title (Data) field in DocType 'Batch Course'
-#. Label of the course_title (Data) field in DocType 'Course Chapter'
-#. Label of the course_title (Data) field in DocType 'LMS Certificate'
-#. Label of the course_title (Data) field in DocType 'LMS Certificate Request'
-#. Label of the course_title (Data) field in DocType 'LMS Program Course'
+#. Label of a Data field in DocType 'Batch Course'
+#. Label of a Data field in DocType 'Course Chapter'
+#. Label of a Data field in DocType 'LMS Certificate'
+#. Label of a Data field in DocType 'LMS Certificate Request'
+#. Label of a Data field in DocType 'LMS Program Course'
 #: lms/lms/doctype/batch_course/batch_course.json
 #: lms/lms/doctype/course_chapter/course_chapter.json
 #: lms/lms/doctype/lms_certificate/lms_certificate.json
@@ -1749,9 +1676,8 @@ msgstr ""
 msgid "Course {0} has already been added to this batch."
 msgstr ""
 
-#. Label of the courses (Table) field in DocType 'LMS Batch'
-#. Label of the show_courses (Check) field in DocType 'LMS Settings'
-#. Label of the courses (Check) field in DocType 'LMS Settings'
+#. Label of a Table field in DocType 'LMS Batch'
+#. Label of a Check field in DocType 'LMS Settings'
 #: frontend/src/components/BatchCourses.vue:5
 #: frontend/src/components/BatchOverlay.vue:37
 #: frontend/src/components/BatchStudents.vue:25
@@ -1785,11 +1711,6 @@ msgstr ""
 
 #: frontend/src/pages/Programs/ProgramDetail.vue:21
 msgid "Courses must be completed in order. You can only start the next course after completing the previous one."
-msgstr ""
-
-#. Label of the cover_image (Attach Image) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Cover Image"
 msgstr ""
 
 #: frontend/src/components/Modals/ChapterModal.vue:9
@@ -1877,9 +1798,9 @@ msgstr ""
 msgid "Creating a course"
 msgstr ""
 
-#. Label of the currency (Link) field in DocType 'LMS Batch'
-#. Label of the currency (Link) field in DocType 'LMS Course'
-#. Label of the currency (Link) field in DocType 'LMS Payment'
+#. Label of a Link field in DocType 'LMS Batch'
+#. Label of a Link field in DocType 'LMS Course'
+#. Label of a Link field in DocType 'LMS Payment'
 #: frontend/src/components/Settings/TransactionDetails.vue:64
 #: frontend/src/pages/BatchForm.vue:285 frontend/src/pages/CourseForm.vue:282
 #: lms/lms/doctype/lms_batch/lms_batch.json
@@ -1888,7 +1809,7 @@ msgstr ""
 msgid "Currency"
 msgstr ""
 
-#. Label of the current_lesson (Link) field in DocType 'LMS Enrollment'
+#. Label of a Link field in DocType 'LMS Enrollment'
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
 msgid "Current Lesson"
 msgstr ""
@@ -1901,23 +1822,22 @@ msgstr ""
 msgid "Custom Certificate Templates"
 msgstr ""
 
-#. Label of the custom_component (Code) field in DocType 'LMS Batch'
+#. Label of a Code field in DocType 'LMS Batch'
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Custom HTML"
 msgstr ""
 
-#. Label of the custom_script (Code) field in DocType 'LMS Batch'
+#. Label of a Code field in DocType 'LMS Batch'
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Custom Script (JavaScript)"
 msgstr ""
 
-#. Label of the custom_signup_content (HTML Editor) field in DocType 'LMS
-#. Settings'
+#. Label of a HTML Editor field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Custom Signup Content"
 msgstr ""
 
-#. Label of the customisations_tab (Tab Break) field in DocType 'LMS Batch'
+#. Label of a Tab Break field in DocType 'LMS Batch'
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Customisations"
 msgstr ""
@@ -1927,16 +1847,16 @@ msgstr ""
 msgid "Cyan"
 msgstr ""
 
-#. Label of the show_dashboard (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Dashboard"
 msgstr ""
 
-#. Label of the date (Date) field in DocType 'LMS Batch Timetable'
-#. Label of the date (Date) field in DocType 'LMS Certificate Evaluation'
-#. Label of the date (Date) field in DocType 'LMS Certificate Request'
-#. Label of the date (Date) field in DocType 'LMS Live Class'
-#. Label of the date (Date) field in DocType 'Scheduled Flow'
+#. Label of a Date field in DocType 'LMS Batch Timetable'
+#. Label of a Date field in DocType 'LMS Certificate Evaluation'
+#. Label of a Date field in DocType 'LMS Certificate Request'
+#. Label of a Date field in DocType 'LMS Live Class'
+#. Label of a Date field in DocType 'Scheduled Flow'
 #: frontend/src/components/Modals/EvaluationModal.vue:26
 #: frontend/src/components/Modals/Event.vue:40
 #: frontend/src/components/Modals/LiveClassModal.vue:29
@@ -1956,9 +1876,9 @@ msgstr ""
 msgid "Date:"
 msgstr ""
 
-#. Label of the day (Select) field in DocType 'Evaluator Schedule'
-#. Label of the day (Int) field in DocType 'LMS Batch Timetable'
-#. Label of the day (Select) field in DocType 'LMS Certificate Request'
+#. Label of a Select field in DocType 'Evaluator Schedule'
+#. Label of a Int field in DocType 'LMS Batch Timetable'
+#. Label of a Select field in DocType 'LMS Certificate Request'
 #: frontend/src/pages/ProfileEvaluator.vue:26
 #: lms/lms/doctype/evaluator_schedule/evaluator_schedule.json
 #: lms/lms/doctype/lms_batch_timetable/lms_batch_timetable.json
@@ -1982,12 +1902,12 @@ msgstr ""
 msgid "Dear {{ member_name }},\\n\\nYou have been enrolled in our upcoming batch {{ batch_name }}.\\n\\nThanks,\\nFrappe Learning"
 msgstr ""
 
-#. Label of the default_currency (Link) field in DocType 'LMS Settings'
+#. Label of a Link field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Default Currency"
 msgstr ""
 
-#. Label of the degree_type (Data) field in DocType 'Education Detail'
+#. Label of a Data field in DocType 'Education Detail'
 #: lms/lms/doctype/education_detail/education_detail.json
 msgid "Degree Type"
 msgstr ""
@@ -2035,19 +1955,18 @@ msgstr ""
 msgid "Deleting this lesson will permanently remove it from the course. This action cannot be undone. Are you sure you want to continue?"
 msgstr ""
 
-#. Label of the description (Text Editor) field in DocType 'Job Opportunity'
+#. Label of a Text Editor field in DocType 'Job Opportunity'
 #. Label of a field in the job-opportunity Web Form
-#. Label of the description (Small Text) field in DocType 'Certification'
-#. Label of the description (Markdown Editor) field in DocType 'Cohort'
-#. Label of the description (Markdown Editor) field in DocType 'Cohort
-#. Subgroup'
-#. Label of the description (Small Text) field in DocType 'LMS Badge'
-#. Label of the description (Small Text) field in DocType 'LMS Batch'
-#. Label of the description (Markdown Editor) field in DocType 'LMS Batch Old'
-#. Label of the description (Text Editor) field in DocType 'LMS Course'
-#. Label of the description (Small Text) field in DocType 'LMS Exercise'
-#. Label of the description (Text) field in DocType 'LMS Live Class'
-#. Label of the description (Small Text) field in DocType 'Work Experience'
+#. Label of a Small Text field in DocType 'Certification'
+#. Label of a Markdown Editor field in DocType 'Cohort'
+#. Label of a Markdown Editor field in DocType 'Cohort Subgroup'
+#. Label of a Small Text field in DocType 'LMS Badge'
+#. Label of a Small Text field in DocType 'LMS Batch'
+#. Label of a Markdown Editor field in DocType 'LMS Batch Old'
+#. Label of a Text Editor field in DocType 'LMS Course'
+#. Label of a Small Text field in DocType 'LMS Exercise'
+#. Label of a Text field in DocType 'LMS Live Class'
+#. Label of a Small Text field in DocType 'Work Experience'
 #: frontend/src/components/Modals/LiveClassModal.vue:80
 #: frontend/src/components/Settings/BadgeForm.vue:32
 #: frontend/src/pages/JobForm.vue:132
@@ -2080,17 +1999,17 @@ msgstr ""
 msgid "Disable Self Enrollment"
 msgstr ""
 
-#. Label of the disable_self_learning (Check) field in DocType 'LMS Course'
+#. Label of a Check field in DocType 'LMS Course'
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Disable Self Learning"
 msgstr ""
 
-#. Label of the disable_signup (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Disable Signup"
 msgstr ""
 
-#. Label of the disabled (Check) field in DocType 'Job Opportunity'
+#. Label of a Check field in DocType 'Job Opportunity'
 #: frontend/src/components/Settings/Badges.vue:56
 #: frontend/src/components/Settings/PaymentGateways.vue:55
 #: frontend/src/components/Settings/ZoomSettings.vue:66
@@ -2103,7 +2022,7 @@ msgstr ""
 msgid "Discard"
 msgstr ""
 
-#. Label of the show_discussions (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: frontend/src/pages/Batch.vue:88
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Discussions"
@@ -2122,19 +2041,14 @@ msgstr ""
 msgid "Don’t miss this opportunity to enhance your skills. Click below to complete your enrollment"
 msgstr ""
 
-#. Label of the dream_companies (Data) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Dream Companies"
-msgstr ""
-
 #: lms/lms/doctype/lms_question/lms_question.py:34
 msgid "Duplicate options found for this question."
 msgstr ""
 
-#. Label of the duration (Data) field in DocType 'Cohort'
-#. Label of the duration (Data) field in DocType 'LMS Batch Timetable'
-#. Label of the duration (Int) field in DocType 'LMS Live Class'
-#. Label of the duration (Int) field in DocType 'LMS Live Class Participant'
+#. Label of a Data field in DocType 'Cohort'
+#. Label of a Data field in DocType 'LMS Batch Timetable'
+#. Label of a Int field in DocType 'LMS Live Class'
+#. Label of a Int field in DocType 'LMS Live Class Participant'
 #: frontend/src/components/Modals/LiveClassModal.vue:36
 #: lms/lms/doctype/cohort/cohort.json
 #: lms/lms/doctype/lms_batch_timetable/lms_batch_timetable.json
@@ -2143,7 +2057,7 @@ msgstr ""
 msgid "Duration"
 msgstr ""
 
-#. Label of the duration (Data) field in DocType 'LMS Quiz'
+#. Label of a Data field in DocType 'LMS Quiz'
 #: frontend/src/pages/QuizForm.vue:67 lms/lms/doctype/lms_quiz/lms_quiz.json
 msgid "Duration (in minutes)"
 msgstr ""
@@ -2152,12 +2066,12 @@ msgstr ""
 msgid "Duration of the live class in minutes"
 msgstr ""
 
-#. Label of the email (Link) field in DocType 'Cohort Join Request'
+#. Label of a Link field in DocType 'Cohort Join Request'
 #: lms/lms/doctype/cohort_join_request/cohort_join_request.json
 msgid "E-Mail"
 msgstr ""
 
-#. Label of the email (Link) field in DocType 'Cohort Mentor'
+#. Label of a Link field in DocType 'Cohort Mentor'
 #: lms/lms/doctype/cohort_mentor/cohort_mentor.json
 msgid "E-mail"
 msgstr ""
@@ -2217,19 +2131,9 @@ msgstr ""
 msgid "Edit the question"
 msgstr ""
 
-#. Label of the education (Table) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Education"
-msgstr ""
-
 #. Name of a DocType
 #: lms/lms/doctype/education_detail/education_detail.json
 msgid "Education Detail"
-msgstr ""
-
-#. Label of the education_details (Section Break) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Education Details"
 msgstr ""
 
 #: frontend/src/components/Settings/Evaluators.vue:105
@@ -2242,7 +2146,7 @@ msgstr ""
 msgid "Email ID"
 msgstr ""
 
-#. Label of the email_sent (Check) field in DocType 'LMS Course Interest'
+#. Label of a Check field in DocType 'LMS Course Interest'
 #: lms/lms/doctype/lms_course_interest/lms_course_interest.json
 msgid "Email Sent"
 msgstr ""
@@ -2259,7 +2163,7 @@ msgstr ""
 msgid "Email Template updated successfully"
 msgstr ""
 
-#. Label of the email_templates_tab (Tab Break) field in DocType 'LMS Settings'
+#. Label of a Tab Break field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Email Templates"
 msgstr ""
@@ -2273,17 +2177,16 @@ msgstr ""
 msgid "Email sent successfully"
 msgstr ""
 
-#. Label of the show_emails (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Emails"
 msgstr ""
 
-#. Option for the 'User Category' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json lms/templates/signup-form.html:25
+#: lms/templates/signup-form.html:25
 msgid "Employee"
 msgstr ""
 
-#. Label of the enable (Check) field in DocType 'Zoom Settings'
+#. Label of a Check field in DocType 'Zoom Settings'
 #: lms/lms/doctype/zoom_settings/zoom_settings.json
 msgid "Enable"
 msgstr ""
@@ -2292,7 +2195,7 @@ msgstr ""
 msgid "Enable Google API in Google Settings to send calendar invites for evaluations."
 msgstr ""
 
-#. Label of the enable_negative_marking (Check) field in DocType 'LMS Quiz'
+#. Label of a Check field in DocType 'LMS Quiz'
 #: frontend/src/pages/QuizForm.vue:117 lms/lms/doctype/lms_quiz/lms_quiz.json
 msgid "Enable Negative Marking"
 msgstr ""
@@ -2301,8 +2204,8 @@ msgstr ""
 msgid "Enable this only if you want to upload a SCORM package as a chapter."
 msgstr ""
 
-#. Label of the enabled (Check) field in DocType 'LMS Badge'
-#. Label of the enabled (Check) field in DocType 'LMS Zoom Settings'
+#. Label of a Check field in DocType 'LMS Badge'
+#. Label of a Check field in DocType 'LMS Zoom Settings'
 #: frontend/src/components/Modals/ZoomAccountModal.vue:23
 #: frontend/src/components/Settings/BadgeForm.vue:14
 #: frontend/src/components/Settings/Badges.vue:53
@@ -2317,24 +2220,24 @@ msgstr ""
 msgid "Enabling this will publish the certificate on the certified participants page."
 msgstr ""
 
-#. Label of the end_date (Date) field in DocType 'Cohort'
-#. Label of the end_date (Date) field in DocType 'LMS Batch'
+#. Label of a Date field in DocType 'Cohort'
+#. Label of a Date field in DocType 'LMS Batch'
 #: lms/lms/doctype/cohort/cohort.json lms/lms/doctype/lms_batch/lms_batch.json
 msgid "End Date"
 msgstr ""
 
-#. Label of the end_date (Date) field in DocType 'Education Detail'
+#. Label of a Date field in DocType 'Education Detail'
 #: lms/lms/doctype/education_detail/education_detail.json
 msgid "End Date (or expected)"
 msgstr ""
 
-#. Label of the end_time (Time) field in DocType 'Evaluator Schedule'
-#. Label of the end_time (Time) field in DocType 'LMS Batch'
-#. Label of the end_time (Time) field in DocType 'LMS Batch Old'
-#. Label of the end_time (Time) field in DocType 'LMS Batch Timetable'
-#. Label of the end_time (Time) field in DocType 'LMS Certificate Evaluation'
-#. Label of the end_time (Time) field in DocType 'LMS Certificate Request'
-#. Label of the end_time (Time) field in DocType 'Scheduled Flow'
+#. Label of a Time field in DocType 'Evaluator Schedule'
+#. Label of a Time field in DocType 'LMS Batch'
+#. Label of a Time field in DocType 'LMS Batch Old'
+#. Label of a Time field in DocType 'LMS Batch Timetable'
+#. Label of a Time field in DocType 'LMS Certificate Evaluation'
+#. Label of a Time field in DocType 'LMS Certificate Request'
+#. Label of a Time field in DocType 'Scheduled Flow'
 #: frontend/src/pages/ProfileEvaluator.vue:32
 #: lms/lms/doctype/evaluator_schedule/evaluator_schedule.json
 #: lms/lms/doctype/lms_batch/lms_batch.json
@@ -2352,7 +2255,7 @@ msgstr ""
 msgid "Ended"
 msgstr ""
 
-#. Label of the enforce_course_order (Check) field in DocType 'LMS Program'
+#. Label of a Check field in DocType 'LMS Program'
 #: frontend/src/pages/Programs/ProgramForm.vue:39
 #: lms/lms/doctype/lms_program/lms_program.json
 msgid "Enforce Course Order"
@@ -2395,7 +2298,7 @@ msgstr ""
 msgid "Enrollment for Program {0}"
 msgstr ""
 
-#. Label of the enrollments (Int) field in DocType 'LMS Course'
+#. Label of a Int field in DocType 'LMS Course'
 #. Label of a chart in the LMS Workspace
 #. Label of a shortcut in the LMS Workspace
 #: frontend/src/components/Modals/CourseProgressSummary.vue:98
@@ -2455,13 +2358,12 @@ msgstr ""
 msgid "Evaluation"
 msgstr ""
 
-#. Label of the section_break_6 (Section Break) field in DocType 'LMS
-#. Certificate Evaluation'
+#. Label of a Section Break field in DocType 'LMS Certificate Evaluation'
 #: lms/lms/doctype/lms_certificate_evaluation/lms_certificate_evaluation.json
 msgid "Evaluation Details"
 msgstr ""
 
-#. Label of the evaluation_end_date (Date) field in DocType 'LMS Batch'
+#. Label of a Date field in DocType 'LMS Batch'
 #: frontend/src/pages/BatchForm.vue:122
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Evaluation End Date"
@@ -2480,13 +2382,13 @@ msgstr ""
 msgid "Evaluation saved successfully"
 msgstr ""
 
-#. Label of the evaluator (Link) field in DocType 'Batch Course'
-#. Label of the evaluator (Link) field in DocType 'Course Evaluator'
-#. Label of the evaluator (Link) field in DocType 'LMS Assignment Submission'
-#. Label of the evaluator (Link) field in DocType 'LMS Certificate'
-#. Label of the evaluator (Link) field in DocType 'LMS Certificate Evaluation'
-#. Label of the evaluator (Link) field in DocType 'LMS Certificate Request'
-#. Label of the evaluator (Link) field in DocType 'LMS Course'
+#. Label of a Link field in DocType 'Batch Course'
+#. Label of a Link field in DocType 'Course Evaluator'
+#. Label of a Link field in DocType 'LMS Assignment Submission'
+#. Label of a Link field in DocType 'LMS Certificate'
+#. Label of a Link field in DocType 'LMS Certificate Evaluation'
+#. Label of a Link field in DocType 'LMS Certificate Request'
+#. Label of a Link field in DocType 'LMS Course'
 #: frontend/src/components/Modals/BatchCourseModal.vue:37
 #: frontend/src/components/Modals/BulkCertificates.vue:22
 #: frontend/src/pages/CourseForm.vue:269 frontend/src/pages/ProfileRoles.vue:32
@@ -2501,11 +2403,9 @@ msgstr ""
 msgid "Evaluator"
 msgstr ""
 
-#. Label of the evaluator_name (Data) field in DocType 'LMS Certificate'
-#. Label of the evaluator_name (Data) field in DocType 'LMS Certificate
-#. Evaluation'
-#. Label of the evaluator_name (Data) field in DocType 'LMS Certificate
-#. Request'
+#. Label of a Data field in DocType 'LMS Certificate'
+#. Label of a Data field in DocType 'LMS Certificate Evaluation'
+#. Label of a Data field in DocType 'LMS Certificate Request'
 #: lms/lms/doctype/lms_certificate/lms_certificate.json
 #: lms/lms/doctype/lms_certificate_evaluation/lms_certificate_evaluation.json
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
@@ -2533,8 +2433,8 @@ msgstr ""
 msgid "Evaluator is required for paid certificates."
 msgstr ""
 
-#. Label of the event (Select) field in DocType 'LMS Badge'
-#. Label of the event (Link) field in DocType 'LMS Live Class'
+#. Label of a Select field in DocType 'LMS Badge'
+#. Label of a Link field in DocType 'LMS Live Class'
 #: frontend/src/components/Settings/BadgeForm.vue:51
 #: lms/lms/doctype/lms_badge/lms_badge.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
@@ -2545,10 +2445,9 @@ msgstr ""
 msgid "Example: IST (+5:30)"
 msgstr ""
 
-#. Label of the exercise (Link) field in DocType 'Exercise Latest Submission'
-#. Label of the exercise (Link) field in DocType 'Exercise Submission'
-#. Label of the exercise (Link) field in DocType 'LMS Programming Exercise
-#. Submission'
+#. Label of a Link field in DocType 'Exercise Latest Submission'
+#. Label of a Link field in DocType 'Exercise Submission'
+#. Label of a Link field in DocType 'LMS Programming Exercise Submission'
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmissions.vue:274
 #: lms/lms/doctype/exercise_latest_submission/exercise_latest_submission.json
 #: lms/lms/doctype/exercise_submission/exercise_submission.json
@@ -2566,11 +2465,9 @@ msgstr ""
 msgid "Exercise Submission"
 msgstr ""
 
-#. Label of the exercise_title (Data) field in DocType 'Exercise Latest
-#. Submission'
-#. Label of the exercise_title (Data) field in DocType 'Exercise Submission'
-#. Label of the exercise_title (Data) field in DocType 'LMS Programming
-#. Exercise Submission'
+#. Label of a Data field in DocType 'Exercise Latest Submission'
+#. Label of a Data field in DocType 'Exercise Submission'
+#. Label of a Data field in DocType 'LMS Programming Exercise Submission'
 #: lms/lms/doctype/exercise_latest_submission/exercise_latest_submission.json
 #: lms/lms/doctype/exercise_submission/exercise_submission.json
 #: lms/lms/doctype/lms_programming_exercise_submission/lms_programming_exercise_submission.json
@@ -2581,36 +2478,33 @@ msgstr ""
 msgid "Expand"
 msgstr ""
 
-#. Label of the expected_output (Data) field in DocType 'LMS Test Case'
-#. Label of the expected_output (Data) field in DocType 'LMS Test Case
-#. Submission'
+#. Label of a Data field in DocType 'LMS Test Case'
+#. Label of a Data field in DocType 'LMS Test Case Submission'
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmission.vue:127
 #: lms/lms/doctype/lms_test_case/lms_test_case.json
 #: lms/lms/doctype/lms_test_case_submission/lms_test_case_submission.json
 msgid "Expected Output"
 msgstr ""
 
-#. Label of the expiration_date (Data) field in DocType 'Certification'
+#. Label of a Data field in DocType 'Certification'
 #: lms/lms/doctype/certification/certification.json
 msgid "Expiration Date"
 msgstr ""
 
-#. Label of the expiry_date (Date) field in DocType 'LMS Certificate'
+#. Label of a Date field in DocType 'LMS Certificate'
 #: frontend/src/components/Modals/BulkCertificates.vue:33
 #: frontend/src/components/Modals/Event.vue:126
 #: lms/lms/doctype/lms_certificate/lms_certificate.json
 msgid "Expiry Date"
 msgstr ""
 
-#. Label of the explanation_1 (Small Text) field in DocType 'LMS Question'
-#. Label of the explanation_3 (Small Text) field in DocType 'LMS Question'
-#. Label of the explanation_4 (Small Text) field in DocType 'LMS Question'
+#. Label of a Small Text field in DocType 'LMS Question'
 #: frontend/src/components/Modals/Question.vue:75
 #: lms/lms/doctype/lms_question/lms_question.json
 msgid "Explanation"
 msgstr ""
 
-#. Label of the explanation_2 (Small Text) field in DocType 'LMS Question'
+#. Label of a Small Text field in DocType 'LMS Question'
 #: lms/lms/doctype/lms_question/lms_question.json
 msgid "Explanation "
 msgstr ""
@@ -2667,7 +2561,7 @@ msgstr ""
 msgid "Failed to update meta tags {0}"
 msgstr ""
 
-#. Label of the featured (Check) field in DocType 'LMS Course'
+#. Label of a Check field in DocType 'LMS Course'
 #: frontend/src/components/CourseCard.vue:25
 #: frontend/src/components/CourseCard.vue:79
 #: frontend/src/pages/CourseForm.vue:169
@@ -2675,7 +2569,7 @@ msgstr ""
 msgid "Featured"
 msgstr ""
 
-#. Label of the feedback (Small Text) field in DocType 'LMS Batch Feedback'
+#. Label of a Small Text field in DocType 'LMS Batch Feedback'
 #: frontend/src/components/BatchFeedback.vue:30
 #: frontend/src/pages/Batch.vue:146
 #: lms/lms/doctype/lms_batch_feedback/lms_batch_feedback.json
@@ -2686,17 +2580,17 @@ msgstr ""
 msgid "Feel free to make edits to your submission if needed."
 msgstr ""
 
-#. Label of the field_to_check (Select) field in DocType 'LMS Badge'
+#. Label of a Select field in DocType 'LMS Badge'
 #: lms/lms/doctype/lms_badge/lms_badge.json
 msgid "Field To Check"
 msgstr ""
 
-#. Label of the major (Data) field in DocType 'Education Detail'
+#. Label of a Data field in DocType 'Education Detail'
 #: lms/lms/doctype/education_detail/education_detail.json
 msgid "Field of Major/Study"
 msgstr ""
 
-#. Label of the file_type (Select) field in DocType 'Course Lesson'
+#. Label of a Select field in DocType 'Course Lesson'
 #: lms/lms/doctype/course_lesson/course_lesson.json
 msgid "File Type"
 msgstr ""
@@ -2723,21 +2617,6 @@ msgstr ""
 msgid "First Name"
 msgstr ""
 
-#. Option for the 'Time Preference' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Fixed 9-5"
-msgstr ""
-
-#. Option for the 'Time Preference' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Flexible Time"
-msgstr ""
-
-#. Option for the 'Attire Preference' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Formal Wear"
-msgstr ""
-
 #: lms/lms/widgets/CourseCard.html:114
 msgid "Free"
 msgstr ""
@@ -2750,8 +2629,7 @@ msgstr ""
 msgid "Freelance"
 msgstr ""
 
-#. Option for the 'User Category' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json lms/templates/signup-form.html:27
+#: lms/templates/signup-form.html:27
 msgid "Freelancer/Just looking"
 msgstr ""
 
@@ -2767,19 +2645,19 @@ msgstr ""
 msgid "Friday"
 msgstr ""
 
-#. Label of the unavailable_from (Date) field in DocType 'Course Evaluator'
+#. Label of a Date field in DocType 'Course Evaluator'
 #: frontend/src/pages/ProfileEvaluator.vue:99
 #: lms/lms/doctype/course_evaluator/course_evaluator.json
 msgid "From"
 msgstr ""
 
-#. Label of the from_date (Date) field in DocType 'Work Experience'
+#. Label of a Date field in DocType 'Work Experience'
 #: lms/lms/doctype/work_experience/work_experience.json
 msgid "From Date"
 msgstr ""
 
-#. Label of the full_name (Data) field in DocType 'Course Evaluator'
-#. Label of the full_name (Data) field in DocType 'LMS Program Member'
+#. Label of a Data field in DocType 'Course Evaluator'
+#. Label of a Data field in DocType 'LMS Program Member'
 #: lms/lms/doctype/course_evaluator/course_evaluator.json
 #: lms/lms/doctype/lms_program_member/lms_program_member.json
 #: lms/templates/signup-form.html:5
@@ -2795,8 +2673,8 @@ msgid "Full Time"
 msgstr ""
 
 #. Name of a DocType
-#. Label of the function (Data) field in DocType 'Function'
-#. Label of the function (Link) field in DocType 'Preferred Function'
+#. Label of a Data field in DocType 'Function'
+#. Label of a Link field in DocType 'Preferred Function'
 #: lms/lms/doctype/function/function.json
 #: lms/lms/doctype/preferred_function/preferred_function.json
 msgid "Function"
@@ -2810,7 +2688,7 @@ msgstr ""
 msgid "GST Number"
 msgstr ""
 
-#. Label of the gstin (Data) field in DocType 'LMS Payment'
+#. Label of a Data field in DocType 'LMS Payment'
 #: frontend/src/components/Settings/TransactionDetails.vue:76
 #: lms/lms/doctype/lms_payment/lms_payment.json
 msgid "GSTIN"
@@ -2820,7 +2698,7 @@ msgstr ""
 msgid "Gateway"
 msgstr ""
 
-#. Label of the general_tab (Tab Break) field in DocType 'LMS Settings'
+#. Label of a Tab Break field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "General"
 msgstr ""
@@ -2857,29 +2735,23 @@ msgstr ""
 msgid "Get the app on your iPhone for easy access & a better experience"
 msgstr ""
 
-#. Label of the github (Data) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Github ID"
-msgstr ""
-
-#. Label of the google_meet_link (Data) field in DocType 'LMS Certificate
-#. Request'
+#. Label of a Data field in DocType 'LMS Certificate Request'
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 msgid "Google Meet Link"
 msgstr ""
 
-#. Label of the grade (Data) field in DocType 'Education Detail'
+#. Label of a Data field in DocType 'Education Detail'
 #: frontend/src/components/Assignment.vue:164
 #: lms/lms/doctype/education_detail/education_detail.json
 msgid "Grade"
 msgstr ""
 
-#. Label of the grade_assignment (Check) field in DocType 'LMS Assignment'
+#. Label of a Check field in DocType 'LMS Assignment'
 #: lms/lms/doctype/lms_assignment/lms_assignment.json
 msgid "Grade Assignment"
 msgstr ""
 
-#. Label of the grade_type (Select) field in DocType 'Education Detail'
+#. Label of a Select field in DocType 'Education Detail'
 #: lms/lms/doctype/education_detail/education_detail.json
 msgid "Grade Type"
 msgstr ""
@@ -2893,7 +2765,7 @@ msgstr ""
 msgid "Grant Only Once"
 msgstr ""
 
-#. Label of the grant_only_once (Check) field in DocType 'LMS Badge'
+#. Label of a Check field in DocType 'LMS Badge'
 #: lms/lms/doctype/lms_badge/lms_badge.json
 msgid "Grant only once"
 msgstr ""
@@ -2914,9 +2786,7 @@ msgstr ""
 msgid "Have an account? Login"
 msgstr ""
 
-#. Label of the headline (Data) field in DocType 'User'
 #: frontend/src/components/Modals/EditProfile.vue:71
-#: lms/fixtures/custom_field.json
 msgid "Headline"
 msgstr ""
 
@@ -2969,22 +2839,16 @@ msgstr ""
 msgid "Hi,"
 msgstr ""
 
-#. Label of the hide_private (Check) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Hide my Private Information from others"
-msgstr ""
-
 #: frontend/src/components/Notes/InlineLessonMenu.vue:12
 msgid "Highlight"
 msgstr ""
 
-#. Label of the highlighted_text (Small Text) field in DocType 'LMS Lesson
-#. Note'
+#. Label of a Small Text field in DocType 'LMS Lesson Note'
 #: lms/lms/doctype/lms_lesson_note/lms_lesson_note.json
 msgid "Highlighted Text"
 msgstr ""
 
-#. Label of the hints (Small Text) field in DocType 'LMS Exercise'
+#. Label of a Small Text field in DocType 'LMS Exercise'
 #: lms/lms/doctype/lms_exercise/lms_exercise.json
 msgid "Hints"
 msgstr ""
@@ -2993,7 +2857,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#. Label of the host (Link) field in DocType 'LMS Live Class'
+#. Label of a Link field in DocType 'LMS Live Class'
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Host"
 msgstr ""
@@ -3003,18 +2867,13 @@ msgstr ""
 msgid "Hybrid"
 msgstr ""
 
-#. Label of the current (Check) field in DocType 'Work Experience'
+#. Label of a Check field in DocType 'Work Experience'
 #: lms/lms/doctype/work_experience/work_experience.json
 msgid "I am currently working here"
 msgstr ""
 
 #: lms/templates/emails/certification.html:6
 msgid "I am delighted to inform you that you have successfully earned your certification for the {0} course. Congratulations!"
-msgstr ""
-
-#. Label of the looking_for_job (Check) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "I am looking for a job"
 msgstr ""
 
 #: frontend/src/pages/ProfileEvaluator.vue:94
@@ -3025,13 +2884,13 @@ msgstr ""
 msgid "ID"
 msgstr ""
 
-#. Label of the icon (Data) field in DocType 'LMS Sidebar Item'
+#. Label of a Data field in DocType 'LMS Sidebar Item'
 #: frontend/src/components/Modals/PageModal.vue:28
 #: lms/lms/doctype/lms_sidebar_item/lms_sidebar_item.json
 msgid "Icon"
 msgstr ""
 
-#. Label of the user_category (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Identify User Category"
 msgstr ""
@@ -3074,12 +2933,12 @@ msgid "If you want open ended questions then make sure each question in the quiz
 msgstr ""
 
 #. Option for the 'File Type' (Select) field in DocType 'Course Lesson'
-#. Label of the image (Code) field in DocType 'Exercise Latest Submission'
-#. Label of the image (Code) field in DocType 'Exercise Submission'
+#. Label of a Code field in DocType 'Exercise Latest Submission'
+#. Label of a Code field in DocType 'Exercise Submission'
 #. Option for the 'Type' (Select) field in DocType 'LMS Assignment'
 #. Option for the 'Type' (Select) field in DocType 'LMS Assignment Submission'
-#. Label of the image (Attach Image) field in DocType 'LMS Badge'
-#. Label of the image (Code) field in DocType 'LMS Exercise'
+#. Label of a Attach Image field in DocType 'LMS Badge'
+#. Label of a Code field in DocType 'LMS Exercise'
 #: lms/lms/doctype/course_lesson/course_lesson.json
 #: lms/lms/doctype/exercise_latest_submission/exercise_latest_submission.json
 #: lms/lms/doctype/exercise_submission/exercise_submission.json
@@ -3115,7 +2974,7 @@ msgstr ""
 msgid "Inactive"
 msgstr ""
 
-#. Label of the include_in_preview (Check) field in DocType 'Course Lesson'
+#. Label of a Check field in DocType 'Course Lesson'
 #: lms/lms/doctype/course_lesson/course_lesson.json
 msgid "Include In Preview"
 msgstr ""
@@ -3134,31 +2993,26 @@ msgstr ""
 msgid "Incorrect"
 msgstr ""
 
-#. Label of the index_ (Int) field in DocType 'LMS Exercise'
+#. Label of a Int field in DocType 'LMS Exercise'
 #: lms/lms/doctype/lms_exercise/lms_exercise.json
 msgid "Index"
 msgstr ""
 
-#. Label of the index_label (Data) field in DocType 'LMS Exercise'
+#. Label of a Data field in DocType 'LMS Exercise'
 #: lms/lms/doctype/lms_exercise/lms_exercise.json
 msgid "Index Label"
 msgstr ""
 
-#. Option for the 'Collaboration Preference' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Individual Work"
-msgstr ""
-
 #. Name of a DocType
-#. Label of the industry (Data) field in DocType 'Industry'
-#. Label of the industry (Link) field in DocType 'Preferred Industry'
+#. Label of a Data field in DocType 'Industry'
+#. Label of a Link field in DocType 'Preferred Industry'
 #: lms/lms/doctype/industry/industry.json
 #: lms/lms/doctype/preferred_industry/preferred_industry.json
 msgid "Industry"
 msgstr ""
 
-#. Label of the input (Data) field in DocType 'LMS Test Case'
-#. Label of the input (Data) field in DocType 'LMS Test Case Submission'
+#. Label of a Data field in DocType 'LMS Test Case'
+#. Label of a Data field in DocType 'LMS Test Case Submission'
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmission.vue:113
 #: lms/lms/doctype/lms_test_case/lms_test_case.json
 #: lms/lms/doctype/lms_test_case_submission/lms_test_case_submission.json
@@ -3174,33 +3028,32 @@ msgstr ""
 msgid "Install Frappe Learning"
 msgstr ""
 
-#. Label of the institution_name (Data) field in DocType 'Education Detail'
+#. Label of a Data field in DocType 'Education Detail'
 #: lms/lms/doctype/education_detail/education_detail.json
 msgid "Institution Name"
 msgstr ""
 
-#. Label of the instructor (Link) field in DocType 'Cohort'
-#. Label of the instructor (Link) field in DocType 'Course Instructor'
+#. Label of a Link field in DocType 'Cohort'
+#. Label of a Link field in DocType 'Course Instructor'
 #: frontend/src/pages/Home/Home.vue:149 lms/lms/doctype/cohort/cohort.json
 #: lms/lms/doctype/course_instructor/course_instructor.json
 msgid "Instructor"
 msgstr ""
 
-#. Label of the instructor_content (Text) field in DocType 'Course Lesson'
+#. Label of a Text field in DocType 'Course Lesson'
 #: lms/lms/doctype/course_lesson/course_lesson.json
 msgid "Instructor Content"
 msgstr ""
 
-#. Label of the instructor_notes (Markdown Editor) field in DocType 'Course
-#. Lesson'
+#. Label of a Markdown Editor field in DocType 'Course Lesson'
 #: frontend/src/pages/Lesson.vue:233 frontend/src/pages/LessonForm.vue:42
 #: lms/lms/doctype/course_lesson/course_lesson.json
 msgid "Instructor Notes"
 msgstr ""
 
-#. Label of the instructors (Table MultiSelect) field in DocType 'LMS Batch'
-#. Label of the instructors (Rating) field in DocType 'LMS Batch Feedback'
-#. Label of the instructors (Table MultiSelect) field in DocType 'LMS Course'
+#. Label of a Table MultiSelect field in DocType 'LMS Batch'
+#. Label of a Rating field in DocType 'LMS Batch Feedback'
+#. Label of a Table MultiSelect field in DocType 'LMS Course'
 #: frontend/src/pages/BatchForm.vue:34 frontend/src/pages/CourseForm.vue:44
 #: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/lms/doctype/lms_batch_feedback/lms_batch_feedback.json
@@ -3230,7 +3083,7 @@ msgstr ""
 msgid "Invalid Quiz ID in content"
 msgstr ""
 
-#. Label of the invite_code (Data) field in DocType 'Cohort Subgroup'
+#. Label of a Data field in DocType 'Cohort Subgroup'
 #: lms/lms/doctype/cohort_subgroup/cohort_subgroup.json
 msgid "Invite Code"
 msgstr ""
@@ -3244,32 +3097,29 @@ msgstr ""
 msgid "Invite your team and students"
 msgstr ""
 
-#. Label of the is_correct (Check) field in DocType 'LMS Option'
-#. Label of the is_correct_1 (Check) field in DocType 'LMS Question'
-#. Label of the is_correct_2 (Check) field in DocType 'LMS Question'
-#. Label of the is_correct_3 (Check) field in DocType 'LMS Question'
-#. Label of the is_correct_4 (Check) field in DocType 'LMS Question'
-#. Label of the is_correct (Check) field in DocType 'LMS Quiz Result'
+#. Label of a Check field in DocType 'LMS Option'
+#. Label of a Check field in DocType 'LMS Question'
+#. Label of a Check field in DocType 'LMS Quiz Result'
 #: lms/lms/doctype/lms_option/lms_option.json
 #: lms/lms/doctype/lms_question/lms_question.json
 #: lms/lms/doctype/lms_quiz_result/lms_quiz_result.json
 msgid "Is Correct"
 msgstr ""
 
-#. Label of the is_scorm_chapter (Check) field in DocType 'LMS Course Progress'
+#. Label of a Check field in DocType 'LMS Course Progress'
 #: lms/lms/doctype/lms_course_progress/lms_course_progress.json
 msgid "Is SCORM Chapter"
 msgstr ""
 
-#. Label of the is_scorm_package (Check) field in DocType 'Course Chapter'
-#. Label of the is_scorm_package (Check) field in DocType 'Course Lesson'
+#. Label of a Check field in DocType 'Course Chapter'
+#. Label of a Check field in DocType 'Course Lesson'
 #: lms/lms/doctype/course_chapter/course_chapter.json
 #: lms/lms/doctype/course_lesson/course_lesson.json
 msgid "Is SCORM Package"
 msgstr ""
 
-#. Label of the issue_date (Date) field in DocType 'Certification'
-#. Label of the issue_date (Date) field in DocType 'LMS Certificate'
+#. Label of a Date field in DocType 'Certification'
+#. Label of a Date field in DocType 'LMS Certificate'
 #: frontend/src/components/Modals/BulkCertificates.vue:28
 #: frontend/src/components/Modals/Event.vue:121
 #: lms/lms/doctype/certification/certification.json
@@ -3281,7 +3131,7 @@ msgstr ""
 msgid "Issue a Certificate"
 msgstr ""
 
-#. Label of the issued_on (Date) field in DocType 'LMS Badge Assignment'
+#. Label of a Date field in DocType 'LMS Badge Assignment'
 #: frontend/src/components/Settings/BadgeAssignmentForm.vue:37
 #: frontend/src/components/Settings/BadgeAssignments.vue:185
 #: frontend/src/pages/CourseCertification.vue:27
@@ -3295,8 +3145,7 @@ msgstr ""
 msgid "Issued on"
 msgstr ""
 
-#. Label of the items_in_sidebar_section (Section Break) field in DocType 'LMS
-#. Settings'
+#. Label of a Section Break field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Items in Sidebar"
 msgstr ""
@@ -3311,17 +3160,17 @@ msgstr ""
 msgid "JavaScript"
 msgstr ""
 
-#. Label of the job (Link) field in DocType 'LMS Job Application'
+#. Label of a Link field in DocType 'LMS Job Application'
 #: lms/job/doctype/lms_job_application/lms_job_application.json
 msgid "Job"
 msgstr ""
 
-#. Label of the subtitle (Data) field in DocType 'Job Settings'
+#. Label of a Data field in DocType 'Job Settings'
 #: lms/job/doctype/job_settings/job_settings.json
 msgid "Job Board Subtitle"
 msgstr ""
 
-#. Label of the title (Data) field in DocType 'Job Settings'
+#. Label of a Data field in DocType 'Job Settings'
 #: lms/job/doctype/job_settings/job_settings.json
 msgid "Job Board Title"
 msgstr ""
@@ -3346,8 +3195,8 @@ msgstr ""
 msgid "Job Settings"
 msgstr ""
 
-#. Label of the job_title (Data) field in DocType 'Job Opportunity'
-#. Label of the job_title (Data) field in DocType 'LMS Job Application'
+#. Label of a Data field in DocType 'Job Opportunity'
+#. Label of a Data field in DocType 'LMS Job Application'
 #. Label of a field in the job-opportunity Web Form
 #: lms/job/doctype/job_opportunity/job_opportunity.json
 #: lms/job/doctype/lms_job_application/lms_job_application.json
@@ -3355,7 +3204,7 @@ msgstr ""
 msgid "Job Title"
 msgstr ""
 
-#. Label of the jobs (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: frontend/src/pages/JobDetail.vue:10 frontend/src/pages/Jobs.vue:8
 #: frontend/src/pages/Jobs.vue:212
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -3377,13 +3226,12 @@ msgstr ""
 msgid "Join Meeting"
 msgstr ""
 
-#. Label of the join_url (Small Text) field in DocType 'LMS Live Class'
+#. Label of a Small Text field in DocType 'LMS Live Class'
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Join URL"
 msgstr ""
 
-#. Label of the joined_at (Datetime) field in DocType 'LMS Live Class
-#. Participant'
+#. Label of a Datetime field in DocType 'LMS Live Class Participant'
 #: lms/lms/doctype/lms_live_class_participant/lms_live_class_participant.json
 msgid "Joined At"
 msgstr ""
@@ -3421,7 +3269,9 @@ msgstr ""
 msgid "LMS Badge"
 msgstr ""
 
+#. Linked DocType in LMS Badge's connections
 #. Name of a DocType
+#: lms/lms/doctype/lms_badge/lms_badge.json
 #: lms/lms/doctype/lms_badge_assignment/lms_badge_assignment.json
 msgid "LMS Badge Assignment"
 msgstr ""
@@ -3434,8 +3284,12 @@ msgstr ""
 msgid "LMS Batch"
 msgstr ""
 
+#. Linked DocType in LMS Batch's connections
 #. Name of a DocType
+#. Linked DocType in LMS Payment's connections
+#: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/lms/doctype/lms_batch_enrollment/lms_batch_enrollment.json
+#: lms/lms/doctype/lms_payment/lms_payment.json
 msgid "LMS Batch Enrollment"
 msgstr ""
 
@@ -3459,12 +3313,16 @@ msgstr ""
 msgid "LMS Category"
 msgstr ""
 
+#. Linked DocType in LMS Batch's connections
 #. Name of a DocType
+#: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/lms/doctype/lms_certificate/lms_certificate.json
 msgid "LMS Certificate"
 msgstr ""
 
+#. Linked DocType in LMS Batch's connections
 #. Name of a DocType
+#: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/lms/doctype/lms_certificate_evaluation/lms_certificate_evaluation.json
 msgid "LMS Certificate Evaluation"
 msgstr ""
@@ -3502,8 +3360,14 @@ msgstr ""
 msgid "LMS Course Review"
 msgstr ""
 
+#. Linked DocType in LMS Batch Old's connections
+#. Linked DocType in LMS Course's connections
 #. Name of a DocType
+#. Linked DocType in LMS Payment's connections
+#: lms/lms/doctype/lms_batch_old/lms_batch_old.json
+#: lms/lms/doctype/lms_course/lms_course.json
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
+#: lms/lms/doctype/lms_payment/lms_payment.json
 msgid "LMS Enrollment"
 msgstr ""
 
@@ -3512,7 +3376,9 @@ msgstr ""
 msgid "LMS Exercise"
 msgstr ""
 
+#. Linked DocType in Job Opportunity's connections
 #. Name of a DocType
+#: lms/job/doctype/job_opportunity/job_opportunity.json
 #: lms/job/doctype/lms_job_application/lms_job_application.json
 msgid "LMS Job Application"
 msgstr ""
@@ -3527,7 +3393,9 @@ msgstr ""
 msgid "LMS Live Class"
 msgstr ""
 
+#. Linked DocType in LMS Live Class's connections
 #. Name of a DocType
+#: lms/lms/doctype/lms_live_class/lms_live_class.json
 #: lms/lms/doctype/lms_live_class_participant/lms_live_class_participant.json
 msgid "LMS Live Class Participant"
 msgstr ""
@@ -3567,7 +3435,9 @@ msgstr ""
 msgid "LMS Programming Exercise"
 msgstr ""
 
+#. Linked DocType in LMS Programming Exercise's connections
 #. Name of a DocType
+#: lms/lms/doctype/lms_programming_exercise/lms_programming_exercise.json
 #: lms/lms/doctype/lms_programming_exercise_submission/lms_programming_exercise_submission.json
 msgid "LMS Programming Exercise Submission"
 msgstr ""
@@ -3592,7 +3462,9 @@ msgstr ""
 msgid "LMS Quiz Result"
 msgstr ""
 
+#. Linked DocType in LMS Quiz's connections
 #. Name of a DocType
+#: lms/lms/doctype/lms_quiz/lms_quiz.json
 #: lms/lms/doctype/lms_quiz_submission/lms_quiz_submission.json
 msgid "LMS Quiz Submission"
 msgstr ""
@@ -3674,12 +3546,12 @@ msgstr ""
 msgid "LMS Zoom Settings"
 msgstr ""
 
-#. Label of the label (Data) field in DocType 'LMS Timetable Legend'
+#. Label of a Data field in DocType 'LMS Timetable Legend'
 #: lms/lms/doctype/lms_timetable_legend/lms_timetable_legend.json
 msgid "Label"
 msgstr ""
 
-#. Label of the language (Select) field in DocType 'LMS Programming Exercise'
+#. Label of a Select field in DocType 'LMS Programming Exercise'
 #: frontend/src/components/Modals/EditProfile.vue:73
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseForm.vue:22
 #: lms/lms/doctype/lms_programming_exercise/lms_programming_exercise.json
@@ -3690,13 +3562,12 @@ msgstr ""
 msgid "Last Name"
 msgstr ""
 
-#. Label of the latest_submission (Link) field in DocType 'Exercise Latest
-#. Submission'
+#. Label of a Link field in DocType 'Exercise Latest Submission'
 #: lms/lms/doctype/exercise_latest_submission/exercise_latest_submission.json
 msgid "Latest Submission"
 msgstr ""
 
-#. Label of the launch_file (Code) field in DocType 'Course Chapter'
+#. Label of a Code field in DocType 'Course Chapter'
 #: lms/lms/doctype/course_chapter/course_chapter.json
 msgid "Launch File"
 msgstr ""
@@ -3709,8 +3580,7 @@ msgstr ""
 msgid "Learning Paths"
 msgstr ""
 
-#. Label of the left_at (Datetime) field in DocType 'LMS Live Class
-#. Participant'
+#. Label of a Datetime field in DocType 'LMS Live Class Participant'
 #: lms/lms/doctype/lms_live_class_participant/lms_live_class_participant.json
 msgid "Left At"
 msgstr ""
@@ -3719,16 +3589,16 @@ msgstr ""
 msgid "Left at"
 msgstr ""
 
-#. Label of the lesson (Link) field in DocType 'Exercise Latest Submission'
-#. Label of the lesson (Link) field in DocType 'Exercise Submission'
-#. Label of the lesson (Link) field in DocType 'Lesson Reference'
-#. Label of the lesson (Link) field in DocType 'LMS Assignment Submission'
-#. Label of the lesson (Link) field in DocType 'LMS Course Progress'
-#. Label of the lesson (Link) field in DocType 'LMS Exercise'
-#. Label of the lesson (Link) field in DocType 'LMS Lesson Note'
-#. Label of the lesson (Link) field in DocType 'LMS Quiz'
-#. Label of the lesson (Link) field in DocType 'LMS Video Watch Duration'
-#. Label of the lesson (Link) field in DocType 'Scheduled Flow'
+#. Label of a Link field in DocType 'Exercise Latest Submission'
+#. Label of a Link field in DocType 'Exercise Submission'
+#. Label of a Link field in DocType 'Lesson Reference'
+#. Label of a Link field in DocType 'LMS Assignment Submission'
+#. Label of a Link field in DocType 'LMS Course Progress'
+#. Label of a Link field in DocType 'LMS Exercise'
+#. Label of a Link field in DocType 'LMS Lesson Note'
+#. Label of a Link field in DocType 'LMS Quiz'
+#. Label of a Link field in DocType 'LMS Video Watch Duration'
+#. Label of a Link field in DocType 'Scheduled Flow'
 #. Label of a Link in the LMS Workspace
 #: lms/lms/doctype/exercise_latest_submission/exercise_latest_submission.json
 #: lms/lms/doctype/exercise_submission/exercise_submission.json
@@ -3749,7 +3619,7 @@ msgstr ""
 msgid "Lesson Reference"
 msgstr ""
 
-#. Label of the lesson_title (Data) field in DocType 'Scheduled Flow'
+#. Label of a Data field in DocType 'Scheduled Flow'
 #: lms/lms/doctype/scheduled_flow/scheduled_flow.json
 msgid "Lesson Title"
 msgstr ""
@@ -3770,9 +3640,9 @@ msgstr ""
 msgid "Lesson updated successfully"
 msgstr ""
 
-#. Label of the lessons (Table) field in DocType 'Course Chapter'
+#. Label of a Table field in DocType 'Course Chapter'
 #. Group in Course Chapter's connections
-#. Label of the lessons (Int) field in DocType 'LMS Course'
+#. Label of a Int field in DocType 'LMS Course'
 #: frontend/src/components/CourseCard.vue:53
 #: frontend/src/components/CourseCardOverlay.vue:131
 #: frontend/src/pages/Programs/ProgramEnrollment.vue:62
@@ -3795,7 +3665,7 @@ msgstr ""
 msgid "Letter Grade (e.g. A, B-)"
 msgstr ""
 
-#. Label of the limit_questions_to (Int) field in DocType 'LMS Quiz'
+#. Label of a Int field in DocType 'LMS Quiz'
 #: frontend/src/pages/QuizForm.vue:110 lms/lms/doctype/lms_quiz/lms_quiz.json
 msgid "Limit Questions To"
 msgstr ""
@@ -3806,11 +3676,6 @@ msgstr ""
 
 #: frontend/src/pages/ProfileAbout.vue:91
 msgid "LinkedIn"
-msgstr ""
-
-#. Label of the linkedin (Data) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "LinkedIn ID"
 msgstr ""
 
 #. Group in Cohort's connections
@@ -3825,15 +3690,15 @@ msgstr ""
 msgid "Live"
 msgstr ""
 
-#. Label of the live_class (Link) field in DocType 'LMS Live Class Participant'
-#. Label of the show_live_class (Check) field in DocType 'LMS Settings'
+#. Label of a Link field in DocType 'LMS Live Class Participant'
+#. Label of a Check field in DocType 'LMS Settings'
 #: frontend/src/components/LiveClass.vue:14
 #: lms/lms/doctype/lms_live_class_participant/lms_live_class_participant.json
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Live Class"
 msgstr ""
 
-#. Label of the livecode_url (Data) field in DocType 'LMS Settings'
+#. Label of a Data field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "LiveCode URL"
 msgstr ""
@@ -3858,17 +3723,12 @@ msgid "Local"
 msgstr ""
 
 #. Label of a field in the job-opportunity Web Form
-#. Label of the location (Data) field in DocType 'Education Detail'
-#. Label of the location (Data) field in DocType 'Work Experience'
+#. Label of a Data field in DocType 'Education Detail'
+#. Label of a Data field in DocType 'Work Experience'
 #: lms/job/web_form/job_opportunity/job_opportunity.json
 #: lms/lms/doctype/education_detail/education_detail.json
 #: lms/lms/doctype/work_experience/work_experience.json
 msgid "Location"
-msgstr ""
-
-#. Label of the location_preference (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Location Preference"
 msgstr ""
 
 #: frontend/src/components/NoPermission.vue:28
@@ -3893,7 +3753,7 @@ msgstr ""
 msgid "Looking forward to seeing you enrolled!"
 msgstr ""
 
-#. Label of the default_home (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Make LMS the default home"
 msgstr ""
@@ -3924,12 +3784,11 @@ msgstr ""
 msgid "Manager"
 msgstr ""
 
-#. Option for the 'User Category' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json lms/templates/signup-form.html:24
+#: lms/templates/signup-form.html:24
 msgid "Manager (Sales/Marketing/Customer)"
 msgstr ""
 
-#. Label of the manifest_file (Code) field in DocType 'Course Chapter'
+#. Label of a Code field in DocType 'Course Chapter'
 #: lms/lms/doctype/course_chapter/course_chapter.json
 msgid "Manifest File"
 msgstr ""
@@ -3942,8 +3801,8 @@ msgstr ""
 msgid "Mark all as read"
 msgstr ""
 
-#. Label of the marks (Int) field in DocType 'LMS Quiz Question'
-#. Label of the marks (Int) field in DocType 'LMS Quiz Result'
+#. Label of a Int field in DocType 'LMS Quiz Question'
+#. Label of a Int field in DocType 'LMS Quiz Result'
 #: frontend/src/components/Modals/Question.vue:40
 #: frontend/src/components/Modals/Question.vue:106
 #: frontend/src/components/Quiz.vue:120 frontend/src/pages/QuizForm.vue:348
@@ -3953,7 +3812,7 @@ msgstr ""
 msgid "Marks"
 msgstr ""
 
-#. Label of the marks_to_cut (Int) field in DocType 'LMS Quiz'
+#. Label of a Int field in DocType 'LMS Quiz'
 #: lms/lms/doctype/lms_quiz/lms_quiz.json
 msgid "Marks To Cut"
 msgstr ""
@@ -3962,7 +3821,7 @@ msgstr ""
 msgid "Marks for question number {0} cannot be greater than the marks allotted for that question."
 msgstr ""
 
-#. Label of the marks_out_of (Int) field in DocType 'LMS Quiz Result'
+#. Label of a Int field in DocType 'LMS Quiz Result'
 #: frontend/src/pages/QuizSubmission.vue:67
 #: lms/lms/doctype/lms_quiz_result/lms_quiz_result.json
 msgid "Marks out of"
@@ -3972,7 +3831,7 @@ msgstr ""
 msgid "Marks to Deduct"
 msgstr ""
 
-#. Label of the max_attempts (Int) field in DocType 'LMS Quiz'
+#. Label of a Int field in DocType 'LMS Quiz'
 #: frontend/src/pages/Quizzes.vue:249 lms/lms/doctype/lms_quiz/lms_quiz.json
 msgid "Max Attempts"
 msgstr ""
@@ -3981,15 +3840,10 @@ msgstr ""
 msgid "Maximum Attempts"
 msgstr ""
 
-#. Label of the medium (Select) field in DocType 'LMS Batch'
+#. Label of a Select field in DocType 'LMS Batch'
 #: frontend/src/pages/BatchForm.vue:194
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Medium"
-msgstr ""
-
-#. Label of the medium (Data) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Medium ID"
 msgstr ""
 
 #: lms/templates/emails/batch_confirmation.html:16
@@ -3997,33 +3851,32 @@ msgstr ""
 msgid "Medium:"
 msgstr ""
 
-#. Label of the meeting_id (Data) field in DocType 'LMS Live Class'
+#. Label of a Data field in DocType 'LMS Live Class'
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Meeting ID"
 msgstr ""
 
-#. Label of the member (Link) field in DocType 'Exercise Latest Submission'
-#. Label of the member (Link) field in DocType 'Exercise Submission'
-#. Label of the member (Link) field in DocType 'LMS Assignment Submission'
-#. Label of the member (Link) field in DocType 'LMS Badge Assignment'
-#. Label of the member (Link) field in DocType 'LMS Batch Enrollment'
-#. Label of the member (Link) field in DocType 'LMS Batch Feedback'
-#. Label of the member (Link) field in DocType 'LMS Certificate'
-#. Label of the member (Link) field in DocType 'LMS Certificate Evaluation'
-#. Label of the member (Link) field in DocType 'LMS Certificate Request'
-#. Label of the member (Link) field in DocType 'LMS Course Progress'
-#. Label of the member (Link) field in DocType 'LMS Enrollment'
+#. Label of a Link field in DocType 'Exercise Latest Submission'
+#. Label of a Link field in DocType 'Exercise Submission'
+#. Label of a Link field in DocType 'LMS Assignment Submission'
+#. Label of a Link field in DocType 'LMS Badge Assignment'
+#. Label of a Link field in DocType 'LMS Batch Enrollment'
+#. Label of a Link field in DocType 'LMS Batch Feedback'
+#. Label of a Link field in DocType 'LMS Certificate'
+#. Label of a Link field in DocType 'LMS Certificate Evaluation'
+#. Label of a Link field in DocType 'LMS Certificate Request'
+#. Label of a Link field in DocType 'LMS Course Progress'
+#. Label of a Link field in DocType 'LMS Enrollment'
 #. Option for the 'Role' (Select) field in DocType 'LMS Enrollment'
-#. Label of the member (Link) field in DocType 'LMS Lesson Note'
-#. Label of the member (Link) field in DocType 'LMS Live Class Participant'
-#. Label of the member (Link) field in DocType 'LMS Mentor Request'
-#. Label of the member (Link) field in DocType 'LMS Payment'
-#. Label of the member (Link) field in DocType 'LMS Program Member'
-#. Label of the member (Link) field in DocType 'LMS Programming Exercise
-#. Submission'
-#. Label of the member (Link) field in DocType 'LMS Quiz Submission'
-#. Label of the member (Link) field in DocType 'LMS Video Watch Duration'
-#. Label of the member (Link) field in DocType 'LMS Zoom Settings'
+#. Label of a Link field in DocType 'LMS Lesson Note'
+#. Label of a Link field in DocType 'LMS Live Class Participant'
+#. Label of a Link field in DocType 'LMS Mentor Request'
+#. Label of a Link field in DocType 'LMS Payment'
+#. Label of a Link field in DocType 'LMS Program Member'
+#. Label of a Link field in DocType 'LMS Programming Exercise Submission'
+#. Label of a Link field in DocType 'LMS Quiz Submission'
+#. Label of a Link field in DocType 'LMS Video Watch Duration'
+#. Label of a Link field in DocType 'LMS Zoom Settings'
 #: frontend/src/components/Modals/CourseProgressSummary.vue:218
 #: frontend/src/components/Modals/LiveClassAttendance.vue:14
 #: frontend/src/components/Modals/VideoStatistics.vue:31
@@ -4062,36 +3915,28 @@ msgstr ""
 msgid "Member"
 msgstr ""
 
-#. Label of the member_cohort (Link) field in DocType 'Exercise Latest
-#. Submission'
+#. Label of a Link field in DocType 'Exercise Latest Submission'
 #: lms/lms/doctype/exercise_latest_submission/exercise_latest_submission.json
 msgid "Member Cohort"
 msgstr ""
 
-#. Label of the member_count (Int) field in DocType 'LMS Program'
+#. Label of a Int field in DocType 'LMS Program'
 #: lms/lms/doctype/lms_program/lms_program.json
 msgid "Member Count"
 msgstr ""
 
-#. Label of the member_email (Link) field in DocType 'Exercise Latest
-#. Submission'
+#. Label of a Link field in DocType 'Exercise Latest Submission'
 #: lms/lms/doctype/exercise_latest_submission/exercise_latest_submission.json
 msgid "Member Email"
 msgstr ""
 
-#. Label of the member_image (Attach Image) field in DocType 'LMS Badge
-#. Assignment'
-#. Label of the member_image (Attach Image) field in DocType 'LMS Batch
-#. Feedback'
-#. Label of the member_image (Attach Image) field in DocType 'LMS Enrollment'
-#. Label of the member_image (Attach Image) field in DocType 'LMS Live Class
-#. Participant'
-#. Label of the member_image (Attach) field in DocType 'LMS Programming
-#. Exercise Submission'
-#. Label of the member_image (Attach Image) field in DocType 'LMS Video Watch
-#. Duration'
-#. Label of the member_image (Attach Image) field in DocType 'LMS Zoom
-#. Settings'
+#. Label of a Attach Image field in DocType 'LMS Badge Assignment'
+#. Label of a Attach Image field in DocType 'LMS Batch Feedback'
+#. Label of a Attach Image field in DocType 'LMS Enrollment'
+#. Label of a Attach Image field in DocType 'LMS Live Class Participant'
+#. Label of a Attach field in DocType 'LMS Programming Exercise Submission'
+#. Label of a Attach Image field in DocType 'LMS Video Watch Duration'
+#. Label of a Attach Image field in DocType 'LMS Zoom Settings'
 #: lms/lms/doctype/lms_badge_assignment/lms_badge_assignment.json
 #: lms/lms/doctype/lms_batch_feedback/lms_batch_feedback.json
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
@@ -4102,24 +3947,21 @@ msgstr ""
 msgid "Member Image"
 msgstr ""
 
-#. Label of the member_name (Data) field in DocType 'LMS Assignment Submission'
-#. Label of the member_name (Data) field in DocType 'LMS Badge Assignment'
-#. Label of the member_name (Data) field in DocType 'LMS Batch Enrollment'
-#. Label of the member_name (Data) field in DocType 'LMS Batch Feedback'
-#. Label of the member_name (Data) field in DocType 'LMS Certificate'
-#. Label of the member_name (Data) field in DocType 'LMS Certificate
-#. Evaluation'
-#. Label of the member_name (Data) field in DocType 'LMS Certificate Request'
-#. Label of the member_name (Data) field in DocType 'LMS Course Progress'
-#. Label of the member_name (Data) field in DocType 'LMS Enrollment'
-#. Label of the member_name (Data) field in DocType 'LMS Live Class
-#. Participant'
-#. Label of the member_name (Data) field in DocType 'LMS Mentor Request'
-#. Label of the member_name (Data) field in DocType 'LMS Programming Exercise
-#. Submission'
-#. Label of the member_name (Data) field in DocType 'LMS Quiz Submission'
-#. Label of the member_name (Data) field in DocType 'LMS Video Watch Duration'
-#. Label of the member_name (Data) field in DocType 'LMS Zoom Settings'
+#. Label of a Data field in DocType 'LMS Assignment Submission'
+#. Label of a Data field in DocType 'LMS Badge Assignment'
+#. Label of a Data field in DocType 'LMS Batch Enrollment'
+#. Label of a Data field in DocType 'LMS Batch Feedback'
+#. Label of a Data field in DocType 'LMS Certificate'
+#. Label of a Data field in DocType 'LMS Certificate Evaluation'
+#. Label of a Data field in DocType 'LMS Certificate Request'
+#. Label of a Data field in DocType 'LMS Course Progress'
+#. Label of a Data field in DocType 'LMS Enrollment'
+#. Label of a Data field in DocType 'LMS Live Class Participant'
+#. Label of a Data field in DocType 'LMS Mentor Request'
+#. Label of a Data field in DocType 'LMS Programming Exercise Submission'
+#. Label of a Data field in DocType 'LMS Quiz Submission'
+#. Label of a Data field in DocType 'LMS Video Watch Duration'
+#. Label of a Data field in DocType 'LMS Zoom Settings'
 #: lms/lms/doctype/lms_assignment_submission/lms_assignment_submission.json
 #: lms/lms/doctype/lms_badge_assignment/lms_badge_assignment.json
 #: lms/lms/doctype/lms_batch_enrollment/lms_batch_enrollment.json
@@ -4139,24 +3981,21 @@ msgstr ""
 msgid "Member Name"
 msgstr ""
 
-#. Label of the member_subgroup (Link) field in DocType 'Exercise Latest
-#. Submission'
+#. Label of a Link field in DocType 'Exercise Latest Submission'
 #: lms/lms/doctype/exercise_latest_submission/exercise_latest_submission.json
 msgid "Member Subgroup"
 msgstr ""
 
-#. Label of the member_type (Select) field in DocType 'LMS Enrollment'
+#. Label of a Select field in DocType 'LMS Enrollment'
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
 msgid "Member Type"
 msgstr ""
 
-#. Label of the member_username (Data) field in DocType 'LMS Badge Assignment'
-#. Label of the member_username (Data) field in DocType 'LMS Batch Enrollment'
-#. Label of the member_username (Data) field in DocType 'LMS Enrollment'
-#. Label of the member_username (Data) field in DocType 'LMS Live Class
-#. Participant'
-#. Label of the member_username (Data) field in DocType 'LMS Video Watch
-#. Duration'
+#. Label of a Data field in DocType 'LMS Badge Assignment'
+#. Label of a Data field in DocType 'LMS Batch Enrollment'
+#. Label of a Data field in DocType 'LMS Enrollment'
+#. Label of a Data field in DocType 'LMS Live Class Participant'
+#. Label of a Data field in DocType 'LMS Video Watch Duration'
 #: lms/lms/doctype/lms_badge_assignment/lms_badge_assignment.json
 #: lms/lms/doctype/lms_batch_enrollment/lms_batch_enrollment.json
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
@@ -4183,13 +4022,13 @@ msgstr ""
 msgid "Members"
 msgstr ""
 
-#. Label of the membership (Select) field in DocType 'LMS Batch Old'
+#. Label of a Select field in DocType 'LMS Batch Old'
 #: lms/lms/doctype/lms_batch_old/lms_batch_old.json
 msgid "Membership"
 msgstr ""
 
 #. Option for the 'Required Role' (Select) field in DocType 'Cohort Web Page'
-#. Label of the mentor (Link) field in DocType 'LMS Course Mentor Mapping'
+#. Label of a Link field in DocType 'LMS Course Mentor Mapping'
 #. Option for the 'Member Type' (Select) field in DocType 'LMS Enrollment'
 #: lms/lms/doctype/cohort_web_page/cohort_web_page.json
 #: lms/lms/doctype/lms_course_mentor_mapping/lms_course_mentor_mapping.json
@@ -4197,18 +4036,17 @@ msgstr ""
 msgid "Mentor"
 msgstr ""
 
-#. Label of the mentor_name (Data) field in DocType 'LMS Course Mentor Mapping'
+#. Label of a Data field in DocType 'LMS Course Mentor Mapping'
 #: lms/lms/doctype/lms_course_mentor_mapping/lms_course_mentor_mapping.json
 msgid "Mentor Name"
 msgstr ""
 
-#. Label of the mentor_request_section (Section Break) field in DocType 'LMS
-#. Settings'
+#. Label of a Section Break field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Mentor Request"
 msgstr ""
 
-#. Label of the mentor_request_creation (Link) field in DocType 'LMS Settings'
+#. Label of a Link field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 #: lms/patches/create_mentor_request_email_templates.py:11
 #: lms/patches/create_mentor_request_email_templates.py:16
@@ -4216,8 +4054,7 @@ msgstr ""
 msgid "Mentor Request Creation Template"
 msgstr ""
 
-#. Label of the mentor_request_status_update (Link) field in DocType 'LMS
-#. Settings'
+#. Label of a Link field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 #: lms/patches/create_mentor_request_email_templates.py:29
 #: lms/patches/create_mentor_request_email_templates.py:34
@@ -4229,21 +4066,21 @@ msgstr ""
 msgid "Message"
 msgstr ""
 
-#. Label of the meta_description (Small Text) field in DocType 'LMS Settings'
+#. Label of a Small Text field in DocType 'LMS Settings'
 #: frontend/src/pages/BatchForm.vue:297 frontend/src/pages/CourseForm.vue:303
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Meta Description"
 msgstr ""
 
-#. Label of the meta_image (Attach Image) field in DocType 'LMS Batch'
-#. Label of the meta_image (Attach Image) field in DocType 'LMS Settings'
+#. Label of a Attach Image field in DocType 'LMS Batch'
+#. Label of a Attach Image field in DocType 'LMS Settings'
 #: frontend/src/pages/BatchForm.vue:207
 #: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Meta Image"
 msgstr ""
 
-#. Label of the meta_keywords (Small Text) field in DocType 'LMS Settings'
+#. Label of a Small Text field in DocType 'LMS Settings'
 #: frontend/src/pages/BatchForm.vue:303 frontend/src/pages/CourseForm.vue:309
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Meta Keywords"
@@ -4257,7 +4094,7 @@ msgstr ""
 msgid "Meta tags should be a list."
 msgstr ""
 
-#. Label of the milestone (Check) field in DocType 'LMS Batch Timetable'
+#. Label of a Check field in DocType 'LMS Batch Timetable'
 #: lms/lms/doctype/lms_batch_timetable/lms_batch_timetable.json
 msgid "Milestone"
 msgstr ""
@@ -4328,7 +4165,7 @@ msgstr ""
 msgid "More"
 msgstr ""
 
-#. Label of the multiple (Check) field in DocType 'LMS Question'
+#. Label of a Check field in DocType 'LMS Question'
 #: lms/lms/doctype/lms_question/lms_question.json
 msgid "Multiple Correct Answers"
 msgstr ""
@@ -4576,7 +4413,7 @@ msgstr ""
 msgid "Not Saved"
 msgstr ""
 
-#. Label of the note (Text Editor) field in DocType 'LMS Lesson Note'
+#. Label of a Text Editor field in DocType 'LMS Lesson Note'
 #: lms/lms/doctype/lms_lesson_note/lms_lesson_note.json
 msgid "Note"
 msgstr ""
@@ -4590,7 +4427,7 @@ msgstr ""
 msgid "Nothing to see here."
 msgstr ""
 
-#. Label of the notifications (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Notifications"
 msgstr ""
@@ -4607,14 +4444,9 @@ msgstr ""
 msgid "Number of seats available"
 msgstr ""
 
-#. Label of the sb_00 (Section Break) field in DocType 'Zoom Settings'
+#. Label of a Section Break field in DocType 'Zoom Settings'
 #: lms/lms/doctype/zoom_settings/zoom_settings.json
 msgid "OAuth Client ID"
-msgstr ""
-
-#. Option for the 'Location Preference' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Office close to Home"
 msgstr ""
 
 #. Option for the 'Medium' (Select) field in DocType 'LMS Batch'
@@ -4680,28 +4512,28 @@ msgstr ""
 msgid "Open the "
 msgstr ""
 
-#. Label of the option (Data) field in DocType 'LMS Option'
+#. Label of a Data field in DocType 'LMS Option'
 #: frontend/src/components/Modals/Question.vue:70
 #: lms/lms/doctype/lms_option/lms_option.json
 msgid "Option"
 msgstr ""
 
-#. Label of the option_1 (Small Text) field in DocType 'LMS Question'
+#. Label of a Small Text field in DocType 'LMS Question'
 #: lms/lms/doctype/lms_question/lms_question.json
 msgid "Option 1"
 msgstr ""
 
-#. Label of the option_2 (Small Text) field in DocType 'LMS Question'
+#. Label of a Small Text field in DocType 'LMS Question'
 #: lms/lms/doctype/lms_question/lms_question.json
 msgid "Option 2"
 msgstr ""
 
-#. Label of the option_3 (Small Text) field in DocType 'LMS Question'
+#. Label of a Small Text field in DocType 'LMS Question'
 #: lms/lms/doctype/lms_question/lms_question.json
 msgid "Option 3"
 msgstr ""
 
-#. Label of the option_4 (Small Text) field in DocType 'LMS Question'
+#. Label of a Small Text field in DocType 'LMS Question'
 #: lms/lms/doctype/lms_question/lms_question.json
 msgid "Option 4"
 msgstr ""
@@ -4715,13 +4547,13 @@ msgstr ""
 msgid "Orange"
 msgstr ""
 
-#. Label of the order_id (Data) field in DocType 'LMS Payment'
+#. Label of a Data field in DocType 'LMS Payment'
 #: frontend/src/components/Settings/TransactionDetails.vue:70
 #: lms/lms/doctype/lms_payment/lms_payment.json
 msgid "Order ID"
 msgstr ""
 
-#. Label of the organization (Data) field in DocType 'Certification'
+#. Label of a Data field in DocType 'Certification'
 #: lms/lms/doctype/certification/certification.json
 msgid "Organization"
 msgstr ""
@@ -4730,8 +4562,7 @@ msgstr ""
 msgid "Original Amount"
 msgstr ""
 
-#. Option for the 'User Category' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json lms/templates/signup-form.html:28
+#: lms/templates/signup-form.html:28
 msgid "Others"
 msgstr ""
 
@@ -4743,7 +4574,7 @@ msgstr ""
 msgid "Our Upcoming Batches"
 msgstr ""
 
-#. Label of the output (Data) field in DocType 'LMS Test Case Submission'
+#. Label of a Data field in DocType 'LMS Test Case Submission'
 #: lms/lms/doctype/lms_test_case_submission/lms_test_case_submission.json
 msgid "Output"
 msgstr ""
@@ -4753,7 +4584,7 @@ msgstr ""
 msgid "Owner"
 msgstr ""
 
-#. Label of the pan (Data) field in DocType 'LMS Payment'
+#. Label of a Data field in DocType 'LMS Payment'
 #: frontend/src/components/Settings/TransactionDetails.vue:77
 #: lms/lms/doctype/lms_payment/lms_payment.json
 msgid "PAN"
@@ -4768,18 +4599,18 @@ msgstr ""
 msgid "PDF"
 msgstr ""
 
-#. Label of the pages (Table) field in DocType 'Cohort'
+#. Label of a Table field in DocType 'Cohort'
 #: lms/lms/doctype/cohort/cohort.json
 msgid "Pages"
 msgstr ""
 
-#. Label of the paid_batch (Check) field in DocType 'LMS Batch'
+#. Label of a Check field in DocType 'LMS Batch'
 #: frontend/src/pages/BatchForm.vue:270
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Paid Batch"
 msgstr ""
 
-#. Label of the paid_certificate (Check) field in DocType 'LMS Course'
+#. Label of a Check field in DocType 'LMS Course'
 #: frontend/src/pages/CourseForm.vue:254
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Paid Certificate"
@@ -4789,7 +4620,7 @@ msgstr ""
 msgid "Paid Certificate after Evaluation"
 msgstr ""
 
-#. Label of the paid_course (Check) field in DocType 'LMS Course'
+#. Label of a Check field in DocType 'LMS Course'
 #: frontend/src/pages/CourseForm.vue:244
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Paid Course"
@@ -4831,15 +4662,15 @@ msgstr ""
 msgid "Passed"
 msgstr ""
 
-#. Label of the passing_percentage (Int) field in DocType 'LMS Quiz'
-#. Label of the passing_percentage (Int) field in DocType 'LMS Quiz Submission'
+#. Label of a Int field in DocType 'LMS Quiz'
+#. Label of a Int field in DocType 'LMS Quiz Submission'
 #: frontend/src/pages/QuizForm.vue:78 frontend/src/pages/Quizzes.vue:242
 #: lms/lms/doctype/lms_quiz/lms_quiz.json
 #: lms/lms/doctype/lms_quiz_submission/lms_quiz_submission.json
 msgid "Passing Percentage"
 msgstr ""
 
-#. Label of the password (Password) field in DocType 'LMS Live Class'
+#. Label of a Password field in DocType 'LMS Live Class'
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Password"
 msgstr ""
@@ -4848,8 +4679,8 @@ msgstr ""
 msgid "Paste the youtube link of a short video introducing the course"
 msgstr ""
 
-#. Label of the payment (Link) field in DocType 'LMS Batch Enrollment'
-#. Label of the payment (Link) field in DocType 'LMS Enrollment'
+#. Label of a Link field in DocType 'LMS Batch Enrollment'
+#. Label of a Link field in DocType 'LMS Enrollment'
 #: lms/lms/doctype/lms_batch_enrollment/lms_batch_enrollment.json
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
 msgid "Payment"
@@ -4860,8 +4691,7 @@ msgstr ""
 msgid "Payment Country"
 msgstr ""
 
-#. Label of the payment_details_section (Section Break) field in DocType 'LMS
-#. Payment'
+#. Label of a Section Break field in DocType 'LMS Payment'
 #: frontend/src/components/Settings/TransactionDetails.vue:42
 #: lms/lms/doctype/lms_payment/lms_payment.json
 msgid "Payment Details"
@@ -4879,18 +4709,18 @@ msgstr ""
 msgid "Payment For Document Type"
 msgstr ""
 
-#. Label of the payment_gateway (Data) field in DocType 'LMS Settings'
+#. Label of a Data field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Payment Gateway"
 msgstr ""
 
-#. Label of the payment_id (Data) field in DocType 'LMS Payment'
+#. Label of a Data field in DocType 'LMS Payment'
 #: frontend/src/components/Settings/TransactionDetails.vue:79
 #: lms/lms/doctype/lms_payment/lms_payment.json
 msgid "Payment ID"
 msgstr ""
 
-#. Label of the payment_received (Check) field in DocType 'LMS Payment'
+#. Label of a Check field in DocType 'LMS Payment'
 #: frontend/src/components/Settings/TransactionDetails.vue:13
 #: frontend/src/components/Settings/Transactions.vue:25
 #: frontend/src/components/Settings/Transactions.vue:226
@@ -4898,14 +4728,12 @@ msgstr ""
 msgid "Payment Received"
 msgstr ""
 
-#. Label of the payment_reminder_template (Link) field in DocType 'LMS
-#. Settings'
+#. Label of a Link field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Payment Reminder Template"
 msgstr ""
 
-#. Label of the payment_settings_tab (Tab Break) field in DocType 'LMS
-#. Settings'
+#. Label of a Tab Break field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Payment Settings"
 msgstr ""
@@ -4914,27 +4742,24 @@ msgstr ""
 msgid "Payment for "
 msgstr ""
 
-#. Label of the payment_for_certificate (Check) field in DocType 'LMS Payment'
+#. Label of a Check field in DocType 'LMS Payment'
 #: frontend/src/components/Settings/Transactions.vue:30
 #: frontend/src/components/Settings/Transactions.vue:233
 #: lms/lms/doctype/lms_payment/lms_payment.json
 msgid "Payment for Certificate"
 msgstr ""
 
-#. Label of the payment_for_document (Dynamic Link) field in DocType 'LMS
-#. Payment'
+#. Label of a Dynamic Link field in DocType 'LMS Payment'
 #: lms/lms/doctype/lms_payment/lms_payment.json
 msgid "Payment for Document"
 msgstr ""
 
-#. Label of the payment_for_document_type (Select) field in DocType 'LMS
-#. Payment'
+#. Label of a Select field in DocType 'LMS Payment'
 #: lms/lms/doctype/lms_payment/lms_payment.json
 msgid "Payment for Document Type"
 msgstr ""
 
-#. Label of the payments_app_is_not_installed (HTML) field in DocType 'LMS
-#. Settings'
+#. Label of a HTML field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Payments app is not installed"
 msgstr ""
@@ -4950,7 +4775,7 @@ msgstr ""
 msgid "Pending"
 msgstr ""
 
-#. Label of the percentage (Int) field in DocType 'LMS Quiz Submission'
+#. Label of a Int field in DocType 'LMS Quiz Submission'
 #: frontend/src/pages/QuizSubmission.vue:44
 #: frontend/src/pages/QuizSubmissionList.vue:102
 #: lms/lms/doctype/lms_quiz_submission/lms_quiz_submission.json
@@ -4966,7 +4791,7 @@ msgstr ""
 msgid "Percentage/Status"
 msgstr ""
 
-#. Label of the persona_captured (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Persona Captured"
 msgstr ""
@@ -5143,22 +4968,22 @@ msgstr ""
 msgid "Possibility"
 msgstr ""
 
-#. Label of the possibility_1 (Small Text) field in DocType 'LMS Question'
+#. Label of a Small Text field in DocType 'LMS Question'
 #: lms/lms/doctype/lms_question/lms_question.json
 msgid "Possible Answer 1"
 msgstr ""
 
-#. Label of the possibility_2 (Small Text) field in DocType 'LMS Question'
+#. Label of a Small Text field in DocType 'LMS Question'
 #: lms/lms/doctype/lms_question/lms_question.json
 msgid "Possible Answer 2"
 msgstr ""
 
-#. Label of the possibility_3 (Small Text) field in DocType 'LMS Question'
+#. Label of a Small Text field in DocType 'LMS Question'
 #: lms/lms/doctype/lms_question/lms_question.json
 msgid "Possible Answer 3"
 msgstr ""
 
-#. Label of the possibility_4 (Small Text) field in DocType 'LMS Question'
+#. Label of a Small Text field in DocType 'LMS Question'
 #: lms/lms/doctype/lms_question/lms_question.json
 msgid "Possible Answer 4"
 msgstr ""
@@ -5181,33 +5006,17 @@ msgstr ""
 msgid "Preferred Function"
 msgstr ""
 
-#. Label of the preferred_functions (Table MultiSelect) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Preferred Functions"
-msgstr ""
-
-#. Label of the preferred_industries (Table MultiSelect) field in DocType
-#. 'User'
-#: lms/fixtures/custom_field.json
-msgid "Preferred Industries"
-msgstr ""
-
 #. Name of a DocType
 #: lms/lms/doctype/preferred_industry/preferred_industry.json
 msgid "Preferred Industry"
 msgstr ""
 
-#. Label of the preferred_location (Data) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Preferred Location"
-msgstr ""
-
-#. Label of the prevent_skipping_videos (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Prevent Skipping Videos"
 msgstr ""
 
-#. Label of the image (Attach Image) field in DocType 'LMS Course'
+#. Label of a Attach Image field in DocType 'LMS Course'
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Preview Image"
 msgstr ""
@@ -5220,25 +5029,24 @@ msgstr ""
 msgid "Previous"
 msgstr ""
 
-#. Label of the pricing_tab (Tab Break) field in DocType 'LMS Batch'
+#. Label of a Tab Break field in DocType 'LMS Batch'
 #: frontend/src/pages/BatchForm.vue:265
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Pricing"
 msgstr ""
 
-#. Label of the pricing_tab (Tab Break) field in DocType 'LMS Course'
+#. Label of a Tab Break field in DocType 'LMS Course'
 #: frontend/src/pages/CourseForm.vue:238
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Pricing and Certification"
 msgstr ""
 
-#. Label of the exception_country (Table MultiSelect) field in DocType 'LMS
-#. Settings'
+#. Label of a Table MultiSelect field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Primary Countries"
 msgstr ""
 
-#. Label of the subgroup (Link) field in DocType 'Cohort Mentor'
+#. Label of a Link field in DocType 'Cohort Mentor'
 #: lms/lms/doctype/cohort_mentor/cohort_mentor.json
 msgid "Primary Subgroup"
 msgstr ""
@@ -5252,14 +5060,7 @@ msgstr ""
 msgid "Private"
 msgstr ""
 
-#. Description of the 'Hide my Private Information from others' (Check) field
-#. in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Private Information includes your Grade and Work Environment Preferences"
-msgstr ""
-
-#. Label of the problem_statement (Text Editor) field in DocType 'LMS
-#. Programming Exercise'
+#. Label of a Text Editor field in DocType 'LMS Programming Exercise'
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseForm.vue:41
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmission.vue:25
 #: lms/lms/doctype/lms_programming_exercise/lms_programming_exercise.json
@@ -5270,11 +5071,6 @@ msgstr ""
 msgid "Proceed to Payment"
 msgstr ""
 
-#. Label of the profession (Data) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Profession"
-msgstr ""
-
 #: frontend/src/components/Modals/EditProfile.vue:25
 msgid "Profile Image"
 msgstr ""
@@ -5283,7 +5079,7 @@ msgstr ""
 msgid "Program"
 msgstr ""
 
-#. Label of the program_courses (Table) field in DocType 'LMS Program'
+#. Label of a Table field in DocType 'LMS Program'
 #: lms/lms/doctype/lms_program/lms_program.json
 msgid "Program Courses"
 msgstr ""
@@ -5292,7 +5088,7 @@ msgstr ""
 msgid "Program Member"
 msgstr ""
 
-#. Label of the program_members (Table) field in DocType 'LMS Program'
+#. Label of a Table field in DocType 'LMS Program'
 #: lms/lms/doctype/lms_program/lms_program.json
 msgid "Program Members"
 msgstr ""
@@ -5336,7 +5132,7 @@ msgstr ""
 msgid "Programming Exercise updated successfully"
 msgstr ""
 
-#. Label of the programming_exercises (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmissions.vue:308
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExercises.vue:158
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExercises.vue:166
@@ -5351,8 +5147,8 @@ msgstr ""
 msgid "Programs"
 msgstr ""
 
-#. Label of the progress (Float) field in DocType 'LMS Enrollment'
-#. Label of the progress (Int) field in DocType 'LMS Program Member'
+#. Label of a Float field in DocType 'LMS Enrollment'
+#. Label of a Int field in DocType 'LMS Program Member'
 #: frontend/src/components/Modals/BatchStudentProgress.vue:94
 #: frontend/src/components/Modals/CourseProgressSummary.vue:224
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
@@ -5390,14 +5186,14 @@ msgstr ""
 msgid "Public"
 msgstr ""
 
-#. Label of the published (Check) field in DocType 'LMS Certificate'
+#. Label of a Check field in DocType 'LMS Certificate'
 #: lms/lms/doctype/lms_certificate/lms_certificate.json
 msgid "Publish on Participant Page"
 msgstr ""
 
-#. Label of the published (Check) field in DocType 'LMS Batch'
-#. Label of the published (Check) field in DocType 'LMS Course'
-#. Label of the published (Check) field in DocType 'LMS Program'
+#. Label of a Check field in DocType 'LMS Batch'
+#. Label of a Check field in DocType 'LMS Course'
+#. Label of a Check field in DocType 'LMS Program'
 #: frontend/src/components/Modals/BulkCertificates.vue:51
 #: frontend/src/components/Modals/Event.vue:108
 #: frontend/src/pages/BatchForm.vue:59 frontend/src/pages/CourseForm.vue:152
@@ -5415,13 +5211,13 @@ msgstr ""
 msgid "Published Courses"
 msgstr ""
 
-#. Label of the published_on (Date) field in DocType 'LMS Course'
+#. Label of a Date field in DocType 'LMS Course'
 #: frontend/src/pages/CourseForm.vue:156
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Published On"
 msgstr ""
 
-#. Label of the purchased_certificate (Check) field in DocType 'LMS Enrollment'
+#. Label of a Check field in DocType 'LMS Enrollment'
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
 msgid "Purchased Certificate"
 msgstr ""
@@ -5439,13 +5235,12 @@ msgstr ""
 msgid "Python"
 msgstr ""
 
-#. Label of the question (Small Text) field in DocType 'Course Lesson'
-#. Label of the question (Text Editor) field in DocType 'LMS Assignment'
-#. Label of the question (Text Editor) field in DocType 'LMS Assignment
-#. Submission'
-#. Label of the question (Text Editor) field in DocType 'LMS Question'
-#. Label of the question (Link) field in DocType 'LMS Quiz Question'
-#. Label of the question (Text) field in DocType 'LMS Quiz Result'
+#. Label of a Small Text field in DocType 'Course Lesson'
+#. Label of a Text Editor field in DocType 'LMS Assignment'
+#. Label of a Text Editor field in DocType 'LMS Assignment Submission'
+#. Label of a Text Editor field in DocType 'LMS Question'
+#. Label of a Link field in DocType 'LMS Quiz Question'
+#. Label of a Text field in DocType 'LMS Quiz Result'
 #: frontend/src/components/Assignment.vue:20
 #: frontend/src/components/Modals/AssignmentForm.vue:32
 #: frontend/src/components/Modals/Question.vue:27
@@ -5459,12 +5254,12 @@ msgstr ""
 msgid "Question"
 msgstr ""
 
-#. Label of the question_detail (Text) field in DocType 'LMS Quiz Question'
+#. Label of a Text field in DocType 'LMS Quiz Question'
 #: lms/lms/doctype/lms_quiz_question/lms_quiz_question.json
 msgid "Question Detail"
 msgstr ""
 
-#. Label of the question_name (Link) field in DocType 'LMS Quiz Result'
+#. Label of a Link field in DocType 'LMS Quiz Result'
 #: lms/lms/doctype/lms_quiz_result/lms_quiz_result.json
 msgid "Question Name"
 msgstr ""
@@ -5485,7 +5280,7 @@ msgstr ""
 msgid "Question {0} of {1}"
 msgstr ""
 
-#. Label of the questions (Table) field in DocType 'LMS Quiz'
+#. Label of a Table field in DocType 'LMS Quiz'
 #: frontend/src/pages/QuizForm.vue:131 lms/lms/doctype/lms_quiz/lms_quiz.json
 msgid "Questions"
 msgstr ""
@@ -5494,7 +5289,7 @@ msgstr ""
 msgid "Questions deleted successfully"
 msgstr ""
 
-#. Label of the quiz (Link) field in DocType 'LMS Quiz Submission'
+#. Label of a Link field in DocType 'LMS Quiz Submission'
 #. Label of a Link in the LMS Workspace
 #: frontend/src/components/Assessments.vue:247
 #: frontend/src/components/Modals/QuizInVideo.vue:21
@@ -5505,7 +5300,7 @@ msgstr ""
 msgid "Quiz"
 msgstr ""
 
-#. Label of the quiz_id (Data) field in DocType 'Course Lesson'
+#. Label of a Data field in DocType 'Course Lesson'
 #: lms/lms/doctype/course_lesson/course_lesson.json
 msgid "Quiz ID"
 msgstr ""
@@ -5527,7 +5322,7 @@ msgstr ""
 msgid "Quiz Summary"
 msgstr ""
 
-#. Label of the quiz_title (Data) field in DocType 'LMS Quiz Submission'
+#. Label of a Data field in DocType 'LMS Quiz Submission'
 #: lms/lms/doctype/lms_quiz_submission/lms_quiz_submission.json
 msgid "Quiz Title"
 msgstr ""
@@ -5563,9 +5358,9 @@ msgstr ""
 msgid "Quizzes in this video"
 msgstr ""
 
-#. Label of the rating (Rating) field in DocType 'LMS Certificate Evaluation'
-#. Label of the rating (Data) field in DocType 'LMS Course'
-#. Label of the rating (Rating) field in DocType 'LMS Course Review'
+#. Label of a Rating field in DocType 'LMS Certificate Evaluation'
+#. Label of a Data field in DocType 'LMS Course'
+#. Label of a Rating field in DocType 'LMS Course Review'
 #: frontend/src/components/CourseCardOverlay.vue:147
 #: frontend/src/components/Modals/Event.vue:86
 #: frontend/src/components/Modals/ReviewModal.vue:18
@@ -5592,21 +5387,19 @@ msgstr ""
 msgid "Red"
 msgstr ""
 
-#. Label of the reference_docname (Dynamic Link) field in DocType 'LMS Batch
-#. Timetable'
+#. Label of a Dynamic Link field in DocType 'LMS Batch Timetable'
 #: lms/lms/doctype/lms_batch_timetable/lms_batch_timetable.json
 msgid "Reference DocName"
 msgstr ""
 
-#. Label of the reference_doctype (Link) field in DocType 'LMS Batch Timetable'
-#. Label of the reference_doctype (Link) field in DocType 'LMS Timetable
-#. Legend'
+#. Label of a Link field in DocType 'LMS Batch Timetable'
+#. Label of a Link field in DocType 'LMS Timetable Legend'
 #: lms/lms/doctype/lms_batch_timetable/lms_batch_timetable.json
 #: lms/lms/doctype/lms_timetable_legend/lms_timetable_legend.json
 msgid "Reference DocType"
 msgstr ""
 
-#. Label of the reference_doctype (Link) field in DocType 'LMS Badge'
+#. Label of a Link field in DocType 'LMS Badge'
 #: lms/lms/doctype/lms_badge/lms_badge.json
 msgid "Reference Document Type"
 msgstr ""
@@ -5630,7 +5423,7 @@ msgstr ""
 msgid "Rejected"
 msgstr ""
 
-#. Label of the related_courses (Table) field in DocType 'LMS Course'
+#. Label of a Table field in DocType 'LMS Course'
 #. Name of a DocType
 #: frontend/src/components/RelatedCourses.vue:5
 #: frontend/src/pages/CourseForm.vue:223
@@ -5669,7 +5462,7 @@ msgstr ""
 msgid "Request for Mentorship"
 msgstr ""
 
-#. Label of the required_role (Select) field in DocType 'Cohort Web Page'
+#. Label of a Select field in DocType 'Cohort Web Page'
 #: lms/lms/doctype/cohort_web_page/cohort_web_page.json
 msgid "Required Role"
 msgstr ""
@@ -5679,12 +5472,12 @@ msgstr ""
 msgid "Restricted"
 msgstr ""
 
-#. Label of the result (Table) field in DocType 'LMS Quiz Submission'
+#. Label of a Table field in DocType 'LMS Quiz Submission'
 #: lms/lms/doctype/lms_quiz_submission/lms_quiz_submission.json
 msgid "Result"
 msgstr ""
 
-#. Label of the resume (Attach) field in DocType 'LMS Job Application'
+#. Label of a Attach field in DocType 'LMS Job Application'
 #: lms/job/doctype/lms_job_application/lms_job_application.json
 msgid "Resume"
 msgstr ""
@@ -5697,7 +5490,7 @@ msgstr ""
 msgid "Resume where you left off"
 msgstr ""
 
-#. Label of the review (Small Text) field in DocType 'LMS Course Review'
+#. Label of a Small Text field in DocType 'LMS Course Review'
 #. Label of a Link in the LMS Workspace
 #: frontend/src/components/Modals/ReviewModal.vue:20
 #: lms/lms/doctype/lms_course_review/lms_course_review.json
@@ -5709,7 +5502,7 @@ msgstr ""
 msgid "Review the course"
 msgstr ""
 
-#. Label of the reviewed_by (Link) field in DocType 'LMS Mentor Request'
+#. Label of a Link field in DocType 'LMS Mentor Request'
 #: lms/lms/doctype/lms_mentor_request/lms_mentor_request.json
 msgid "Reviewed By"
 msgstr ""
@@ -5718,16 +5511,11 @@ msgstr ""
 msgid "Reviews"
 msgstr ""
 
-#. Label of the role (Select) field in DocType 'Cohort Staff'
-#. Label of the role (Select) field in DocType 'LMS Enrollment'
+#. Label of a Select field in DocType 'Cohort Staff'
+#. Label of a Select field in DocType 'LMS Enrollment'
 #: lms/lms/doctype/cohort_staff/cohort_staff.json
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
 msgid "Role"
-msgstr ""
-
-#. Label of the role (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Role Preference"
 msgstr ""
 
 #: frontend/src/pages/ProfileRoles.vue:117
@@ -5738,7 +5526,7 @@ msgstr ""
 msgid "Roles"
 msgstr ""
 
-#. Label of the route (Data) field in DocType 'LMS Sidebar Item'
+#. Label of a Data field in DocType 'LMS Sidebar Item'
 #: lms/lms/doctype/lms_sidebar_item/lms_sidebar_item.json
 msgid "Route"
 msgstr ""
@@ -5768,29 +5556,28 @@ msgstr ""
 msgid "Run"
 msgstr ""
 
-#. Label of the scorm_section (Section Break) field in DocType 'Course Chapter'
+#. Label of a Section Break field in DocType 'Course Chapter'
 #: lms/lms/doctype/course_chapter/course_chapter.json
 msgid "SCORM"
 msgstr ""
 
-#. Label of the scorm_content (Long Text) field in DocType 'LMS Course
-#. Progress'
+#. Label of a Long Text field in DocType 'LMS Course Progress'
 #: lms/lms/doctype/lms_course_progress/lms_course_progress.json
 msgid "SCORM Content"
 msgstr ""
 
-#. Label of the scorm_package (Link) field in DocType 'Course Chapter'
+#. Label of a Link field in DocType 'Course Chapter'
 #: frontend/src/components/Modals/ChapterModal.vue:22
 #: lms/lms/doctype/course_chapter/course_chapter.json
 msgid "SCORM Package"
 msgstr ""
 
-#. Label of the scorm_package_path (Code) field in DocType 'Course Chapter'
+#. Label of a Code field in DocType 'Course Chapter'
 #: lms/lms/doctype/course_chapter/course_chapter.json
 msgid "SCORM Package Path"
 msgstr ""
 
-#. Label of the seo_tab (Tab Break) field in DocType 'LMS Settings'
+#. Label of a Tab Break field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "SEO"
 msgstr ""
@@ -5832,7 +5619,7 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#. Label of the schedule (Table) field in DocType 'Course Evaluator'
+#. Label of a Table field in DocType 'Course Evaluator'
 #: lms/lms/doctype/course_evaluator/course_evaluator.json
 msgid "Schedule"
 msgstr ""
@@ -5851,19 +5638,19 @@ msgstr ""
 msgid "Scheduled Flow"
 msgstr ""
 
-#. Label of the scope (Select) field in DocType 'Cohort Web Page'
+#. Label of a Select field in DocType 'Cohort Web Page'
 #: lms/lms/doctype/cohort_web_page/cohort_web_page.json
 msgid "Scope"
 msgstr ""
 
-#. Label of the score (Int) field in DocType 'LMS Quiz Submission'
+#. Label of a Int field in DocType 'LMS Quiz Submission'
 #: frontend/src/pages/QuizSubmission.vue:39
 #: frontend/src/pages/QuizSubmissionList.vue:96
 #: lms/lms/doctype/lms_quiz_submission/lms_quiz_submission.json
 msgid "Score"
 msgstr ""
 
-#. Label of the score_out_of (Int) field in DocType 'LMS Quiz Submission'
+#. Label of a Int field in DocType 'LMS Quiz Submission'
 #: lms/lms/doctype/lms_quiz_submission/lms_quiz_submission.json
 msgid "Score Out Of"
 msgstr ""
@@ -5897,7 +5684,7 @@ msgstr ""
 msgid "Search for an icon"
 msgstr ""
 
-#. Label of the seat_count (Int) field in DocType 'LMS Batch'
+#. Label of a Int field in DocType 'LMS Batch'
 #: frontend/src/pages/BatchForm.vue:154
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Seat Count"
@@ -5960,8 +5747,7 @@ msgstr ""
 msgid "Send Confirmation Email"
 msgstr ""
 
-#. Label of the send_calendar_invite_for_evaluations (Check) field in DocType
-#. 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Send calendar invite for evaluations"
 msgstr ""
@@ -5974,7 +5760,7 @@ msgstr ""
 msgid "Session Start Time"
 msgstr ""
 
-#. Label of the sessions_on (Data) field in DocType 'LMS Batch Old'
+#. Label of a Data field in DocType 'LMS Batch Old'
 #: lms/lms/doctype/lms_batch_old/lms_batch_old.json
 msgid "Sessions On Days"
 msgstr ""
@@ -6012,7 +5798,7 @@ msgstr ""
 msgid "Short Description"
 msgstr ""
 
-#. Label of the short_introduction (Small Text) field in DocType 'LMS Course'
+#. Label of a Small Text field in DocType 'LMS Course'
 #: frontend/src/pages/CourseForm.vue:188
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Short Introduction"
@@ -6022,53 +5808,53 @@ msgstr ""
 msgid "Short description of the batch"
 msgstr ""
 
-#. Label of the show_answer (Check) field in DocType 'LMS Assignment'
+#. Label of a Check field in DocType 'LMS Assignment'
 #: lms/lms/doctype/lms_assignment/lms_assignment.json
 msgid "Show Answer"
 msgstr ""
 
-#. Label of the show_answers (Check) field in DocType 'LMS Quiz'
+#. Label of a Check field in DocType 'LMS Quiz'
 #: frontend/src/pages/QuizForm.vue:93 frontend/src/pages/Quizzes.vue:256
 #: lms/lms/doctype/lms_quiz/lms_quiz.json
 msgid "Show Answers"
 msgstr ""
 
-#. Label of the show_submission_history (Check) field in DocType 'LMS Quiz'
+#. Label of a Check field in DocType 'LMS Quiz'
 #: frontend/src/pages/QuizForm.vue:98 lms/lms/doctype/lms_quiz/lms_quiz.json
 msgid "Show Submission History"
 msgstr ""
 
-#. Label of the column_break_2 (Column Break) field in DocType 'LMS Settings'
+#. Label of a Column Break field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Show Tab in Batch"
 msgstr ""
 
-#. Label of the show_usd_equivalent (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Show USD Equivalent"
 msgstr ""
 
-#. Label of the show_day_view (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Show day view in timetable"
 msgstr ""
 
-#. Label of the show_live_class (Check) field in DocType 'LMS Batch'
+#. Label of a Check field in DocType 'LMS Batch'
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Show live class"
 msgstr ""
 
-#. Label of the shuffle_questions (Check) field in DocType 'LMS Quiz'
+#. Label of a Check field in DocType 'LMS Quiz'
 #: frontend/src/pages/QuizForm.vue:105 lms/lms/doctype/lms_quiz/lms_quiz.json
 msgid "Shuffle Questions"
 msgstr ""
 
-#. Label of the sidebar_tab (Tab Break) field in DocType 'LMS Settings'
+#. Label of a Tab Break field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Sidebar"
 msgstr ""
 
-#. Label of the sidebar_items (Table) field in DocType 'LMS Settings'
+#. Label of a Table field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Sidebar Items"
 msgstr ""
@@ -6081,7 +5867,7 @@ msgstr ""
 msgid "Sign up"
 msgstr ""
 
-#. Label of the signup_settings_tab (Tab Break) field in DocType 'LMS Settings'
+#. Label of a Tab Break field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Signup Settings"
 msgstr ""
@@ -6091,18 +5877,12 @@ msgstr ""
 msgid "Signups"
 msgstr ""
 
-#. Label of the skill (Table MultiSelect) field in DocType 'User'
-#. Label of the skill (Data) field in DocType 'User Skill'
-#: lms/fixtures/custom_field.json lms/lms/doctype/user_skill/user_skill.json
+#. Label of a Data field in DocType 'User Skill'
+#: lms/lms/doctype/user_skill/user_skill.json
 msgid "Skill"
 msgstr ""
 
-#. Label of the skill_details (Section Break) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Skill Details"
-msgstr ""
-
-#. Label of the skill_name (Link) field in DocType 'Skills'
+#. Label of a Link field in DocType 'Skills'
 #: lms/lms/doctype/skills/skills.json
 msgid "Skill Name"
 msgstr ""
@@ -6128,9 +5908,9 @@ msgstr ""
 msgid "Slot deleted successfully"
 msgstr ""
 
-#. Label of the slug (Data) field in DocType 'Cohort'
-#. Label of the slug (Data) field in DocType 'Cohort Subgroup'
-#. Label of the slug (Data) field in DocType 'Cohort Web Page'
+#. Label of a Data field in DocType 'Cohort'
+#. Label of a Data field in DocType 'Cohort Subgroup'
+#. Label of a Data field in DocType 'Cohort Web Page'
 #: lms/lms/doctype/cohort/cohort.json
 #: lms/lms/doctype/cohort_subgroup/cohort_subgroup.json
 #: lms/lms/doctype/cohort_web_page/cohort_web_page.json
@@ -6142,17 +5922,17 @@ msgstr ""
 msgid "Sold Out"
 msgstr ""
 
-#. Label of the solution (Code) field in DocType 'Exercise Latest Submission'
-#. Label of the solution (Code) field in DocType 'Exercise Submission'
+#. Label of a Code field in DocType 'Exercise Latest Submission'
+#. Label of a Code field in DocType 'Exercise Submission'
 #: lms/lms/doctype/exercise_latest_submission/exercise_latest_submission.json
 #: lms/lms/doctype/exercise_submission/exercise_submission.json
 msgid "Solution"
 msgstr ""
 
-#. Label of the source (Link) field in DocType 'LMS Batch Enrollment'
-#. Label of the source (Link) field in DocType 'LMS Payment'
-#. Label of the source (Data) field in DocType 'LMS Source'
-#. Label of the source (Data) field in DocType 'LMS Video Watch Duration'
+#. Label of a Link field in DocType 'LMS Batch Enrollment'
+#. Label of a Link field in DocType 'LMS Payment'
+#. Label of a Data field in DocType 'LMS Source'
+#. Label of a Data field in DocType 'LMS Video Watch Duration'
 #: frontend/src/components/Settings/TransactionDetails.vue:35
 #: lms/lms/doctype/lms_batch_enrollment/lms_batch_enrollment.json
 #: lms/lms/doctype/lms_payment/lms_payment.json
@@ -6168,7 +5948,7 @@ msgstr ""
 msgid "Staff"
 msgstr ""
 
-#. Label of the stage (Select) field in DocType 'LMS Batch Old'
+#. Label of a Select field in DocType 'LMS Batch Old'
 #: lms/lms/doctype/lms_batch_old/lms_batch_old.json
 msgid "Stage"
 msgstr ""
@@ -6179,9 +5959,9 @@ msgstr ""
 msgid "Start"
 msgstr ""
 
-#. Label of the start_date (Date) field in DocType 'Education Detail'
-#. Label of the start_date (Date) field in DocType 'LMS Batch'
-#. Label of the start_date (Date) field in DocType 'LMS Batch Old'
+#. Label of a Date field in DocType 'Education Detail'
+#. Label of a Date field in DocType 'LMS Batch'
+#. Label of a Date field in DocType 'LMS Batch Old'
 #: lms/lms/doctype/education_detail/education_detail.json
 #: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/lms/doctype/lms_batch_old/lms_batch_old.json
@@ -6198,13 +5978,13 @@ msgstr ""
 msgid "Start Learning"
 msgstr ""
 
-#. Label of the start_time (Time) field in DocType 'Evaluator Schedule'
-#. Label of the start_time (Time) field in DocType 'LMS Batch'
-#. Label of the start_time (Time) field in DocType 'LMS Batch Old'
-#. Label of the start_time (Time) field in DocType 'LMS Batch Timetable'
-#. Label of the start_time (Time) field in DocType 'LMS Certificate Evaluation'
-#. Label of the start_time (Time) field in DocType 'LMS Certificate Request'
-#. Label of the start_time (Time) field in DocType 'Scheduled Flow'
+#. Label of a Time field in DocType 'Evaluator Schedule'
+#. Label of a Time field in DocType 'LMS Batch'
+#. Label of a Time field in DocType 'LMS Batch Old'
+#. Label of a Time field in DocType 'LMS Batch Timetable'
+#. Label of a Time field in DocType 'LMS Certificate Evaluation'
+#. Label of a Time field in DocType 'LMS Certificate Request'
+#. Label of a Time field in DocType 'Scheduled Flow'
 #: frontend/src/pages/ProfileEvaluator.vue:29
 #: lms/lms/doctype/evaluator_schedule/evaluator_schedule.json
 #: lms/lms/doctype/lms_batch/lms_batch.json
@@ -6220,7 +6000,7 @@ msgstr ""
 msgid "Start Time cannot be greater than End Time"
 msgstr ""
 
-#. Label of the start_url (Small Text) field in DocType 'LMS Live Class'
+#. Label of a Small Text field in DocType 'LMS Live Class'
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Start URL"
 msgstr ""
@@ -6229,17 +6009,12 @@ msgstr ""
 msgid "Start the Quiz"
 msgstr ""
 
-#. Option for the 'Company Type' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Startup Organization"
-msgstr ""
-
 #: frontend/src/pages/Billing.vue:83
 msgid "State/Province"
 msgstr ""
 
-#. Label of the tab_4_tab (Tab Break) field in DocType 'LMS Course'
-#. Label of the statistics (Check) field in DocType 'LMS Settings'
+#. Label of a Tab Break field in DocType 'LMS Course'
+#. Label of a Check field in DocType 'LMS Settings'
 #: frontend/src/components/BatchStudents.vue:5
 #: frontend/src/pages/Statistics.vue:225
 #: lms/lms/doctype/lms_course/lms_course.json
@@ -6247,22 +6022,21 @@ msgstr ""
 msgid "Statistics"
 msgstr ""
 
-#. Label of the status (Select) field in DocType 'Job Opportunity'
+#. Label of a Select field in DocType 'Job Opportunity'
 #. Label of a field in the job-opportunity Web Form
-#. Label of the status (Select) field in DocType 'Cohort'
-#. Label of the status (Select) field in DocType 'Cohort Join Request'
-#. Label of the status (Select) field in DocType 'Exercise Latest Submission'
-#. Label of the status (Select) field in DocType 'Exercise Submission'
-#. Label of the status (Select) field in DocType 'LMS Assignment Submission'
-#. Label of the status (Select) field in DocType 'LMS Batch Old'
-#. Label of the status (Select) field in DocType 'LMS Certificate Evaluation'
-#. Label of the status (Select) field in DocType 'LMS Certificate Request'
-#. Label of the status (Select) field in DocType 'LMS Course'
-#. Label of the status (Select) field in DocType 'LMS Course Progress'
-#. Label of the status (Select) field in DocType 'LMS Mentor Request'
-#. Label of the status (Select) field in DocType 'LMS Programming Exercise
-#. Submission'
-#. Label of the status (Select) field in DocType 'LMS Test Case Submission'
+#. Label of a Select field in DocType 'Cohort'
+#. Label of a Select field in DocType 'Cohort Join Request'
+#. Label of a Select field in DocType 'Exercise Latest Submission'
+#. Label of a Select field in DocType 'Exercise Submission'
+#. Label of a Select field in DocType 'LMS Assignment Submission'
+#. Label of a Select field in DocType 'LMS Batch Old'
+#. Label of a Select field in DocType 'LMS Certificate Evaluation'
+#. Label of a Select field in DocType 'LMS Certificate Request'
+#. Label of a Select field in DocType 'LMS Course'
+#. Label of a Select field in DocType 'LMS Course Progress'
+#. Label of a Select field in DocType 'LMS Mentor Request'
+#. Label of a Select field in DocType 'LMS Programming Exercise Submission'
+#. Label of a Select field in DocType 'LMS Test Case Submission'
 #: frontend/src/components/Modals/Event.vue:91
 #: frontend/src/components/Settings/Badges.vue:228
 #: frontend/src/components/Settings/ZoomSettings.vue:197
@@ -6291,11 +6065,9 @@ msgstr ""
 msgid "Status/Score"
 msgstr ""
 
-#. Option for the 'User Category' (Select) field in DocType 'User'
 #. Option for the 'Required Role' (Select) field in DocType 'Cohort Web Page'
 #. Option for the 'Member Type' (Select) field in DocType 'LMS Enrollment'
 #: frontend/src/pages/Home/Home.vue:148 frontend/src/pages/ProfileRoles.vue:38
-#: lms/fixtures/custom_field.json
 #: lms/lms/doctype/cohort_web_page/cohort_web_page.json
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
 #: lms/templates/signup-form.html:26
@@ -6306,7 +6078,7 @@ msgstr ""
 msgid "Student Reviews"
 msgstr ""
 
-#. Label of the show_students (Check) field in DocType 'LMS Settings'
+#. Label of a Check field in DocType 'LMS Settings'
 #: frontend/src/components/BatchStudents.vue:11
 #: frontend/src/components/BatchStudents.vue:67
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -6322,9 +6094,9 @@ msgstr ""
 msgid "Students will be enrolled in a paid batch once they complete the payment"
 msgstr ""
 
-#. Label of the subgroup (Link) field in DocType 'Cohort Join Request'
+#. Label of a Link field in DocType 'Cohort Join Request'
 #. Option for the 'Scope' (Select) field in DocType 'Cohort Web Page'
-#. Label of the subgroup (Link) field in DocType 'LMS Enrollment'
+#. Label of a Link field in DocType 'LMS Enrollment'
 #: lms/lms/doctype/cohort_join_request/cohort_join_request.json
 #: lms/lms/doctype/cohort_web_page/cohort_web_page.json
 #: lms/lms/doctype/lms_enrollment/lms_enrollment.json
@@ -6392,8 +6164,7 @@ msgstr ""
 msgid "Successfully enrolled in program"
 msgstr ""
 
-#. Label of the summary (Small Text) field in DocType 'LMS Certificate
-#. Evaluation'
+#. Label of a Small Text field in DocType 'LMS Certificate Evaluation'
 #: frontend/src/components/Modals/Event.vue:97
 #: lms/lms/doctype/lms_certificate_evaluation/lms_certificate_evaluation.json
 msgid "Summary"
@@ -6470,7 +6241,7 @@ msgstr ""
 msgid "System Manager"
 msgstr ""
 
-#. Label of the tags (Data) field in DocType 'LMS Course'
+#. Label of a Data field in DocType 'LMS Course'
 #: frontend/src/pages/CourseForm.vue:51
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Tags"
@@ -6491,13 +6262,8 @@ msgstr ""
 msgid "Team School"
 msgstr ""
 
-#. Option for the 'Collaboration Preference' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Team Work"
-msgstr ""
-
-#. Label of the template (Link) field in DocType 'Cohort Web Page'
-#. Label of the template (Link) field in DocType 'LMS Certificate'
+#. Label of a Link field in DocType 'Cohort Web Page'
+#. Label of a Link field in DocType 'LMS Certificate'
 #: frontend/src/components/Modals/BulkCertificates.vue:43
 #: frontend/src/components/Modals/Event.vue:112
 #: lms/lms/doctype/cohort_web_page/cohort_web_page.json
@@ -6513,9 +6279,8 @@ msgstr ""
 msgid "Terms of Use"
 msgstr ""
 
-#. Label of the test_cases (Table) field in DocType 'LMS Programming Exercise'
-#. Label of the test_cases (Table) field in DocType 'LMS Programming Exercise
-#. Submission'
+#. Label of a Table field in DocType 'LMS Programming Exercise'
+#. Label of a Table field in DocType 'LMS Programming Exercise Submission'
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseForm.vue:29
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmission.vue:83
 #: lms/lms/doctype/lms_programming_exercise/lms_programming_exercise.json
@@ -6527,10 +6292,8 @@ msgstr ""
 msgid "Test Quiz"
 msgstr ""
 
-#. Label of the test_results (Small Text) field in DocType 'Exercise Latest
-#. Submission'
-#. Label of the test_results (Small Text) field in DocType 'Exercise
-#. Submission'
+#. Label of a Small Text field in DocType 'Exercise Latest Submission'
+#. Label of a Small Text field in DocType 'Exercise Submission'
 #: lms/lms/doctype/exercise_latest_submission/exercise_latest_submission.json
 #: lms/lms/doctype/exercise_submission/exercise_submission.json
 msgid "Test Results"
@@ -6544,7 +6307,7 @@ msgstr ""
 msgid "Test {0}"
 msgstr ""
 
-#. Label of the tests (Code) field in DocType 'LMS Exercise'
+#. Label of a Code field in DocType 'LMS Exercise'
 #: lms/lms/doctype/lms_exercise/lms_exercise.json
 msgid "Tests"
 msgstr ""
@@ -6641,7 +6404,7 @@ msgstr ""
 msgid "This badge has not been assigned to any students yet"
 msgstr ""
 
-#. Label of the expire (Check) field in DocType 'Certification'
+#. Label of a Check field in DocType 'Certification'
 #: lms/lms/doctype/certification/certification.json
 msgid "This certificate does no expire"
 msgstr ""
@@ -6708,17 +6471,12 @@ msgstr ""
 msgid "Thursday"
 msgstr ""
 
-#. Label of the time (Time) field in DocType 'LMS Live Class'
+#. Label of a Time field in DocType 'LMS Live Class'
 #: frontend/src/components/Modals/Event.vue:48
 #: frontend/src/components/Modals/LiveClassModal.vue:52
 #: frontend/src/components/Quiz.vue:58
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Time"
-msgstr ""
-
-#. Label of the time (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Time Preference"
 msgstr ""
 
 #: frontend/src/components/VideoBlock.vue:140
@@ -6741,31 +6499,30 @@ msgstr ""
 msgid "Time must be in 24 hour format (HH:mm). Example 11:30 or 22:00"
 msgstr ""
 
-#. Label of the schedule_tab (Tab Break) field in DocType 'LMS Batch'
-#. Label of the timetable (Table) field in DocType 'LMS Batch'
-#. Label of the timetable (Table) field in DocType 'LMS Timetable Template'
+#. Label of a Tab Break field in DocType 'LMS Batch'
+#. Label of a Table field in DocType 'LMS Batch'
+#. Label of a Table field in DocType 'LMS Timetable Template'
 #: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/lms/doctype/lms_timetable_template/lms_timetable_template.json
 msgid "Timetable"
 msgstr ""
 
-#. Label of the timetable_legends (Table) field in DocType 'LMS Batch'
-#. Label of the timetable_legends (Table) field in DocType 'LMS Timetable
-#. Template'
+#. Label of a Table field in DocType 'LMS Batch'
+#. Label of a Table field in DocType 'LMS Timetable Template'
 #: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/lms/doctype/lms_timetable_template/lms_timetable_template.json
 msgid "Timetable Legends"
 msgstr ""
 
-#. Label of the timetable_template (Link) field in DocType 'LMS Batch'
+#. Label of a Link field in DocType 'LMS Batch'
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Timetable Template"
 msgstr ""
 
-#. Label of the timezone (Data) field in DocType 'LMS Batch'
-#. Label of the timezone (Data) field in DocType 'LMS Certificate Request'
-#. Label of the timezone (Data) field in DocType 'LMS Course'
-#. Label of the timezone (Data) field in DocType 'LMS Live Class'
+#. Label of a Data field in DocType 'LMS Batch'
+#. Label of a Data field in DocType 'LMS Certificate Request'
+#. Label of a Data field in DocType 'LMS Course'
+#. Label of a Data field in DocType 'LMS Live Class'
 #: frontend/src/components/Modals/LiveClassModal.vue:59
 #: frontend/src/pages/BatchForm.vue:114 frontend/src/pages/CourseForm.vue:288
 #: lms/lms/doctype/lms_batch/lms_batch.json
@@ -6785,24 +6542,24 @@ msgstr ""
 msgid "Timings:"
 msgstr ""
 
-#. Label of the title (Data) field in DocType 'Cohort'
-#. Label of the title (Data) field in DocType 'Cohort Subgroup'
-#. Label of the title (Data) field in DocType 'Cohort Web Page'
-#. Label of the title (Data) field in DocType 'Course Chapter'
-#. Label of the title (Data) field in DocType 'Course Lesson'
-#. Label of the title (Data) field in DocType 'LMS Assignment'
-#. Label of the title (Data) field in DocType 'LMS Badge'
-#. Label of the title (Data) field in DocType 'LMS Batch'
-#. Label of the title (Data) field in DocType 'LMS Batch Old'
-#. Label of the title (Data) field in DocType 'LMS Course'
-#. Label of the title (Data) field in DocType 'LMS Exercise'
-#. Label of the title (Data) field in DocType 'LMS Live Class'
-#. Label of the title (Data) field in DocType 'LMS Program'
-#. Label of the title (Data) field in DocType 'LMS Programming Exercise'
-#. Label of the title (Data) field in DocType 'LMS Quiz'
-#. Label of the title (Data) field in DocType 'LMS Sidebar Item'
-#. Label of the title (Data) field in DocType 'LMS Timetable Template'
-#. Label of the title (Data) field in DocType 'Work Experience'
+#. Label of a Data field in DocType 'Cohort'
+#. Label of a Data field in DocType 'Cohort Subgroup'
+#. Label of a Data field in DocType 'Cohort Web Page'
+#. Label of a Data field in DocType 'Course Chapter'
+#. Label of a Data field in DocType 'Course Lesson'
+#. Label of a Data field in DocType 'LMS Assignment'
+#. Label of a Data field in DocType 'LMS Badge'
+#. Label of a Data field in DocType 'LMS Batch'
+#. Label of a Data field in DocType 'LMS Batch Old'
+#. Label of a Data field in DocType 'LMS Course'
+#. Label of a Data field in DocType 'LMS Exercise'
+#. Label of a Data field in DocType 'LMS Live Class'
+#. Label of a Data field in DocType 'LMS Program'
+#. Label of a Data field in DocType 'LMS Programming Exercise'
+#. Label of a Data field in DocType 'LMS Quiz'
+#. Label of a Data field in DocType 'LMS Sidebar Item'
+#. Label of a Data field in DocType 'LMS Timetable Template'
+#. Label of a Data field in DocType 'Work Experience'
 #: frontend/src/components/Modals/AssignmentForm.vue:20
 #: frontend/src/components/Modals/DiscussionModal.vue:18
 #: frontend/src/components/Modals/LiveClassModal.vue:23
@@ -6837,13 +6594,13 @@ msgstr ""
 msgid "Title is required"
 msgstr ""
 
-#. Label of the unavailable_to (Date) field in DocType 'Course Evaluator'
+#. Label of a Date field in DocType 'Course Evaluator'
 #: frontend/src/pages/ProfileEvaluator.vue:112
 #: lms/lms/doctype/course_evaluator/course_evaluator.json
 msgid "To"
 msgstr ""
 
-#. Label of the to_date (Date) field in DocType 'Work Experience'
+#. Label of a Date field in DocType 'Work Experience'
 #: lms/lms/doctype/work_experience/work_experience.json
 msgid "To Date"
 msgstr ""
@@ -6860,7 +6617,7 @@ msgstr ""
 msgid "Total"
 msgstr ""
 
-#. Label of the total_marks (Int) field in DocType 'LMS Quiz'
+#. Label of a Int field in DocType 'LMS Quiz'
 #: frontend/src/pages/QuizForm.vue:73 frontend/src/pages/Quizzes.vue:235
 #: lms/lms/doctype/lms_quiz/lms_quiz.json
 msgid "Total Marks"
@@ -6879,11 +6636,6 @@ msgstr ""
 msgid "Transaction Details"
 msgstr ""
 
-#. Option for the 'Location Preference' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Travel"
-msgstr ""
-
 #: frontend/src/components/Quiz.vue:284
 msgid "Try Again"
 msgstr ""
@@ -6899,12 +6651,12 @@ msgstr ""
 msgid "Twitter"
 msgstr ""
 
-#. Label of the type (Select) field in DocType 'Job Opportunity'
+#. Label of a Select field in DocType 'Job Opportunity'
 #. Label of a field in the job-opportunity Web Form
-#. Label of the type (Select) field in DocType 'LMS Assignment'
-#. Label of the type (Select) field in DocType 'LMS Assignment Submission'
-#. Label of the type (Select) field in DocType 'LMS Question'
-#. Label of the type (Select) field in DocType 'LMS Quiz Question'
+#. Label of a Select field in DocType 'LMS Assignment'
+#. Label of a Select field in DocType 'LMS Assignment Submission'
+#. Label of a Select field in DocType 'LMS Question'
+#. Label of a Select field in DocType 'LMS Quiz Question'
 #: frontend/src/components/Modals/AssessmentModal.vue:22
 #: frontend/src/components/Modals/Question.vue:44
 #: frontend/src/pages/Assignments.vue:40 frontend/src/pages/Assignments.vue:167
@@ -6940,13 +6692,12 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
-#. Label of the uuid (Data) field in DocType 'LMS Live Class'
+#. Label of a Data field in DocType 'LMS Live Class'
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "UUID"
 msgstr ""
 
-#. Label of the unavailability_section (Section Break) field in DocType 'Course
-#. Evaluator'
+#. Label of a Section Break field in DocType 'Course Evaluator'
 #: lms/lms/doctype/course_evaluator/course_evaluator.json
 msgid "Unavailability"
 msgstr ""
@@ -6978,19 +6729,14 @@ msgstr ""
 msgid "Unsplash"
 msgstr ""
 
-#. Label of the unsplash_access_key (Data) field in DocType 'LMS Settings'
+#. Label of a Data field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Unsplash Access Key"
 msgstr ""
 
-#. Option for the 'Role Preference' (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Unstructured Role"
-msgstr ""
-
 #. Option for the 'Status' (Select) field in DocType 'Cohort'
 #. Option for the 'Status' (Select) field in DocType 'LMS Certificate Request'
-#. Label of the upcoming (Check) field in DocType 'LMS Course'
+#. Label of a Check field in DocType 'LMS Course'
 #: frontend/src/pages/Batches.vue:284 frontend/src/pages/CourseForm.vue:164
 #: frontend/src/pages/Courses.vue:315 lms/lms/doctype/cohort/cohort.json
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
@@ -7038,9 +6784,9 @@ msgstr ""
 msgid "Use HTML"
 msgstr ""
 
-#. Label of the user (Link) field in DocType 'LMS Job Application'
-#. Label of the email (Link) field in DocType 'Cohort Staff'
-#. Label of the user (Link) field in DocType 'LMS Course Interest'
+#. Label of a Link field in DocType 'LMS Job Application'
+#. Label of a Link field in DocType 'Cohort Staff'
+#. Label of a Link field in DocType 'LMS Course Interest'
 #: frontend/src/components/Settings/BadgeForm.vue:196
 #: lms/job/doctype/lms_job_application/lms_job_application.json
 #: lms/lms/doctype/cohort_staff/cohort_staff.json
@@ -7048,17 +6794,16 @@ msgstr ""
 msgid "User"
 msgstr ""
 
-#. Label of the user_category (Select) field in DocType 'User'
-#: lms/fixtures/custom_field.json lms/templates/signup-form.html:17
+#: lms/templates/signup-form.html:17
 msgid "User Category"
 msgstr ""
 
-#. Label of the user_field (Select) field in DocType 'LMS Badge'
+#. Label of a Select field in DocType 'LMS Badge'
 #: lms/lms/doctype/lms_badge/lms_badge.json
 msgid "User Field"
 msgstr ""
 
-#. Label of the user_image (Attach Image) field in DocType 'Course Evaluator'
+#. Label of a Attach Image field in DocType 'Course Evaluator'
 #: lms/lms/doctype/course_evaluator/course_evaluator.json
 msgid "User Image"
 msgstr ""
@@ -7079,7 +6824,7 @@ msgstr ""
 msgid "User {0} has reported the job post {1}"
 msgstr ""
 
-#. Label of the username (Data) field in DocType 'Course Evaluator'
+#. Label of a Data field in DocType 'Course Evaluator'
 #: lms/lms/doctype/course_evaluator/course_evaluator.json
 msgid "Username"
 msgstr ""
@@ -7089,7 +6834,7 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
-#. Label of the answer (Small Text) field in DocType 'LMS Quiz Result'
+#. Label of a Small Text field in DocType 'LMS Quiz Result'
 #: lms/lms/doctype/lms_quiz_result/lms_quiz_result.json
 msgid "Users Response"
 msgstr ""
@@ -7098,7 +6843,7 @@ msgstr ""
 msgid "Valid email and name required"
 msgstr ""
 
-#. Label of the value (Rating) field in DocType 'LMS Batch Feedback'
+#. Label of a Rating field in DocType 'LMS Batch Feedback'
 #: lms/lms/doctype/lms_batch_feedback/lms_batch_feedback.json
 msgid "Value"
 msgstr ""
@@ -7108,7 +6853,7 @@ msgstr ""
 msgid "Value Change"
 msgstr ""
 
-#. Label of the video_link (Data) field in DocType 'LMS Course'
+#. Label of a Data field in DocType 'LMS Course'
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Video Embed Link"
 msgstr ""
@@ -7135,7 +6880,7 @@ msgstr ""
 msgid "Violet"
 msgstr ""
 
-#. Label of the visibility (Select) field in DocType 'LMS Batch Old'
+#. Label of a Select field in DocType 'LMS Batch Old'
 #: lms/lms/doctype/lms_batch_old/lms_batch_old.json
 msgid "Visibility"
 msgstr ""
@@ -7157,12 +6902,7 @@ msgstr ""
 msgid "Visit your batch"
 msgstr ""
 
-#. Label of the internship (Table) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Volunteering or Internship"
-msgstr ""
-
-#. Label of the watch_time (Data) field in DocType 'LMS Video Watch Duration'
+#. Label of a Data field in DocType 'LMS Video Watch Duration'
 #: frontend/src/components/Modals/VideoStatistics.vue:34
 #: lms/lms/doctype/lms_video_watch_duration/lms_video_watch_duration.json
 msgid "Watch Time"
@@ -7180,7 +6920,7 @@ msgstr ""
 msgid "We noticed that you started enrolling in the"
 msgstr ""
 
-#. Label of the web_page (Link) field in DocType 'LMS Sidebar Item'
+#. Label of a Link field in DocType 'LMS Sidebar Item'
 #: frontend/src/components/Modals/PageModal.vue:23
 #: lms/lms/doctype/lms_sidebar_item/lms_sidebar_item.json
 msgid "Web Page"
@@ -7230,24 +6970,12 @@ msgstr ""
 msgid "Withdrawn"
 msgstr ""
 
-#. Label of the work_environment (Section Break) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Work Environment"
-msgstr ""
-
-#. Label of the work_experience (Table) field in DocType 'User'
 #. Name of a DocType
-#: lms/fixtures/custom_field.json
 #: lms/lms/doctype/work_experience/work_experience.json
 msgid "Work Experience"
 msgstr ""
 
-#. Label of the work_experience_details (Section Break) field in DocType 'User'
-#: lms/fixtures/custom_field.json
-msgid "Work Experience Details"
-msgstr ""
-
-#. Label of the work_mode (Select) field in DocType 'Job Opportunity'
+#. Label of a Select field in DocType 'Job Opportunity'
 #: frontend/src/pages/JobForm.vue:32 frontend/src/pages/Jobs.vue:73
 #: lms/job/doctype/job_opportunity/job_opportunity.json
 msgid "Work Mode"
@@ -7434,7 +7162,7 @@ msgstr ""
 msgid "You've successfully submitted the assignment."
 msgstr ""
 
-#. Label of the youtube (Data) field in DocType 'Course Lesson'
+#. Label of a Data field in DocType 'Course Lesson'
 #: lms/lms/doctype/course_lesson/course_lesson.json
 msgid "YouTube Video URL"
 msgstr ""
@@ -7498,8 +7226,8 @@ msgstr ""
 msgid "Zen Mode"
 msgstr ""
 
-#. Label of the zoom_account (Link) field in DocType 'LMS Batch'
-#. Label of the zoom_account (Link) field in DocType 'LMS Live Class'
+#. Label of a Link field in DocType 'LMS Batch'
+#. Label of a Link field in DocType 'LMS Live Class'
 #: frontend/src/pages/BatchForm.vue:171
 #: lms/lms/doctype/lms_batch/lms_batch.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
