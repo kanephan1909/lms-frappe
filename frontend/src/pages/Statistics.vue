@@ -10,20 +10,20 @@
 				<Tooltip :text="__('Published Courses')">
 					<NumberChart
 						class="border rounded-md"
-						:config="{ title: 'Courses', value: chartDetails.data.courses }"
+						:config="{ title: __('Courses'), value: chartDetails.data.courses }"
 					/>
 				</Tooltip>
 				<Tooltip :text="__('Active Members')">
 					<NumberChart
 						class="border rounded-md"
-						:config="{ title: 'Signups', value: chartDetails.data.users }"
+						:config="{ title: __('Signups'), value: chartDetails.data.users }"
 					/>
 				</Tooltip>
 				<Tooltip :text="__('Course Enrollments')">
 					<NumberChart
 						class="border rounded-md"
 						:config="{
-							title: 'Enrollments',
+							title: __('Enrollments'),
 							value: chartDetails.data.enrollments,
 						}"
 					/>
@@ -32,7 +32,7 @@
 					<NumberChart
 						class="border rounded-md"
 						:config="{
-							title: 'Completions',
+							title: __('Completions'),
 							value: chartDetails.data.completions,
 						}"
 					/>
@@ -41,7 +41,7 @@
 					<NumberChart
 						class="border rounded-md"
 						:config="{
-							title: 'Certifications',
+							title: __('Certifications'),
 							value: chartDetails.data.certifications,
 						}"
 					/>
@@ -53,16 +53,16 @@
 						v-if="signupsChart.data"
 						:config="{
 							data: signupsChart.data,
-							title: 'Signups',
-							subtitle: 'Signups per day',
+							title: __('Signups'),
+							subtitle: __('Signups per day'),
 							xAxis: {
 								key: 'date',
 								type: 'time',
-								title: 'Date',
+								title: __('Date'),
 								timeGrain: 'day',
 							},
 							yAxis: {
-								title: 'Signups',
+								title: __('Signups'),
 							},
 							series: [{ name: 'signups', type: 'line', showDataPoints: true }],
 						}"
@@ -73,16 +73,16 @@
 						v-if="enrollmentChart.data"
 						:config="{
 							data: enrollmentChart.data,
-							title: 'Enrollments',
-							subtitle: 'Enrollments per day',
+							title: __('Enrollments'),
+							subtitle: __('Enrollments per day'),
 							xAxis: {
 								key: 'date',
 								type: 'time',
-								title: 'Date',
+								title: __('Date'),
 								timeGrain: 'day',
 							},
 							yAxis: {
-								title: 'Enrollments',
+								title: __('Enrollments'),
 							},
 							series: [
 								{ name: 'enrollments', type: 'line', showDataPoints: true },
@@ -95,16 +95,16 @@
 						v-if="certification.data"
 						:config="{
 							data: certification.data,
-							title: 'Certifications',
-							subtitle: 'Certifications per day',
+							title: __('Certifications'),
+							subtitle: __('Certifications per day'),
 							xAxis: {
 								key: 'date',
 								type: 'time',
-								title: 'Date',
+								title: __('Date'),
 								timeGrain: 'day',
 							},
 							yAxis: {
-								title: 'Certifications',
+								title: __('Certifications'),
 							},
 							series: [
 								{
@@ -121,8 +121,8 @@
 						v-if="courseCompletion.data"
 						:config="{
 							data: courseCompletion.data,
-							title: 'Completions',
-							subtitle: 'Course Completion',
+							title: __('Completions'),
+							subtitle: __('Course Completion'),
 							categoryColumn: 'label',
 							valueColumn: 'value',
 						}"
@@ -150,7 +150,7 @@ const { brand } = sessionStore()
 const breadcrumbs = computed(() => {
 	return [
 		{
-			label: 'Statistics',
+			label: __('Statistics'),
 			route: {
 				name: 'Statistics',
 			},

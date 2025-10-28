@@ -71,12 +71,12 @@ msgstr "<span class=\"h4\"><b>Bắt Đầu</b></span>"
 #. Header text in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
 msgid "<span class=\"h4\"><b>Master</b></span>"
-msgstr "<span class=\\"h4\\"><b>Chính</b></span>"
+msgstr "<span style=\"font-size: 18px;\"><b>Thống kê</b></span>"
 
 #. Header text in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
 msgid "<span style=\"font-size: 18px;\"><b>Statistics</b></span>"
-msgstr "<span style=\\"font-size: 18px;\\"><b>Thống kê</b></span>"
+msgstr "<span style=\"font-size: 18px;\"><b>Thống kê</b></span>"
 
 #: lms/lms/doctype/lms_course/lms_course.py:66
 msgid "A course cannot have both paid certificate and certificate of completion."
@@ -125,11 +125,11 @@ msgstr "Thành tích"
 #. Option for the 'Status' (Select) field in DocType 'LMS Batch Old'
 #: lms/lms/doctype/lms_batch_old/lms_batch_old.json
 msgid "Active"
-msgstr "Tích Cực"
+msgstr "Hoạt động"
 
 #: frontend/src/pages/Statistics.vue:16
 msgid "Active Members"
-msgstr "Thành viên tích cực"
+msgstr "Thành viên hoạt động"
 
 #: frontend/src/components/Assessments.vue:11
 #: frontend/src/components/BatchCourses.vue:11
@@ -1028,7 +1028,7 @@ msgstr "Đã lưu thay đổi thành công"
 #: lms/lms/doctype/lms_video_watch_duration/lms_video_watch_duration.json
 #: lms/lms/workspace/lms/lms.json
 msgid "Chapter"
-msgstr "chương"
+msgstr "Chương"
 
 #. Name of a DocType
 #: lms/lms/doctype/chapter_reference/chapter_reference.json
@@ -1054,7 +1054,7 @@ msgstr "Chương được cập nhật thành công"
 #. Label of a Table field in DocType 'LMS Course'
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Chapters"
-msgstr "chương"
+msgstr "Các chương"
 
 #: frontend/src/components/Quiz.vue:229
 msgid "Check"
@@ -1491,6 +1491,7 @@ msgstr "Quốc gia"
 #. Label of a Link field in DocType 'LMS Quiz Submission'
 #. Label of a Link field in DocType 'LMS Video Watch Duration'
 #. Label of a Link field in DocType 'Related Courses'
+#. Label of a Link field in DocType 'LMS Live Class'
 #. Label of a Link in the LMS Workspace
 #. Label of a shortcut in the LMS Workspace
 #: frontend/src/components/Modals/BatchCourseModal.vue:20
@@ -1529,6 +1530,7 @@ msgstr "Quốc gia"
 #: lms/lms/doctype/lms_quiz_submission/lms_quiz_submission.json
 #: lms/lms/doctype/lms_video_watch_duration/lms_video_watch_duration.json
 #: lms/lms/doctype/related_courses/related_courses.json
+#: lms/lms/doctype/lms_live_class/lms_live_class.json
 #: lms/lms/report/course_progress_summary/course_progress_summary.js:9
 #: lms/lms/report/course_progress_summary/course_progress_summary.py:51
 #: lms/lms/workspace/lms/lms.json
@@ -1575,7 +1577,7 @@ msgstr "Số lượng khóa học"
 msgid "Course Creator"
 msgstr "Người tạo khóa học"
 
-#. Label of a Card Break in the LMS Workspace
+#. Label of a Card Break field in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
 msgid "Course Data"
 msgstr "Dữ liệu khóa học"
@@ -1747,7 +1749,6 @@ msgstr "Tạo bài tập lập trình"
 #: lms/templates/onboarding_header.html:19
 msgid "Create a Course"
 msgstr "Tạo một khóa học"
-
 #: frontend/src/components/Modals/LiveClassModal.vue:5
 msgid "Create a Live Class"
 msgstr "Tạo một lớp học trực tiếp"
@@ -2022,7 +2023,7 @@ msgstr "Tàn tật"
 #: frontend/src/components/DiscussionReplies.vue:57
 #: lms/lms/widgets/NoPreviewModal.html:25 lms/templates/reviews.html:159
 msgid "Discard"
-msgstr "Loại bỏ"
+msgstr "Hủy"
 
 #. Label of a Check field in DocType 'LMS Settings'
 #: frontend/src/pages/Batch.vue:88
@@ -2040,7 +2041,7 @@ msgid "Document"
 msgstr "Tài liệu"
 
 #: lms/templates/emails/payment_reminder.html:11
-msgid "Don’t miss this opportunity to enhance your skills. Click below to complete your enrollment"
+msgid "Don't miss this opportunity to enhance your skills. Click below to complete your enrollment"
 msgstr "Đừng bỏ lỡ cơ hội này để nâng cao kỹ năng của bạn.Nhấp vào bên dưới để hoàn tất đăng ký của bạn"
 
 #: lms/lms/doctype/lms_question/lms_question.py:34
@@ -2086,7 +2087,7 @@ msgstr "E-mail"
 #: frontend/src/pages/JobDetail.vue:34 frontend/src/pages/Lesson.vue:42
 #: frontend/src/pages/Lesson.vue:178 frontend/src/pages/Profile.vue:36
 msgid "Edit"
-msgstr "Biên tập"
+msgstr "Chỉnh sửa"
 
 #: frontend/src/components/Modals/AssignmentForm.vue:14
 msgid "Edit Assignment"
@@ -2307,7 +2308,7 @@ msgstr "Đăng ký Chương trình {0}"
 #: frontend/src/pages/Programs/ProgramProgressSummary.vue:15
 #: lms/lms/doctype/lms_course/lms_course.json lms/lms/workspace/lms/lms.json
 msgid "Enrollments"
-msgstr "tuyển sinh"
+msgstr "Tuyển sinh"
 
 #: lms/lms/doctype/lms_settings/lms_settings.py:27
 msgid "Enter Client Id and Client Secret in Google Settings to send calendar invites for evaluations."
@@ -2358,7 +2359,7 @@ msgstr "Lỗi cập nhật mẫu email"
 #. Label of a shortcut in the LMS Workspace
 #: frontend/src/components/Modals/Event.vue:374 lms/lms/workspace/lms/lms.json
 msgid "Evaluation"
-msgstr "Sự đánh giá"
+msgstr "Bài đánh giá"
 
 #. Label of a Section Break field in DocType 'LMS Certificate Evaluation'
 #: lms/lms/doctype/lms_certificate_evaluation/lms_certificate_evaluation.json
@@ -2884,7 +2885,7 @@ msgstr "tôi không rảnh"
 
 #: frontend/src/pages/QuizForm.vue:338
 msgid "ID"
-msgstr "NHẬN DẠNG"
+msgstr "Mã ID"
 
 #. Label of a Data field in DocType 'LMS Sidebar Item'
 #: frontend/src/components/Modals/PageModal.vue:28
@@ -3070,7 +3071,7 @@ msgstr "Nhận xét của giảng viên"
 #. Label of a Link in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
 msgid "Interest"
-msgstr "Quan tâm"
+msgstr "Sở thích"
 
 #: frontend/src/components/AppSidebar.vue:588
 #: frontend/src/components/AppSidebar.vue:591
@@ -3743,13 +3744,17 @@ msgstr "Đăng nhập"
 msgid "Login to Frappe Cloud?"
 msgstr "Đăng nhập vào đám mây Frappe?"
 
+#: frontend/src/components/UserDropdown.vue:173
+msgid "Login to Frappe Cloud"
+msgstr "Đăng nhập Frappe Cloud"
+
 #: frontend/src/pages/JobDetail.vue:63
 msgid "Login to apply"
 msgstr "Đăng nhập để áp dụng"
 
 #: frontend/src/pages/Home/Streak.vue:42
 msgid "Longest Streak"
-msgstr "Vệt dài nhất"
+msgstr "Chuỗi dài nhất"
 
 #: lms/templates/emails/payment_reminder.html:23
 msgid "Looking forward to seeing you enrolled!"
@@ -4543,7 +4548,6 @@ msgstr "Tùy chọn 4"
 #: frontend/src/components/Modals/Question.vue:56
 msgid "Options"
 msgstr "Tùy chọn"
-
 #. Option for the 'Color' (Select) field in DocType 'LMS Course'
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Orange"
@@ -4894,10 +4898,6 @@ msgstr "Vui lòng đăng nhập để truy cập trang này."
 
 #: lms/lms/api.py:180
 msgid "Please login to continue with payment."
-msgstr "Vui lòng đăng nhập để tiếp tục thanh toán."
-
-#: lms/lms/utils.py:2020
-msgid "Please login to enroll in the program."
 msgstr "Vui lòng đăng nhập để ghi danh vào chương trình."
 
 #: lms/lms/notification/certificate_request_reminder/certificate_request_reminder.html:7
@@ -5118,24 +5118,6 @@ msgid "Programming Exercise Submission"
 msgstr "Nộp bài tập lập trình"
 
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmission.vue:411
-#: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmissions.vue:298
-msgid "Programming Exercise Submissions"
-msgstr "Lập trình bài tập nộp"
-
-#: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseForm.vue:211
-msgid "Programming Exercise created successfully"
-msgstr "Bài tập lập trình được tạo thành công"
-
-#: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseForm.vue:247
-msgid "Programming Exercise deleted successfully"
-msgstr "Bài tập lập trình đã được xóa thành công"
-
-#: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseForm.vue:230
-msgid "Programming Exercise updated successfully"
-msgstr "Bài tập lập trình được cập nhật thành công"
-
-#. Label of a Check field in DocType 'LMS Settings'
-#: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmissions.vue:308
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExercises.vue:158
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExercises.vue:166
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -5792,6 +5774,38 @@ msgstr "Thiết lập cổng thanh toán"
 msgid "Settings"
 msgstr "Cài đặt"
 
+#: frontend/src/components/UserDropdown.vue:135
+msgid "My Profile"
+msgstr "Hồ sơ của tôi"
+
+#: frontend/src/components/UserDropdown.vue:145
+msgid "Toggle Theme"
+msgstr "Chuyển đổi giao diện"
+
+#: frontend/src/components/UserDropdown.vue:163
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: frontend/src/components/UserDropdown.vue:201
+msgid "Log out"
+msgstr "Đăng xuất"
+
+#: frontend/src/components/UserDropdown.vue:213
+msgid "Log in"
+msgstr "Đăng nhập"
+
+#: frontend/src/pages/Notifications.vue:147
+msgid "Notifications"
+msgstr "Thông báo"
+
+#: frontend/src/pages/Notifications.vue:16
+msgid "Unread"
+msgstr "Chưa đọc"
+
+#: frontend/src/pages/Notifications.vue:16
+msgid "Read"
+msgstr "Đã đọc"
+
 #: frontend/src/pages/ProfileAbout.vue:79
 msgid "Share on"
 msgstr "Chia sẻ trên"
@@ -5896,7 +5910,7 @@ msgstr "Kỹ năng"
 
 #: frontend/src/pages/PersonaForm.vue:51 lms/templates/onboarding_header.html:6
 msgid "Skip"
-msgstr "Nhảy"
+msgstr "Tiếp"
 
 #: lms/lms/doctype/course_evaluator/course_evaluator.py:57
 msgid "Slot Times are overlapping for some schedules."
@@ -6023,6 +6037,38 @@ msgstr "Tiểu bang/Tỉnh"
 #: lms/lms/doctype/lms_settings/lms_settings.json lms/www/lms.py:202
 msgid "Statistics"
 msgstr "Thống kê"
+
+#: frontend/src/pages/Statistics.vue:56
+msgid "Signups"
+msgstr "Đăng ký"
+
+#: frontend/src/pages/Statistics.vue:57
+msgid "Signups per day"
+msgstr "Đăng ký mỗi ngày"
+
+#: frontend/src/pages/Statistics.vue:76
+msgid "Enrollments"
+msgstr "Đăng ký khóa học"
+
+#: frontend/src/pages/Statistics.vue:77
+msgid "Enrollments per day"
+msgstr "Đăng ký khóa học mỗi ngày"
+
+#: frontend/src/pages/Statistics.vue:98
+msgid "Certifications"
+msgstr "Chứng nhận"
+
+#: frontend/src/pages/Statistics.vue:99
+msgid "Certifications per day"
+msgstr "Chứng nhận mỗi ngày"
+
+#: frontend/src/pages/Statistics.vue:124
+msgid "Completions"
+msgstr "Hoàn thành"
+
+#: frontend/src/pages/Statistics.vue:125
+msgid "Course Completion"
+msgstr "Hoàn thành khóa học"
 
 #. Label of a Select field in DocType 'Job Opportunity'
 #. Label of a field in the job-opportunity Web Form
@@ -6362,7 +6408,7 @@ msgstr "Không có chương nào trong khóa học này.Tạo và quản lý cá
 
 #: frontend/src/pages/Home/AdminHome.vue:71
 msgid "There are no courses currently. Create your first course to get started!"
-msgstr "Hiện tại không có khóa học nàoTạo khóa học đầu tiên của bạn để bắt đầu!"
+msgstr "Hiện tại không có khóa học nào. Tạo khóa học đầu tiên của bạn để bắt đầu!"
 
 #: lms/lms/doctype/lms_batch/lms_batch.py:101
 msgid "There are no seats available in this batch."
@@ -6794,7 +6840,7 @@ msgstr "Sử dụng HTML"
 #: lms/lms/doctype/cohort_staff/cohort_staff.json
 #: lms/lms/doctype/lms_course_interest/lms_course_interest.json
 msgid "User"
-msgstr "người dùng"
+msgstr "Người dùng"
 
 #: lms/templates/signup-form.html:17
 msgid "User Category"
@@ -7213,7 +7259,7 @@ msgid "Your evaluator is {0}"
 msgstr "Người đánh giá của bạn là {0}"
 
 #: frontend/src/pages/Home/Streak.vue:54
-msgid "Your learning streak counts the number of days in a row you’ve kept up your learning, whether it’s a lesson, quiz, or assignment. Don’t worry, weekends don’t break your streak."
+msgid "Your learning streak counts the number of days in a row you've kept up your learning, whether it's a lesson, quiz, or assignment. Don't worry, weekends don't break your streak."
 msgstr "Chuỗi học tập của bạn đếm số ngày liên tiếp mà bạn duy trì được việc học của mình, cho dù đó là một bài học, bài kiểm tra hay bài tập.Đừng lo lắng, những ngày cuối tuần sẽ không làm gián đoạn kỷ lục của bạn."
 
 #: lms/templates/emails/mentor_request_status_update_email.html:4
@@ -7279,7 +7325,7 @@ msgid "at {0} minutes"
 msgstr "lúc {0} phút"
 
 #: lms/templates/emails/payment_reminder.html:4
-msgid "but didn’t complete your payment"
+msgid "but didn't complete your payment"
 msgstr "nhưng chưa hoàn tất thanh toán của bạn"
 
 #: lms/templates/emails/mentor_request_creation_email.html:5
@@ -7494,7 +7540,7 @@ msgstr "{0}k"
 #. Count format of shortcut in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
 msgid "{} Active"
-msgstr "{} Tích cực"
+msgstr "{} Hoạt động"
 
 #. Count format of shortcut in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
@@ -7509,14 +7555,290 @@ msgstr "{} Đã đăng ký"
 #. Count format of shortcut in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
 msgid "{} Granted"
-msgstr "{} Giả dụ như vậy"
+msgstr "{} Đã công nhận"
 
 #. Count format of shortcut in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
 msgid "{} Passed"
-msgstr "{} Đi qua"
+msgstr "{} Đã vượt qua"
 
 #. Count format of shortcut in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
 msgid "{} Published"
 msgstr "{} Đã xuất bản"
+
+# Settings translations (frontend Settings modal)
+#: frontend/src/components/Settings/Settings.vue
+msgid "General"
+msgstr "Tổng quan"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Allow Guest Access"
+msgstr "Cho phép truy cập khách"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "If enabled, users can access the course and batch lists without logging in."
+msgstr "Nếu bật, người dùng có thể xem danh sách khóa học và lớp học mà không cần đăng nhập."
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Prevent Skipping Videos"
+msgstr "Ngăn bỏ qua video"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "If enabled, users will no able to move forward in a video"
+msgstr "Nếu bật, người dùng sẽ không thể tua đến phần sau của video"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Send calendar invite for evaluations"
+msgstr "Gửi lời mời lịch cho buổi đánh giá"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "If enabled, it sends google calendar invite to the student for evaluations."
+msgstr "Nếu bật, hệ thống sẽ gửi lời mời Google Calendar cho học viên cho các buổi đánh giá."
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Livecode URL"
+msgstr "Livecode URL"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Batch Confirmation Email Template"
+msgstr "Mẫu email xác nhận lớp học"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Certification Email Template"
+msgstr "Mẫu email chứng nhận"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Unsplash Access Key"
+msgstr "Khóa truy cập Unsplash"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Contact Us"
+msgstr "Liên hệ với chúng tôi"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Email"
+msgstr "E-mail"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Users can reach out to this email for support or inquiries."
+msgstr "Người dùng có thể liên hệ đến email này để được hỗ trợ hoặc đặt câu hỏi."
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "URL"
+msgstr "URL"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Users can reach out to this URL for support or inquiries."
+msgstr "Người dùng có thể truy cập URL này để được hỗ trợ hoặc đặt câu hỏi."
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Payment"
+msgstr "Sự chi trả"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Configuration"
+msgstr "Cấu hình"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Manage all your payment related settings and defaults"
+msgstr "Quản lý tất cả cài đặt và mặc định liên quan đến thanh toán"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Default Currency"
+msgstr "Tiền tệ mặc định"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Payment Gateway"
+msgstr "Cổng thanh toán"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Apply GST for India"
+msgstr "Áp dụng GST cho Ấn Độ"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Show USD equivalent amount"
+msgstr "Hiển thị số tiền quy đổi USD"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Apply rounding on equivalent"
+msgstr "Làm tròn số tiền quy đổi"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Gateways"
+msgstr "Cổng thanh toán"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Add and manage all your payment gateways"
+msgstr "Thêm và quản lý tất cả các cổng thanh toán"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Transactions"
+msgstr "Giao dịch"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "View all your payment transactions"
+msgstr "Xem tất cả giao dịch thanh toán của bạn"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Lists"
+msgstr "Danh sách"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Members"
+msgstr "Thành viên"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Add new members or manage roles and permissions of existing members"
+msgstr "Thêm thành viên mới hoặc quản lý vai trò và quyền của thành viên hiện có"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Evaluators"
+msgstr "Người đánh giá"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Add new evaluators or check the slots existing evaluators"
+msgstr "Thêm người đánh giá mới hoặc kiểm tra các khung giờ của người đánh giá"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Zoom Accounts"
+msgstr "Tài khoản Zoom"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Manage zoom accounts to conduct live classes from batches"
+msgstr "Quản lý tài khoản Zoom để tổ chức lớp học trực tuyến từ các lớp"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Badges"
+msgstr "Huy hiệu"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Create badges and assign them to students to acknowledge their achievements"
+msgstr "Tạo huy hiệu và gán cho học viên để ghi nhận thành tích"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Categories"
+msgstr "Danh mục"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Double click to edit the category"
+msgstr "Nhấp đúp để chỉnh sửa danh mục"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Email Templates"
+msgstr "Mẫu email"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Manage the email templates for your learning system"
+msgstr "Quản lý các mẫu email cho hệ thống học tập của bạn"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Customize"
+msgstr "Tùy chỉnh"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Branding"
+msgstr "Branding"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Brand Name"
+msgstr "Tên thương hiệu"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Logo"
+msgstr "Logo"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Favicon"
+msgstr "Favicon"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Sidebar"
+msgstr "Thanh bên"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Choose the items you want to show in the sidebar"
+msgstr "Chọn các mục bạn muốn hiển thị trong thanh bên"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Programming Exercises"
+msgstr "Bài tập lập trình"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Theme"
+msgstr "Giao diện"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Select a theme for your application"
+msgstr "Chọn một giao diện cho ứng dụng của bạn"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Signup"
+msgstr "Đăng ký"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Customize the signup settings and authentication options"
+msgstr "Tùy chỉnh cài đặt đăng ký và các tùy chọn xác thực"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "SEO"
+msgstr "SEO"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Manage SEO related fields for better search visibility"
+msgstr "Quản lý các trường liên quan đến SEO để cải thiện khả năng hiển thị tìm kiếm"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Allows users to pick a profile cover image from Unsplash. https://unsplash.com/documentation#getting-started."
+msgstr "Cho phép người dùng chọn ảnh bìa hồ sơ từ Unsplash. https://unsplash.com/documentation#getting-started."
+
+# Additional Settings strings (Branding / Signup / SEO)
+#: frontend/src/components/Settings/Settings.vue
+msgid "Appears in the top left corner of the application to represent your brand."
+msgstr "Hiển thị ở góc trên bên trái ứng dụng để đại diện cho thương hiệu của bạn."
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Appears in the browser tab next to the page title to help users quickly identify the application."
+msgstr "Hiển thị trên thẻ trình duyệt, cạnh tiêu đề trang để giúp người dùng nhận diện ứng dụng nhanh chóng."
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Upload an image"
+msgstr "Tải lên hình ảnh"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Enable this option to identify the user category during signup."
+msgstr "Bật tùy chọn này để xác định danh mục người dùng trong quá trình đăng ký."
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Disable signup"
+msgstr "Tắt đăng ký"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "New users will have to be manually registered by Admins."
+msgstr "Người dùng mới sẽ phải được Quản trị viên đăng ký thủ công."
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Signup Consent HTML"
+msgstr "HTML chấp thuận đăng ký"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "The HTML you add here will be shown on your sign up page."
+msgstr "HTML bạn thêm ở đây sẽ được hiển thị trên trang đăng ký."
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "This description will be shown on lists and pages that don't have meta description"
+msgstr "Mô tả này sẽ được hiển thị trên danh sách và các trang không có mô tả meta"
+
+#: frontend/src/components/Settings/Settings.vue
+msgid "Comma separated keywords for search engines to find your website."
+msgstr "Từ khóa phân cách bằng dấu phẩy để công cụ tìm kiếm tìm thấy website của bạn."
+
+# Added based on visible English phrases in LMS UI
+msgid "My Settings"
+msgstr "Cài đặt của tôi"
+
+msgid "Toggle Full Width"
+msgstr "Chuyển đổi toàn chiều rộng"
+
+msgid "Last synced just now"
+msgstr "Vừa đồng bộ xong"
