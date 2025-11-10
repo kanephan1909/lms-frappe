@@ -165,14 +165,14 @@ const tabsStructure = computed(() => {
 							name: 'contact_us_email',
 							type: 'text',
 							description:
-								'Users can reach out to this email for support or inquiries.',
+								__('Users can reach out to this email for support or inquiries.'),
 						},
 						{
 							label: 'URL',
 							name: 'contact_us_url',
 							type: 'text',
 							description:
-								'Users can reach out to this URL for support or inquiries.',
+								__('Users can reach out to this URL for support or inquiries.'),
 						},
 					],
 				},
@@ -395,7 +395,7 @@ const tabsStructure = computed(() => {
 							type: 'textarea',
 							rows: 4,
 							description:
-								"This description will be shown on lists and pages that don't have meta description",
+								__("This description will be shown on lists and pages that don't have meta description"),
 						},
 						{
 							label: 'Meta Keywords',
@@ -403,7 +403,7 @@ const tabsStructure = computed(() => {
 							type: 'textarea',
 							rows: 4,
 							description:
-								'Comma separated keywords for search engines to find your website.',
+								__('Comma separated keywords for search engines to find your website.'),
 						},
 						{
 							type: 'Column Break',

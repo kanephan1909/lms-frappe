@@ -597,7 +597,7 @@ const removeImage = () => {
 const breadcrumbs = computed(() => {
 	let crumbs = [
 		{
-			label: 'Batches',
+			label: __('Batches'),
 			route: {
 				name: 'Batches',
 			},
@@ -615,7 +615,7 @@ const breadcrumbs = computed(() => {
 		})
 	}
 	crumbs.push({
-		label: props.batchName == 'new' ? 'New Batch' : 'Edit Batch',
+		label: props.batchName == 'new' ? __('New Batch') : __('Edit Batch'),
 		route: { name: 'BatchForm', params: { batchName: props.batchName } },
 	})
 	return crumbs
@@ -623,7 +623,7 @@ const breadcrumbs = computed(() => {
 
 usePageMeta(() => {
 	return {
-		title: props.batchName == 'new' ? 'New Batch' : batchDetail.data?.title,
+		title: props.batchName == 'new' ? __('New Batch') : batchDetail.data?.title,
 		icon: brand.favicon,
 	}
 })

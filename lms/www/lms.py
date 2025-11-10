@@ -103,6 +103,13 @@ def get_meta_from_document(app_path):
 			as_dict=True,
 		)
 
+		if not course:
+			return {
+				"title": _("Course"),
+				"keywords": "Course",
+				"link": f"/courses/{course_name}",
+			}
+
 		if course.description:
 			soup = BeautifulSoup(course.description, "html.parser")
 			course.description = soup.get_text()
@@ -129,6 +136,13 @@ def get_meta_from_document(app_path):
 			["title", "meta_image", "batch_details", "category", "medium"],
 			as_dict=True,
 		)
+
+		if not batch:
+			return {
+				"title": _("Batch"),
+				"keywords": "Batch",
+				"link": f"/batches/details/{batch_name}",
+			}
 
 		if batch.batch_details:
 			soup = BeautifulSoup(batch.batch_details, "html.parser")
@@ -157,6 +171,13 @@ def get_meta_from_document(app_path):
 			as_dict=True,
 		)
 
+		if not batch:
+			return {
+				"title": _("Batch"),
+				"keywords": "Batch",
+				"link": f"/batches/{batch_name}",
+			}
+
 		if batch.batch_details:
 			soup = BeautifulSoup(batch.batch_details, "html.parser")
 			batch.batch_details = soup.get_text()
@@ -184,6 +205,13 @@ def get_meta_from_document(app_path):
 			["job_title", "company_logo", "description"],
 			as_dict=True,
 		)
+
+		if not job_opening:
+			return {
+				"title": _("Job Opening"),
+				"keywords": "Job Openings, Jobs, Vacancies",
+				"link": f"/job-openings/{job_opening_name}",
+			}
 
 		if job_opening.description:
 			soup = BeautifulSoup(job_opening.description, "html.parser")
@@ -215,6 +243,13 @@ def get_meta_from_document(app_path):
 			as_dict=True,
 		)
 
+		if not user:
+			return {
+				"title": _("User"),
+				"keywords": "User",
+				"link": f"/user/{username}",
+			}
+
 		if user.bio:
 			soup = BeautifulSoup(user.bio, "html.parser")
 			user.bio = soup.get_text()
@@ -236,6 +271,12 @@ def get_meta_from_document(app_path):
 			["title", "image", "description"],
 			as_dict=True,
 		)
+		if not badge:
+			return {
+				"title": _("Badge"),
+				"keywords": "Badge",
+				"link": f"/badges/{badgeName}/{email}",
+			}
 		return {
 			"title": badge.title,
 			"image": badge.image,

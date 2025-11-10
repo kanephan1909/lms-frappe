@@ -18,6 +18,22 @@ msgstr ""
 "X-Crowdin-File-ID: 90\n"
 "Language: vi_VN\n"
 
+#: frontend/src/components/Modals/EditProfile.vue:4
+msgid "Edit your profile"
+msgstr "Chỉnh sửa hồ sơ của bạn"
+
+#: frontend/src/components/Modals/EditProfile.vue:38
+msgid "Upload a profile image"
+msgstr "Tải lên ảnh hồ sơ"
+
+#: frontend/src/pages/Profile.vue:207
+msgid "Slots"
+msgstr "Khung giờ"
+
+#: frontend/src/pages/Profile.vue:216
+msgid "People"
+msgstr "Người dùng"
+
 #: lms/templates/emails/assignment_submission.html:5
 msgid " Please evaluate and grade it."
 msgstr "Hãy đánh giá và chấm điểm nó."
@@ -198,6 +214,59 @@ msgstr "Thêm một chương"
 #: frontend/src/components/Modals/BatchCourseModal.vue:5
 msgid "Add a course"
 msgstr "Thêm một khóa học"
+
+# Getting started widget (LMS dashboard)
+#: lms/templates/onboarding_header.html
+msgid "Getting started"
+msgstr "Bắt đầu"
+
+#: lms/templates/onboarding_header.html
+msgid "0/8 steps completed"
+msgstr "Đã hoàn thành 0/8 bước"
+
+#: lms/templates/onboarding_header.html
+msgid "Skip all"
+msgstr "Bỏ qua tất cả"
+
+#: lms/templates/onboarding_header.html
+msgid "Create your first course"
+msgstr "Tạo khóa học đầu tiên của bạn"
+
+#: lms/templates/onboarding_header.html
+msgid "Add your first chapter"
+msgstr "Thêm chương đầu tiên của bạn"
+
+#: lms/templates/onboarding_header.html
+msgid "Add your first lesson"
+msgstr "Thêm bài học đầu tiên của bạn"
+
+#: lms/templates/onboarding_header.html
+msgid "Create your first quiz"
+msgstr "Tạo bài kiểm tra đầu tiên của bạn"
+
+#: lms/templates/onboarding_header.html
+msgid "Invite your team and students"
+msgstr "Mời đội ngũ và học viên của bạn"
+
+#: lms/templates/onboarding_header.html
+msgid "Create your first batch"
+msgstr "Tạo lớp học đầu tiên của bạn"
+
+#: lms/templates/onboarding_header.html
+msgid "Add students to your batch"
+msgstr "Thêm học viên vào lớp của bạn"
+
+#: lms/templates/onboarding_header.html
+msgid "Add courses to your batch"
+msgstr "Thêm khóa học vào lớp của bạn"
+
+#: lms/templates/onboarding_header.html
+msgid "Help centre"
+msgstr "Trung tâm trợ giúp"
+
+#: lms/templates/onboarding_header.html
+msgid "Start now"
+msgstr "Bắt đầu ngay"
 
 #: frontend/src/pages/CourseForm.vue:55
 msgid "Add a keyword and then press enter"
@@ -1124,7 +1193,7 @@ msgstr "Lớp học:"
 
 #: frontend/src/components/Controls/Link.vue:50
 msgid "Clear"
-msgstr "Dọn"
+msgstr "Bỏ chọn"
 
 #: frontend/src/components/BatchFeedback.vue:10
 msgid "Click here"
@@ -2980,7 +3049,7 @@ msgstr "Không hoạt động"
 #. Label of a Check field in DocType 'Course Lesson'
 #: lms/lms/doctype/course_lesson/course_lesson.json
 msgid "Include In Preview"
-msgstr "Đưa vào bản xem trước"
+msgstr "Bao gồm trong Bản xem trước"
 
 #. Option for the 'Status' (Select) field in DocType 'LMS Course Progress'
 #: lms/lms/doctype/lms_course_progress/lms_course_progress.json
@@ -3851,7 +3920,7 @@ msgstr "Số lần thử tối đa"
 #: frontend/src/pages/BatchForm.vue:194
 #: lms/lms/doctype/lms_batch/lms_batch.json
 msgid "Medium"
-msgstr "Trung bình"
+msgstr "Hình thức"
 
 #: lms/templates/emails/batch_confirmation.html:16
 #: lms/templates/emails/batch_start_reminder.html:19
@@ -4223,6 +4292,10 @@ msgstr "Lớp học mới"
 #: frontend/src/pages/CourseForm.vue:691 lms/www/lms.py:93
 msgid "New Course"
 msgstr "Khóa học mới"
+
+#: frontend/src/pages/CourseForm.vue:683
+msgid "Edit Course"
+msgstr "Chỉnh sửa khóa học"
 
 #: frontend/src/components/Modals/EmailTemplateModal.vue:7
 msgid "New Email Template"
@@ -5144,7 +5217,6 @@ msgstr "Tiến triển"
 #: lms/lms/report/course_progress_summary/course_progress_summary.py:77
 msgid "Progress (%)"
 msgstr "Tiến triển (%)"
-
 #: frontend/src/components/Modals/CourseProgressSummary.vue:113
 #: frontend/src/pages/Programs/ProgramProgressSummary.vue:30
 msgid "Progress Distribution"
@@ -5785,7 +5857,6 @@ msgstr "Chuyển đổi giao diện"
 #: frontend/src/components/UserDropdown.vue:163
 msgid "Settings"
 msgstr "Cài đặt"
-
 #: frontend/src/components/UserDropdown.vue:201
 msgid "Log out"
 msgstr "Đăng xuất"
@@ -5923,20 +5994,6 @@ msgstr "Đã thêm khe cắm thành công"
 #: frontend/src/pages/ProfileEvaluator.vue:240
 msgid "Slot deleted successfully"
 msgstr "Đã xóa khe thành công"
-
-#. Label of a Data field in DocType 'Cohort'
-#. Label of a Data field in DocType 'Cohort Subgroup'
-#. Label of a Data field in DocType 'Cohort Web Page'
-#: lms/lms/doctype/cohort/cohort.json
-#: lms/lms/doctype/cohort_subgroup/cohort_subgroup.json
-#: lms/lms/doctype/cohort_web_page/cohort_web_page.json
-msgid "Slug"
-msgstr "sên"
-
-#: frontend/src/components/BatchCard.vue:25
-#: frontend/src/components/BatchOverlay.vue:24
-msgid "Sold Out"
-msgstr "Bán hết"
 
 #. Label of a Code field in DocType 'Exercise Latest Submission'
 #. Label of a Code field in DocType 'Exercise Submission'
@@ -6231,7 +6288,7 @@ msgstr "Đã tìm thấy mẫu đáng ngờ trong {0}: {1}"
 
 #: frontend/src/components/Controls/ColorSwatches.vue:50
 msgid "Swatches"
-msgstr "mẫu màu"
+msgstr "Mẫu màu"
 
 #. Name of a role
 #: lms/job/doctype/job_opportunity/job_opportunity.json
@@ -6811,7 +6868,7 @@ msgstr "Lớp học trực tiếp sắp tới"
 msgid "Update"
 msgstr "Cập nhật"
 
-#: lms/templates/emails/community_course_membership.html:11
+#: lms/templates/emails/batch_confirmation.html:21
 msgid "Update Password"
 msgstr "Cập nhật mật khẩu"
 
@@ -7094,14 +7151,10 @@ msgstr "Bạn có thể làm tốt hơn,"
 
 #: lms/templates/emails/job_application.html:6
 msgid "You can find their resume attached to this email."
-msgstr "Bạn có thể tìm thấy sơ yếu lý lịch của họ được đính kèm với email này."
+msgstr "Bạn có thể tìm thấy sơ yếu lý lịch của họ đính kèm trong email này."
 
 #: frontend/src/pages/ProfileEvaluator.vue:14
 msgid "You cannot change the availability when the site is being updated."
-msgstr "Bạn không thể thay đổi tính khả dụng khi trang web đang được cập nhật."
-
-#: frontend/src/pages/ProfileRoles.vue:12
-msgid "You cannot change the roles in read-only mode."
 msgstr "Bạn không thể thay đổi vai trò ở chế độ chỉ đọc."
 
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.py:112
@@ -7743,7 +7796,6 @@ msgstr "Branding"
 #: frontend/src/components/Settings/Settings.vue
 msgid "Brand Name"
 msgstr "Tên thương hiệu"
-
 #: frontend/src/components/Settings/Settings.vue
 msgid "Logo"
 msgstr "Logo"
@@ -7833,12 +7885,42 @@ msgstr "Mô tả này sẽ được hiển thị trên danh sách và các trang
 msgid "Comma separated keywords for search engines to find your website."
 msgstr "Từ khóa phân cách bằng dấu phẩy để công cụ tìm kiếm tìm thấy website của bạn."
 
-# Added based on visible English phrases in LMS UI
-msgid "My Settings"
-msgstr "Cài đặt của tôi"
+#: frontend/src/pages/LessonForm.vue
+msgid "Create Lesson"
+msgstr "Tạo bài học"
 
-msgid "Toggle Full Width"
-msgstr "Chuyển đổi toàn chiều rộng"
+#: frontend/src/pages/LessonForm.vue
+msgid "Edit Lesson"
+msgstr "Chỉnh sửa bài học"
 
-msgid "Last synced just now"
-msgstr "Vừa đồng bộ xong"
+#: frontend/src/components/LessonHelp.vue
+msgid "How to add a Quiz?"
+msgstr "Làm thế nào để thêm Câu hỏi?"
+
+#: frontend/src/components/LessonHelp.vue
+msgid "How to upload content from your system?"
+msgstr "Làm thế nào để tải nội dung từ hệ thống của bạn?"
+
+#: frontend/src/components/LessonHelp.vue
+msgid "How to add a YouTube Video?"
+msgstr "Làm thế nào để thêm Video YouTube?"
+
+#: frontend/src/components/LessonHelp.vue
+msgid "How to remove an embed?"
+msgstr "Làm thế nào để xóa nội dung nhúng?"
+
+#: frontend/src/components/LessonHelp.vue
+msgid "Click on the add icon in the editor and select Quiz from the menu. It opens up a dialog, where you can either select a quiz from the list or create a new quiz. When you select the Create New option it redirects you to the quiz creation page."
+msgstr "Nhấp vào biểu tượng thêm trong trình soạn thảo và chọn Câu hỏi từ menu. Nó sẽ mở ra một hộp thoại, nơi bạn có thể chọn một câu hỏi từ danh sách hoặc tạo một câu hỏi mới. Khi bạn chọn tùy chọn Tạo mới, nó sẽ chuyển hướng bạn đến trang tạo câu hỏi."
+
+#: frontend/src/components/LessonHelp.vue
+msgid "To upload Image, Video, Audio or PDF from your system, click on the add icon and select upload from the menu. Then choose the file you want to add to the lesson and it gets added to your lesson."
+msgstr "Để tải lên Hình ảnh, Video, Âm thanh hoặc PDF từ hệ thống của bạn, hãy nhấp vào biểu tượng thêm và chọn tải lên từ menu. Sau đó chọn tệp bạn muốn thêm vào bài học và nó sẽ được thêm vào bài học của bạn."
+
+#: frontend/src/components/LessonHelp.vue
+msgid "Copy the URL of the video from YouTube and paste it in the editor."
+msgstr "Sao chép URL của video từ YouTube và dán vào trình soạn thảo."
+
+#: frontend/src/components/LessonHelp.vue
+msgid "To remove an embed like YouTube or Vimeo, put your cursor on the line below the embed, then drag your mouse cursor upwards to select the embed. Once the embed is selected press BackSpace."
+msgstr "Để xóa nội dung nhúng như YouTube hoặc Vimeo, đặt con trỏ của bạn lên dòng bên dưới nội dung nhúng, sau đó kéo con trỏ chuột lên trên để chọn nội dung nhúng. Sau khi nội dung nhúng được chọn, nhấn BackSpace."

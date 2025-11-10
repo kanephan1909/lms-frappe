@@ -507,11 +507,11 @@ const steps = reactive([
 		},
 	},
 	{
-		name: 'create_first_quiz',
-		title: __('Create your first quiz'),
-		icon: markRaw(h(CircleHelp, iconProps)),
-		completed: false,
-		dependsOn: 'create_first_course',
+	name: 'create_first_quiz',
+	title: __('Create your first quiz'),
+	icon: markRaw(h(CircleHelp, iconProps)),
+	completed: false,
+	dependsOn: 'create_first_course',
 		onClick: () => {
 			minimize.value = true
 			router.push({ name: 'Quizzes' })

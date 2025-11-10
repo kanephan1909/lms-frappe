@@ -1026,12 +1026,22 @@ def upsert_chapter(title, course, is_scorm_package, scorm_package, name=None):
 		scorm_package = frappe._dict(scorm_package)
 		extract_path = extract_package(course, title, scorm_package)
 
+		manifest_file = get_manifest_file(extract_path)
+		launch_file = get_launch_file(extract_path)
+		
+		# Validate that required files were found
+		if not manifest_file:
+			frappe.throw(_("Could not find imsmanifest.xml in the SCORM package. Please ensure the package is valid."))
+		
+		if not launch_file:
+			frappe.throw(_("Could not find launch file in the SCORM package. Please ensure the manifest file is valid."))
+
 		values.update(
 			{
 				"scorm_package": scorm_package.name,
-				"scorm_package_path": extract_path.split("public")[1],
-				"manifest_file": get_manifest_file(extract_path).split("public")[1],
-				"launch_file": get_launch_file(extract_path).split("public")[1],
+				"scorm_package_path": extract_path.split("public")[1] if "public" in extract_path else extract_path,
+				"manifest_file": manifest_file.split("public")[1] if "public" in manifest_file else manifest_file,
+				"launch_file": launch_file.split("public")[1] if "public" in launch_file else launch_file,
 			}
 		)
 
@@ -1098,17 +1108,104 @@ def get_launch_file(extract_path):
 	manifest_file = get_manifest_file(extract_path)
 
 	if manifest_file:
-		with open(manifest_file) as file:
-			data = file.read()
-			dom = parseString(data)
-			resource = dom.getElementsByTagName("resource")
-			for res in resource:
-				if (
-					res.getAttribute("adlcp:scormtype") == "sco"
-					or res.getAttribute("adlcp:scormType") == "sco"
-				):
-					launch_file = res.getAttribute("href")
+		# Clean and parse XML file
+		try:
+			# First, read and clean the XML file
+			xml_data = None
+			for encoding in ['utf-8', 'latin-1', 'cp1252', 'iso-8859-1']:
+				try:
+					with open(manifest_file, 'r', encoding=encoding, errors='replace') as file:
+						xml_data = file.read()
 					break
+				except (UnicodeDecodeError, Exception):
+					continue
+			
+			if not xml_data:
+				# Last resort: read as binary and decode
+				with open(manifest_file, 'rb') as file:
+					xml_data = file.read().decode('utf-8', errors='replace')
+			
+			# Clean invalid XML characters
+			# Remove control characters except tab, newline, and carriage return
+			xml_data = re.sub(r'[\x00-\x08\x0B-\x0C\x0E-\x1F\x7F-\x84\x86-\x9F]', '', xml_data)
+			# Remove invalid Unicode characters
+			xml_data = ''.join(char for char in xml_data if ord(char) < 0x110000)
+			# Fix unescaped ampersands (but preserve valid XML entities)
+			# This regex finds & that are not part of valid XML entities
+			xml_data = re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)', '&amp;', xml_data)
+			
+			# Parse with ElementTree using cleaned data
+			root = ET.fromstring(xml_data)
+			
+			# Get all namespaces from the root element
+			namespaces = {}
+			if hasattr(root, 'nsmap') and root.nsmap:
+				namespaces = root.nsmap
+			else:
+				# Try to extract namespace from root tag
+				if root.tag.startswith('{'):
+					ns_uri = root.tag[1:root.tag.index('}')]
+					# Common SCORM namespaces
+					namespaces['adlcp'] = ns_uri.replace('imsmanifest', 'adlcp_rootv1p2')
+					if 'adlcp' not in namespaces:
+						namespaces['adlcp'] = 'http://www.adlnet.org/xsd/adlcp_rootv1p2'
+				else:
+					namespaces['adlcp'] = 'http://www.adlnet.org/xsd/adlcp_rootv1p2'
+			
+			# Look for resource elements with scormtype="sco"
+			for resource in root.findall('.//resource'):
+				# Try different namespace variations
+				scorm_type = None
+				# Try with namespace
+				if 'adlcp' in namespaces:
+					scorm_type = resource.get(f'{{{namespaces["adlcp"]}}}scormtype')
+				# Try without namespace
+				if not scorm_type:
+					scorm_type = (
+						resource.get('adlcp:scormtype') or
+						resource.get('scormtype') or
+						resource.get('scormType')
+					)
+				
+				if scorm_type and scorm_type.lower() == 'sco':
+					launch_file = resource.get('href')
+					break
+					
+		except ET.ParseError as e:
+			frappe.log_error(f"XML ParseError in manifest file {manifest_file}: {str(e)}", "SCORM Manifest Parse Error")
+			# Fallback to minidom with error handling
+			try:
+				# Try reading with different encodings
+				for encoding in ['utf-8', 'latin-1', 'cp1252', 'iso-8859-1']:
+					try:
+						with open(manifest_file, 'r', encoding=encoding, errors='replace') as file:
+							data = file.read()
+						# Clean up any remaining invalid XML characters
+						data = ''.join(char for char in data if ord(char) < 0x110000)
+						dom = parseString(data)
+						resource = dom.getElementsByTagName("resource")
+						for res in resource:
+							scorm_type = (
+								res.getAttribute("adlcp:scormtype") or
+								res.getAttribute("adlcp:scormType") or
+								res.getAttribute("scormtype") or
+								res.getAttribute("scormType")
+							)
+							if scorm_type and scorm_type.lower() == "sco":
+								launch_file = res.getAttribute("href")
+								break
+						if launch_file:
+							break
+					except (UnicodeDecodeError, Exception):
+						continue
+			except Exception as e2:
+				frappe.log_error(f"Error parsing manifest with minidom fallback: {str(e2)}", "SCORM Manifest Parse Error")
+				# Return None instead of throwing to allow caller to handle gracefully
+				return None
+		except Exception as e:
+			frappe.log_error(f"Unexpected error parsing manifest file {manifest_file}: {str(e)}", "SCORM Manifest Parse Error")
+			# Return None instead of throwing to allow caller to handle gracefully
+			return None
 
 		if launch_file:
 			launch_file = os.path.join(os.path.dirname(manifest_file), launch_file)

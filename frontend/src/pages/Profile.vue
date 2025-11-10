@@ -211,7 +211,7 @@ const getTabButtons = () => {
 const breadcrumbs = computed(() => {
 	let crumbs = [
 		{
-			label: 'People',
+			label: __('People'),
 		},
 		{
 			label: profile.data?.full_name,
