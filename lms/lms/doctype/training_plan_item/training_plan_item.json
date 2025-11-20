@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "autoname": "hash",
+ "creation": "2025-01-01 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "lms_course",
+  "column_break_1",
+  "designation",
+  "training_mode",
+  "section_break_2",
+  "is_mandatory",
+  "completion_date",
+  "column_break_3",
+  "estimated_cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "lms_course",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "LMS Course",
+   "options": "LMS Course",
+   "reqd": 1,
+   "width": "200"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Target Role",
+   "options": "Designation",
+   "reqd": 1,
+   "width": "150"
+  },
+  {
+   "fieldname": "training_mode",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Training Mode",
+   "options": "Online\nOffline\nBlended",
+   "reqd": 1,
+   "width": "100"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_mandatory",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Mandatory",
+   "width": "100"
+  },
+  {
+   "fieldname": "completion_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Deadline",
+   "reqd": 1,
+   "width": "120"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "estimated_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Est. Cost",
+   "options": "VND",
+   "width": "120"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-01 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "LMS",
+ "name": "Training Plan Item",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
+
