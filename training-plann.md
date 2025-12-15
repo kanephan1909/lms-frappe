@@ -27,7 +27,7 @@
 | **Series** | `naming_series` | Select | `TRN-PLN-.YYYY.-` | Yes |
 | Plan Name | `plan_name` | Data | Tên gợi nhớ | Yes |
 | Period | `period` | Link | `Training Period` | Yes |
-| Department | `department` | Link | `Department` | No |
+| Department | `department` | Link | `Department` (HR Module - nếu chưa có thì tạo DocType tối thiểu) | No |
 | Manager | `training_manager` | Link | `User` | Yes |
 | **Status** | `status` | Select | Draft, Submitted, Approved, Rejected | Yes |
 | Total Cost | `total_estimated_cost`| Currency | Read Only (Tính tổng từ bảng con) | No |
@@ -75,3 +75,25 @@ d. Thực thi (System):
 e. Học tập (Staff): Nhân viên đăng nhập Portal, thấy khóa học trong "My Courses".
 
 f. Báo cáo (HR): Theo dõi tiến độ qua DocType Training Assignment.
+
+---
+
+## 3. Phụ thuộc (Dependencies)
+
+### 3.1. DocTypes từ HR Module
+Module này sử dụng các DocType từ HR Module của Frappe:
+- **Department**: Quản lý bộ phận/phòng ban
+- **Designation**: Quản lý chức danh công việc
+- **Employee**: Quản lý nhân viên (đã có sẵn trong Frappe core)
+
+**Lưu ý:** 
+- Nếu hệ thống đã cài **HR Module** (erpnext hoặc frappe-hr), các DocType này sẽ có sẵn.
+- Nếu chưa có HR Module, cần tạo các DocType tối thiểu:
+  - `Department`: Chỉ cần field `department_name` (Data, unique, required)
+  - `Designation`: Chỉ cần field `designation_name` (Data, unique, required)
+  
+  (Các DocType tối thiểu đã được tạo tự động trong quá trình implement)
+
+### 3.2. DocTypes từ LMS Module
+- **LMS Course**: Khóa học trong hệ thống LMS (bắt buộc)
+- **LMS Enrollment**: Ghi danh vào khóa học (bắt buộc)

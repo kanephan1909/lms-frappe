@@ -2256,7 +2256,7 @@ msgstr "Email"
 
 #: lms/templates/signup-form.html:25
 msgid "Employee"
-msgstr "Người lao động"
+msgstr "Nhân viên"
 
 #. Label of a Check field in DocType 'Zoom Settings'
 #: lms/lms/doctype/zoom_settings/zoom_settings.json
@@ -5476,8 +5476,9 @@ msgstr "Đã đăng ký nhưng bị vô hiệu hóa"
 #. Option for the 'Status' (Select) field in DocType 'LMS Mentor Request'
 #: lms/lms/doctype/cohort_join_request/cohort_join_request.json
 #: lms/lms/doctype/lms_mentor_request/lms_mentor_request.json
+#: lms/lms/doctype/traning_plan/training_plan.json
 msgid "Rejected"
-msgstr "Vật bị loại bỏ"
+msgstr "Đã từ chối"
 
 #. Label of a Table field in DocType 'LMS Course'
 #. Name of a DocType
