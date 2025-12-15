@@ -4,25 +4,43 @@
 import frappe
 from frappe import _
 from frappe.model.document import Document
-from frappe.utils import today, getdate
+from frappe.utils import today, getdate, flt
 
 
 class TrainingAssignment(Document):
 	def validate(self):
-		self.update_status()
+		# Store old progress before syncing
+		old_progress = self.progress
 		self.sync_lms_progress()
+		# Only auto-update status if progress has changed (from LMS sync)
+		# This allows manual status changes to be preserved
+		if old_progress != self.progress:
+			self.update_status()
 	
 	def update_status(self):
 		"""Update status based on progress and deadline"""
+		# Don't override if status is already "Completed"
 		if self.status == "Completed":
 			return
 		
+		# Handle None progress
+		progress = flt(self.progress) or 0
+		
+		# Auto-update based on progress and deadline
 		if self.completion_date:
-			if getdate(self.completion_date) < getdate(today()) and self.progress < 100:
+			if getdate(self.completion_date) < getdate(today()) and progress < 100:
 				self.status = "Overdue"
-			elif self.progress > 0 and self.progress < 100:
+			elif progress > 0 and progress < 100:
 				self.status = "In Progress"
-			elif self.progress == 0:
+			elif progress == 0:
+				self.status = "Pending"
+		else:
+			# If no completion_date, update based on progress only
+			if progress == 100:
+				self.status = "Completed"
+			elif progress > 0:
+				self.status = "In Progress"
+			else:
 				self.status = "Pending"
 	
 	def sync_lms_progress(self):
@@ -47,8 +65,8 @@ class TrainingAssignment(Document):
 		
 		if progress is not None:
 			self.progress = progress
-			if progress == 100:
-				self.status = "Completed"
+			# Only auto-set to Completed if progress is 100
+			# Status will be updated in update_status() if needed
 	
 	def on_update(self):
 		# Auto-update status when progress changes

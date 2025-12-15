@@ -61,7 +61,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "HR Manager",
+   "role": "Training HR",
    "share": 1,
    "write": 1
   },
@@ -73,8 +73,8 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "HR User",
-   "share": 1,
+   "role": "Training Manager",
+   "share": 0,
    "write": 0
   }
  ],

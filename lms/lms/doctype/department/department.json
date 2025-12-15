@@ -8,9 +8,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "department_name",
-  "column_break_1",
-  "company"
+  "department_name"
  ],
  "fields": [
   {
@@ -21,16 +19,6 @@
    "reqd": 1,
    "unique": 1,
    "width": "200"
-  },
-  {
-   "fieldname": "column_break_1",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "company",
-   "fieldtype": "Link",
-   "label": "Company",
-   "options": "Company"
   }
  ],
  "index_web_pages_for_search": 0,
@@ -62,7 +50,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "HR Manager",
+   "role": "Training HR",
    "share": 1,
    "write": 1
   },
@@ -74,8 +62,8 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "HR User",
-   "share": 1,
+   "role": "Training Manager",
+   "share": 0,
    "write": 0
   }
  ],

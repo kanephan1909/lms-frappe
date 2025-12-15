@@ -2,15 +2,16 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
- "autoname": "field:name",
+ "autoname": "field:period_name",
  "creation": "2025-01-01 00:00:00.000000",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name",
-  "column_break_1",
+ "period_name",
+  "section_break_dates",
   "start_date",
+  "column_break_1",
   "end_date",
   "section_break_3",
   "total_budget",
@@ -18,18 +19,19 @@
   "is_active"
  ],
  "fields": [
+ {
+  "fieldname": "period_name",
+  "fieldtype": "Data",
+  "in_list_view": 1,
+  "label": "Period Name",
+  "reqd": 1,
+  "unique": 1,
+  "width": "200"
+ },
   {
-   "fieldname": "name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Period Name",
-   "reqd": 1,
-   "unique": 1,
-   "width": "200"
-  },
-  {
-   "fieldname": "column_break_1",
-   "fieldtype": "Column Break"
+   "fieldname": "section_break_dates",
+   "fieldtype": "Section Break",
+   "label": "Period Dates"
   },
   {
    "fieldname": "start_date",
@@ -37,6 +39,10 @@
    "in_list_view": 1,
    "label": "Start Date",
    "reqd": 1
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
   },
   {
    "fieldname": "end_date",
@@ -78,7 +84,7 @@
  "modified_by": "Administrator",
  "module": "LMS",
  "name": "Training Period",
- "naming_rule": "Set by user",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -95,13 +101,13 @@
   },
   {
    "create": 1,
-   "delete": 1,
+   "delete": 0,
    "email": 1,
    "export": 1,
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "HR Manager",
+   "role": "Training HR",
    "share": 1,
    "write": 1
   },
@@ -113,7 +119,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "HR User",
+   "role": "Training Manager",
    "share": 1,
    "write": 0
   }
@@ -121,7 +127,7 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "name",
+ "title_field": "period_name",
  "track_changes": 1
 }
 
