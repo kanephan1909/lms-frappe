@@ -37,11 +37,10 @@ class LMSMentorRequest(Document):
 			email_template.response,
 			{
 				"member_name": frappe.db.get_value("User", frappe.session.user, "full_name"),
-				"course_url": "/lms/courses/" + course_details.slug,
+				"course_url": f"/lms/courses/{course_details.slug}",
 				"course": course_details.title,
 			},
 		)
-
 		email_args = {
 			"recipients": [frappe.session.user, course_details.owner],
 			"subject": email_template.subject,
