@@ -53,27 +53,27 @@ msgstr "bạn đang ở trên một"
 #. Paragraph text in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
 msgid "<a href=\"/app/lms-settings/LMS%20Settings\">LMS Settings</a>"
-msgstr "<a href=\\"/app/lms-settings/LMS%20Settings\\">Cài đặt LMS</a>"
+msgstr "<a href=\"/app/lms-settings/LMS%20Settings\">Cài đặt LMS</a>"
 
 #. Paragraph text in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
 msgid "<a href=\"/app/web-page/new-web-page-1\">Setup a Home Page</a>"
-msgstr "<a href=\\"/app/web-page/new-web-page-1\\">Thiết lập Trang chủ</a>"
+msgstr "<a href=\"/app/web-page/new-web-page-1\">Thiết lập Trang chủ</a>"
 
 #. Paragraph text in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
 msgid "<a href=\"/lms/courses\">Visit LMS Portal</a>"
-msgstr "<a href=\\"/lms/courses\\">Truy cập Cổng thông tin LMS</a>"
+msgstr "<a href=\"/lms/courses\">Truy cập Cổng thông tin LMS</a>"
 
 #. Paragraph text in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
 msgid "<a href=\"/lms/courses/new/edit\">Create a Course</a>"
-msgstr "<a href=\\"/lms/courses/new/edit\\">Tạo khóa học</a>"
+msgstr "<a href=\"/lms/courses/new/edit\">Tạo khóa học</a>"
 
 #. Paragraph text in the LMS Workspace
 #: lms/lms/workspace/lms/lms.json
 msgid "<a href=\"https://docs.frappe.io/learning\">Documentation</a>"
-msgstr "<a href=\\"https://docs.frappe.io/learning\\">Tài liệu</a>"
+msgstr "<a href=\"https://docs.frappe.io/learning\">Tài liệu</a>"
 
 #: frontend/src/components/Modals/EmailTemplateModal.vue:50
 msgid "<p>Dear {{ member_name }},</p>\\n\\n<p>You have been enrolled in our upcoming batch {{ batch_name }}.</p>\\n\\n<p>Thanks,</p>\\n<p>Frappe Learning</p>"
