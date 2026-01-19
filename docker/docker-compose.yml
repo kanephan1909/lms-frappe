@@ -1,4 +1,3 @@
-version: "3.7"
 name: lms
 services:
   mariadb:
@@ -7,7 +6,7 @@ services:
       - --character-set-server=utf8mb4
       - --collation-server=utf8mb4_unicode_ci
       - --skip-character-set-client-handshake
-      - --skip-innodb-read-only-compressed # Temporary fix for MariaDB 10.6
+      - --skip-innodb-read-only-compressed
     environment:
       MYSQL_ROOT_PASSWORD: 123
     volumes:
@@ -15,6 +14,8 @@ services:
 
   redis:
     image: redis:alpine
+    volumes:
+      - redis-data:/data  # Lưu trữ dữ liệu Redis
 
   frappe:
     image: frappe/bench:latest
@@ -24,9 +25,12 @@ services:
     working_dir: /home/frappe
     volumes:
       - .:/workspace
+      - frappe-temp:/tmp  # Lưu trữ bộ nhớ tạm
     ports:
       - 8000:8000
-      - 9000:9000
+      - 9001:9000
 
 volumes:
   mariadb-data:
+  redis-data:  # Định nghĩa volume cho Redis
+  frappe-temp:  # Định nghĩa volume cho bộ nhớ tạm
